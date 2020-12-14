@@ -47,7 +47,6 @@ class EmpregadoControllerTest {
         String httpResponseAsString = mockMvc.perform(get("/empregado/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
         assertNotNull(httpResponseAsString);
         assertEquals(empregadoAsJsonString,httpResponseAsString);
-
     }
 
     @Test

@@ -37,7 +37,7 @@ public class Projeto {
         }
     }
 
-    private float custoPrevistoProjeto() {
+    public float custoPrevistoProjeto() {
         float custo = 0;
         for (Tarefa t : this.tarefas) {
             custo = custo + t.custoPrevistoTarefa();
@@ -45,7 +45,7 @@ public class Projeto {
         return custo;
     }
 
-    private float custoEfetivoProjeto() {
+    public float custoEfetivoProjeto() {
         float custo = 0;
         for (Tarefa t : this.tarefas) {
             custo = custo + t.custoEfetivoTarefa();
@@ -53,7 +53,7 @@ public class Projeto {
         return custo;
     }
 
-    private float duracaoPrevistaHoras() {
+    public float duracaoPrevistaHoras() {
         float duracao = 0;
         for (Tarefa t : this.tarefas) {
             duracao = duracao + t.getTempoPrevisto().getTempoPrevistoHoras();
@@ -61,7 +61,7 @@ public class Projeto {
         return duracao;
     }
 
-    private float duracaoEfetivaHoras() {
+    public float duracaoEfetivaHoras() {
         float duracao = 0;
         for (Tarefa t : this.tarefas) {
             duracao = duracao + t.getTempoEfetivo().getTempoEfetivoHoras();
@@ -91,5 +91,4 @@ public class Projeto {
             System.out.println(t);
         }
     }
-
 }
