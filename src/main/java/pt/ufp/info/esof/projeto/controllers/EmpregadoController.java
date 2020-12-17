@@ -35,7 +35,8 @@ public class EmpregadoController {
 
     @PostMapping()
     public ResponseEntity<Empregado> createEmpregado(@RequestBody Empregado empregado){
-        if(empregadoRepository.findById(empregado.getId())==null){
+        Optional<Empregado> optionalEmpregado = empregadoRepository.findById(empregado.getId());
+        if(!optionalEmpregado.isPresent()){
             return ResponseEntity.ok(empregadoRepository.save(empregado));
         }
         return ResponseEntity.badRequest().build();

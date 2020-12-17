@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
@@ -47,9 +48,31 @@ class EmpregadoControllerTest {
         String httpResponseAsString = mockMvc.perform(get("/empregado/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
         assertNotNull(httpResponseAsString);
         assertEquals(empregadoAsJsonString,httpResponseAsString);
+        mockMvc.perform(get("/empregado/2")).andExpect(status().isNotFound());
     }
 
     @Test
-    void testCreateEmpregado() {
+    void testCreateEmpregado() throws Exception {
+        Empregado empregado = new Empregado();
+        empregado.setId(1L);
+
+        when(empregadoRepository.save(empregado)).thenReturn(empregado);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        String empregadoJson = objectMapper.writeValueAsString(empregado);
+        System.out.println(empregadoJson);
+        mockMvc.perform(
+                post("/empregado").content(empregadoJson)
+                        .contentType(MediaType.APPLICATION_JSON)
+        )
+                .andExpect(status().isOk());
+
+        when(empregadoRepository.findById(1L)).thenReturn(Optional.of(empregado));
+        mockMvc.perform(
+                post("/empregado").content(empregadoJson)
+                        .contentType(MediaType.APPLICATION_JSON)
+        )
+                .andExpect(status().isBadRequest());
+
     }
 }
