@@ -7,16 +7,16 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
+import pt.ufp.info.esof.projeto.services.EmpregadoService;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(EmpregadoController.class)
@@ -25,29 +25,32 @@ class EmpregadoControllerTest {
     @Autowired
     private MockMvc mockMvc;
     @MockBean
-    private EmpregadoRepository empregadoRepository;
+    private EmpregadoService empregadoService;
 
     @Test
     void testGetAllEmpregados() throws Exception {
-        List<Empregado> empregados = new ArrayList<>();
-        empregados.add(new Empregado());
-        when(empregadoRepository.findAll()).thenReturn(empregados);
-        String resultJson = mockMvc.perform(get("/empregado"))
-                .andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
-        System.out.println(resultJson);
+        Empregado empregado1=new Empregado();
+        Empregado empregado2=new Empregado();
+        Empregado empregado3=new Empregado();
+
+        List<Empregado> empregados= Arrays.asList(empregado1,empregado2,empregado3);
+
+        when(empregadoService.findAll()).thenReturn(empregados);
+
+        String httpResponseAsString=mockMvc.perform(get("/empregado")).andDo(print()).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
+        assertNotNull(httpResponseAsString);
     }
 
     @Test
     void testGetEmpregadoById() throws Exception {
         Empregado empregado = new Empregado();
-        empregado.setId(1L);
-        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(empregado);
+        String empregadoAsJsonString = new ObjectMapper().writeValueAsString(empregado);
 
-        when(empregadoRepository.findById(1L)).thenReturn(Optional.of(empregado));
+        when(empregadoService.findById(1L)).thenReturn(Optional.of(empregado));
 
-        String httpResponseAsString = mockMvc.perform(get("/empregado/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
+        String httpResponseAsString=mockMvc.perform(get("/empregado/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
         assertNotNull(httpResponseAsString);
-        assertEquals(empregadoAsJsonString,httpResponseAsString);
+
         mockMvc.perform(get("/empregado/2")).andExpect(status().isNotFound());
     }
 
@@ -56,23 +59,19 @@ class EmpregadoControllerTest {
         Empregado empregado = new Empregado();
         empregado.setId(1L);
 
-        when(empregadoRepository.save(empregado)).thenReturn(empregado);
+        when(this.empregadoService.findById(empregado.getId())).thenReturn(Optional.of(empregado));
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        String empregadoJson = objectMapper.writeValueAsString(empregado);
-        System.out.println(empregadoJson);
-        mockMvc.perform(
-                post("/empregado").content(empregadoJson)
-                        .contentType(MediaType.APPLICATION_JSON)
-        )
-                .andExpect(status().isOk());
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(empregado);
 
-        when(empregadoRepository.findById(1L)).thenReturn(Optional.of(empregado));
-        mockMvc.perform(
-                post("/empregado").content(empregadoJson)
-                        .contentType(MediaType.APPLICATION_JSON)
-        )
-                .andExpect(status().isBadRequest());
+        mockMvc.perform(post("/empregado").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+
+        Empregado empregado1 = new Empregado();
+
+        empregado1.setId(2L);
+        String empregado1AsJsonString=new ObjectMapper().writeValueAsString(empregado1);
+
+        mockMvc.perform(post("/empregado").content(empregado1AsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
+
 
     }
 }
