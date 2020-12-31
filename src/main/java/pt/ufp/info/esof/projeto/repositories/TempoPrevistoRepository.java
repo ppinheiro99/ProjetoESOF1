@@ -2,7 +2,8 @@ package pt.ufp.info.esof.projeto.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pt.ufp.info.esof.projeto.models.TempoPrevisto;
+import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+
 @Repository
-public interface TempoPrevistoRepository extends CrudRepository<TempoPrevisto,Long> {
+public interface TempoPrevistoRepository extends CrudRepository<TarefaPrevista,Long> {
 }

@@ -21,7 +21,7 @@
             <id name="id">
                 <generated-value strategy="IDENTITY"/>
             </id>
-            <one-to-many name="tarefas" mapped-by="empregado"><cascade><cascade-all/></cascade></one-to-many>
+            <one-to-many name="tarefaEfetivas" mapped-by="empregado"><cascade><cascade-all/></cascade></one-to-many>
         </attributes>
     </entity>
     <entity class="Projeto">
@@ -31,39 +31,28 @@
                 <generated-value strategy="IDENTITY"/>
             </id>
             <many-to-one name="cliente"/>
-            <one-to-many name="tarefas" mapped-by="projeto"><cascade><cascade-all/></cascade></one-to-many>
+            <one-to-many name="tarefaPrevistas" mapped-by="projeto"><cascade><cascade-all/></cascade></one-to-many>
         </attributes>
     </entity>
 
-    <entity class="Tarefa">
-        <table name="tarefa"/>
+    <entity class="pt.ufp.info.esof.projeto.models.TarefaEfetiva">
+        <table name="tarefaEfetiva"/>
         <attributes>
             <id name="id">
                 <generated-value strategy="IDENTITY"/>
             </id>
             <many-to-one name="empregado"/>
-            <many-to-one name="projeto"/>
-            <one-to-one name="tempoEfetivo"/>
-            <one-to-one name="tempoPrevisto"/>
+            <one-to-one name="tarefaPrevista"/>
         </attributes>
     </entity>
-
-    <entity class="TempoEfetivo">
-        <table name="tempoEfetivo"/>
+    <entity class="pt.ufp.info.esof.projeto.models.TarefaPrevista">
+        <table name="tarefaPrevista"/>
         <attributes>
             <id name="id">
                 <generated-value strategy="IDENTITY"/>
             </id>
-            <one-to-one name="tarefa"/>
-        </attributes>
-    </entity>
-    <entity class="TempoPrevisto">
-        <table name="tempoPrevisto"/>
-        <attributes>
-            <id name="id">
-                <generated-value strategy="IDENTITY"/>
-            </id>
-            <one-to-one name="tarefa"/>
+            <one-to-one name="projeto"/>
+            <one-to-one name="tarefaEfetiva" mapped-by="tarefaPrevista"><cascade><cascade-all/></cascade></one-to-one>
         </attributes>
     </entity>
 </entity-mappings>

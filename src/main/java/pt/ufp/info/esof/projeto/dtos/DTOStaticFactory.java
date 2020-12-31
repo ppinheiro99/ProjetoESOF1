@@ -1,10 +1,7 @@
 package pt.ufp.info.esof.projeto.dtos;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.Tarefa;
-
-import java.util.List;
-import java.util.stream.Collectors;
+import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 
 /**
  * Fábrica estática para criação de DTO's
@@ -13,6 +10,7 @@ import java.util.stream.Collectors;
 public class DTOStaticFactory {
 
     /**
+     *
      *
      * Implementa a lógica necessária para garantir uma única instância da fábrica estática
      */
@@ -28,26 +26,27 @@ public class DTOStaticFactory {
         return dtoAbstractFactory;
     }
 
-    public TarefasDTO tarefaDTO(Tarefa tarefa){
+    public TarefasDTO tarefaDTO(TarefaEfetiva tarefaEfetiva){
         return TarefasDTO.builder()
-                .nome(tarefa.getNome())
-                .empregadoNome(tarefa.getEmpregado().getNome())
-                .tempoEfetivo(tarefa.getTempoEfetivo().getTempoEfetivoHoras())
-                .projeto(tarefa.getProjeto().getNome())
-                .tempoPrevisto(tarefa.getTempoPrevisto().getTempoPrevistoHoras())
-                .concluida(tarefa.isConcluida())
+                .nome(tarefaEfetiva.getNome())
+                .empregadoNome(tarefaEfetiva.getEmpregado().getNome())
+               // .projeto(tarefaEfetiva.getProjeto().getNome())
+            //    .tempoPrevisto(tarefaEfetiva.getTempoPrevisto().getTempoPrevistoHoras())
+             //   .concluida(tarefaEfetiva.isConcluida())
                 .build();
     }
 
     public EmpregadoResponseDTO empregadoResponseDTO(Empregado empregado){
-        List<TarefasDTO> empregadoResponseDTOS= empregado.getTarefas().stream().map(tarefas ->
-                DTOStaticFactory.getInstance().tarefaDTO(tarefas)
-        ).collect(Collectors.toList());
+//        List<TarefasDTO> empregadoResponseDTOS= empregado.getTarefas().stream().map(tarefas ->
+//                DTOStaticFactory.getInstance().tarefaDTO(tarefas)
+//        ).collect(Collectors.toList());
+//
+//        System.out.println(empregadoResponseDTOS);
 
         return EmpregadoResponseDTO.builder()
                 .nome(empregado.getNome())
                 .cargo(empregado.getCargo())
-                .tarefas(empregadoResponseDTOS)
+                //.tarefas(empregadoResponseDTOS)
                 .build();
     }
 

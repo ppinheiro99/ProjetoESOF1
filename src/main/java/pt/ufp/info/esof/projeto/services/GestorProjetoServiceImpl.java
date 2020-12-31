@@ -26,6 +26,7 @@ public class GestorProjetoServiceImpl implements GestorProjetoService {
                 Cliente cliente = optionalCliente.get();
                 cliente.getProjetos().add(projeto);
                 projeto.setCliente(cliente);
+
                 return Optional.of(projeto);
         }
         return Optional.empty();

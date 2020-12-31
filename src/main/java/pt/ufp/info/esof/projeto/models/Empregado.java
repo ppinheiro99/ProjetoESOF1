@@ -11,7 +11,7 @@ import java.util.List;
 public class Empregado {
     private long id;
     private String nome;
-    private List<Tarefa> tarefas = new ArrayList<>();
+    private List<TarefaEfetiva> tarefaEfetivas = new ArrayList<>();
     private Cargo cargo;
 
     public int valorHora(){

@@ -12,28 +12,37 @@ public class Cliente {
   private String nome;
   private List<Projeto> projetos = new ArrayList<>();
 
-  public void consultarCustoProjeto(){
-    int i = 0;
-    while (i<projetos.size()){
-      System.out.println(projetos.get(i).custoPrevistoProjeto());
-      i++;
-    }
-  }
 
-  public void consultarPrazoProjeto(){
-    int i = 0;
-    while (i<projetos.size()){
-      System.out.println(projetos.get(i).duracaoPrevistaHoras() + "\n");
-      i++;
-    }
-  }
 
-  public void consultarEstadoProjeto(){
-    int i = 0;
-    while (i<projetos.size()){
-      System.out.println(projetos.get(i).estadoDoProjeto());
-      i++;
-    }
-  }
+//  public float consultarCustoProjeto(){
+//   /* int i = 0;
+//    while (i<projetos.size()){
+//      System.out.println(projetos.get(i).custoPrevistoProjeto());
+//      i++;
+//    }*/
+//    int custo=0;
+//    for(Projeto projeto:projetos){
+//      custo+=projeto.custoPrevistoProjeto();
+//    }
+//    return custo;
+//
+//    //return projetos.stream().map(Projeto::custoPrevistoProjeto).reduce((aFloat, aFloat2) -> aFloat+aFloat2).orElse(0f);
+//  }
+
+//  public void consultarPrazoProjeto(){
+//    int i = 0;
+//    while (i<projetos.size()){
+//      System.out.println(projetos.get(i).duracaoPrevistaHoras() + "\n");
+//      i++;
+//    }
+//  }
+
+//  public void consultarEstadoProjeto(){
+//    int i = 0;
+//    while (i<projetos.size()){
+//      System.out.println(projetos.get(i).estadoDoProjeto());
+//      i++;
+//    }
+//  }
 
 }
