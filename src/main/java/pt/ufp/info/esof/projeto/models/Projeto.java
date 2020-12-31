@@ -1,22 +1,14 @@
 package pt.ufp.info.esof.projeto.models;
-
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
-
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
 @Getter
 @Setter
-@JsonIdentityInfo(property = "id", generator = ObjectIdGenerators.PropertyGenerator.class, scope = Projeto.class)
+@EqualsAndHashCode
 public class Projeto {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nome;
 
@@ -24,10 +16,7 @@ public class Projeto {
         Concluido,
         NaoConluido,
     }
-
-    @OneToMany(mappedBy = "projeto", cascade = CascadeType.ALL)
     private List<Tarefa> tarefas = new ArrayList<>();
-    @ManyToOne
     private Cliente cliente;
 
     public void adicionarTarefas(Tarefa t) {

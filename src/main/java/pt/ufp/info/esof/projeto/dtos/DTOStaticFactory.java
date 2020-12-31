@@ -1,5 +1,6 @@
 package pt.ufp.info.esof.projeto.dtos;
 import pt.ufp.info.esof.projeto.models.Empregado;
+import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.Tarefa;
 
 import java.util.List;
@@ -47,6 +48,14 @@ public class DTOStaticFactory {
                 .nome(empregado.getNome())
                 .cargo(empregado.getCargo())
                 .tarefas(empregadoResponseDTOS)
+                .build();
+    }
+
+    public CriarProjetoDTO criarProjetoDTO(Projeto projeto){
+        return CriarProjetoDTO
+                .builder()
+                .clienteID(projeto.getCliente().getId())
+                .nome(projeto.getNome())
                 .build();
     }
 }

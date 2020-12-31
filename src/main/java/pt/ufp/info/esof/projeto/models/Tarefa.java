@@ -1,29 +1,17 @@
 package pt.ufp.info.esof.projeto.models;
-
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
-import javax.persistence.*;
-
-@Entity
 @Getter
 @Setter
-@JsonIdentityInfo(property = "id", generator = ObjectIdGenerators.PropertyGenerator.class,scope = Projeto.class)
+@EqualsAndHashCode
 public class Tarefa {
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
   private String nome;
-  @ManyToOne
   private Empregado empregado;
-  @ManyToOne
   private Projeto projeto;
-  @OneToOne
   private TempoEfetivo tempoEfetivo;
-  @OneToOne
   private TempoPrevisto tempoPrevisto;
 
   private boolean concluida;

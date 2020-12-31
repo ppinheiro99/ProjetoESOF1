@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd"
+                 version="2.1">
+
+    <package>pt.ufp.info.esof.projeto.models</package>
+    <entity class="Cliente">
+        <table name="cliente"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <one-to-many name="projetos" mapped-by="cliente"><cascade><cascade-all/></cascade></one-to-many>
+
+        </attributes>
+    </entity>
+    <entity class="Empregado">
+        <table name="empregado"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <one-to-many name="tarefas" mapped-by="empregado"><cascade><cascade-all/></cascade></one-to-many>
+        </attributes>
+    </entity>
+    <entity class="Projeto">
+        <table name="projeto"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <many-to-one name="cliente"/>
+            <one-to-many name="tarefas" mapped-by="projeto"><cascade><cascade-all/></cascade></one-to-many>
+        </attributes>
+    </entity>
+
+    <entity class="Tarefa">
+        <table name="tarefa"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <many-to-one name="empregado"/>
+            <many-to-one name="projeto"/>
+            <one-to-one name="tempoEfetivo"/>
+            <one-to-one name="tempoPrevisto"/>
+        </attributes>
+    </entity>
+
+    <entity class="TempoEfetivo">
+        <table name="tempoEfetivo"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <one-to-one name="tarefa"/>
+        </attributes>
+    </entity>
+    <entity class="TempoPrevisto">
+        <table name="tempoPrevisto"/>
+        <attributes>
+            <id name="id">
+                <generated-value strategy="IDENTITY"/>
+            </id>
+            <one-to-one name="tarefa"/>
+        </attributes>
+    </entity>
+</entity-mappings>
