@@ -71,7 +71,5 @@ class EmpregadoControllerTest {
         String empregado1AsJsonString=new ObjectMapper().writeValueAsString(empregado1);
 
         mockMvc.perform(post("/empregado").content(empregado1AsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
-
-
     }
 }

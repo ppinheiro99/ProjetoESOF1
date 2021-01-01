@@ -2,6 +2,10 @@ package pt.ufp.info.esof.projeto.dtos;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
+import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Fábrica estática para criação de DTO's
@@ -26,35 +30,21 @@ public class DTOStaticFactory {
         return dtoAbstractFactory;
     }
 
-    public TarefasDTO tarefaDTO(TarefaEfetiva tarefaEfetiva){
-        return TarefasDTO.builder()
-                .nome(tarefaEfetiva.getNome())
-                .empregadoNome(tarefaEfetiva.getEmpregado().getNome())
-               // .projeto(tarefaEfetiva.getProjeto().getNome())
-            //    .tempoPrevisto(tarefaEfetiva.getTempoPrevisto().getTempoPrevistoHoras())
-             //   .concluida(tarefaEfetiva.isConcluida())
-                .build();
-    }
-
     public EmpregadoResponseDTO empregadoResponseDTO(Empregado empregado){
-//        List<TarefasDTO> empregadoResponseDTOS= empregado.getTarefas().stream().map(tarefas ->
-//                DTOStaticFactory.getInstance().tarefaDTO(tarefas)
-//        ).collect(Collectors.toList());
-//
-//        System.out.println(empregadoResponseDTOS);
-
+        List<String> tarefasEfetivas = empregado.getTarefaEfetivas().stream().map(TarefaEfetiva::getNome).collect(Collectors.toList());
         return EmpregadoResponseDTO.builder()
                 .nome(empregado.getNome())
                 .cargo(empregado.getCargo())
-                //.tarefas(empregadoResponseDTOS)
+                .tarefasEfetivas(tarefasEfetivas)
                 .build();
     }
 
-    public CriarProjetoDTO criarProjetoDTO(Projeto projeto){
+    public CriarProjetoDTO criarProjetoDTO(Projeto projeto) {
         return CriarProjetoDTO
                 .builder()
-                .clienteID(projeto.getCliente().getId())
                 .nome(projeto.getNome())
+                .clienteID(projeto.getCliente().getId())
                 .build();
+
     }
 }

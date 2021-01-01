@@ -8,6 +8,7 @@ import lombok.Setter;
 @EqualsAndHashCode
 public class TarefaPrevista {
     private long id;
+    private String nome;
     private float tempoPrevistoHoras;
     private TarefaEfetiva tarefaEfetiva;
     private Projeto projeto;

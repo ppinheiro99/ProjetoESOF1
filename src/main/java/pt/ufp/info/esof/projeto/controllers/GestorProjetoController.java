@@ -20,10 +20,4 @@ public class GestorProjetoController {
     public GestorProjetoController(GestorProjetoService gestorProjetoService) {
         this.gestorProjetoService = gestorProjetoService;
     }
-
-    @PostMapping
-    public ResponseEntity<CriarProjetoDTO> criarProjeto(@RequestBody CriarProjetoDTO projeto){
-        Optional<Projeto> optionalProjeto = gestorProjetoService.criarProjeto(projeto.converter());
-        return optionalProjeto.map(value -> ResponseEntity.ok(dtoStaticFactory.criarProjetoDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
-    }
 }

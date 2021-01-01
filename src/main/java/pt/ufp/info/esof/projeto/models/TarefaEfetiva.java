@@ -7,32 +7,24 @@ import lombok.Setter;
 @Setter
 @EqualsAndHashCode
 public class TarefaEfetiva {
-  public static void main(String[] args) {
-    TarefaEfetiva t1 = new TarefaEfetiva();
-    t1.concluirTarefa();
-  }
   private long id;
   private String nome;
   private Empregado empregado;
   private float duracaoHoras;
   private TarefaPrevista tarefaPrevista;
+  private Estados estadoTarefa = Estados.NaoComecado;
 
-  private enum EstadosDaTarefa {
-    Concluido,
-    EmAndamento,
-    Atrasado,
-    NaoComecado
-  }
-  private EstadosDaTarefa estadoTarefa = EstadosDaTarefa.NaoComecado;
-
-  public void atribuirEstadoTarefa(){
+  public Estados estadoDaTarefa(){ // apenas diz o estado do projeto com base no tempo efetivo e previsto, para
     if(percentagemConclusao() == 0){
-        estadoTarefa = EstadosDaTarefa.NaoComecado;
-    }else if(percentagemConclusao() >= 1 && percentagemConclusao() <= 99){
-        estadoTarefa = EstadosDaTarefa.EmAndamento;
-    }else if(estadoTarefa != EstadosDaTarefa.Concluido){
-          estadoTarefa = EstadosDaTarefa.Atrasado;
+      return Estados.NaoComecado;
+    }else if(percentagemConclusao() >= 1 && percentagemConclusao() <= 99 && estadoTarefa != Estados.Concluido ){
+      return Estados.EmAndamento;
+    }else if(percentagemConclusao() > 100 && estadoTarefa != Estados.Concluido){
+      return Estados.Atrasado;
+    }else if(percentagemConclusao() > 100 && estadoTarefa == Estados.Concluido){
+      return Estados.ConcluidoComAtraso;
     }
+    return Estados.Concluido;
   }
 
   public float custoEfetivoTarefa(){
@@ -43,8 +35,8 @@ public class TarefaEfetiva {
     return (int)(duracaoHoras/(tarefaPrevista.getTempoPrevistoHoras())*100);
   }
 
-  public EstadosDaTarefa concluirTarefa(){
-    estadoTarefa =  EstadosDaTarefa.Concluido;
+  public Estados definirEstadoTarefa(Estados estado){
+    estadoTarefa =  estado;
     return estadoTarefa;
   }
 

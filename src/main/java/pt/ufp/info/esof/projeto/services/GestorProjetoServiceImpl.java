@@ -16,19 +16,4 @@ public class GestorProjetoServiceImpl implements GestorProjetoService {
         this.projetoRepository = projetoRepository;
         this.clienteRepository = clienteRepository;
     }
-
-
-    @Override
-    public Optional<Projeto> criarProjeto(Projeto projeto) {
-        Optional<Cliente> optionalCliente = clienteRepository
-                .findById(projeto.getCliente().getId());
-        if(optionalCliente.isPresent()){
-                Cliente cliente = optionalCliente.get();
-                cliente.getProjetos().add(projeto);
-                projeto.setCliente(cliente);
-
-                return Optional.of(projeto);
-        }
-        return Optional.empty();
-    }
 }

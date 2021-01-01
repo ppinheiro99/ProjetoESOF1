@@ -12,37 +12,27 @@ public class Cliente {
   private String nome;
   private List<Projeto> projetos = new ArrayList<>();
 
+  public float consultarCustoProjeto(){
+    int custo=0;
+    for(Projeto projeto:projetos){
+      custo+=projeto.custoPrevistoProjeto();
+    }
+    return custo;
+  }
 
+  public int consultarPrazoProjeto(){
+    int prazo = 0;
+    for(Projeto projeto:projetos){
+      prazo+=projeto.duracaoPrevistaHoras();
+    }
+    return prazo;
+  }
 
-//  public float consultarCustoProjeto(){
-//   /* int i = 0;
-//    while (i<projetos.size()){
-//      System.out.println(projetos.get(i).custoPrevistoProjeto());
-//      i++;
-//    }*/
-//    int custo=0;
-//    for(Projeto projeto:projetos){
-//      custo+=projeto.custoPrevistoProjeto();
-//    }
-//    return custo;
-//
-//    //return projetos.stream().map(Projeto::custoPrevistoProjeto).reduce((aFloat, aFloat2) -> aFloat+aFloat2).orElse(0f);
-//  }
-
-//  public void consultarPrazoProjeto(){
-//    int i = 0;
-//    while (i<projetos.size()){
-//      System.out.println(projetos.get(i).duracaoPrevistaHoras() + "\n");
-//      i++;
-//    }
-//  }
-
-//  public void consultarEstadoProjeto(){
-//    int i = 0;
-//    while (i<projetos.size()){
-//      System.out.println(projetos.get(i).estadoDoProjeto());
-//      i++;
-//    }
-//  }
-
+  public Estados consultarEstadoProjeto(Projeto p){
+    if(this.getProjetos().contains(p)){
+      return this.getProjetos().get((int)p.getId()).estadoDoProjeto();
+    }
+    System.out.println("Este cliente nao tem este projeto");
+    return null;
+  }
 }

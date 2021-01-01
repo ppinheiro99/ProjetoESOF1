@@ -12,10 +12,6 @@ public class Projeto {
     private long id;
     private String nome;
 
-    private enum EstadosProjeto {
-        Concluido,
-        NaoConluido,
-    }
     private List<TarefaPrevista> tarefaPrevistas = new ArrayList<>();
     private Cliente cliente;
 
@@ -62,22 +58,34 @@ public class Projeto {
         return (int) (( this.duracaoEfetivaHoras()/this.duracaoPrevistaHoras()) * 100);
     }
 
-//    public EstadosProjeto estadoDoProjeto() {
-//        for (TarefaPrevista t : this.tarefaPrevistas) {
-//            if (t.getTarefaEfetiva().getEstadoTarefa() == "NaoConcluida") {
-//                return EstadosProjeto.NaoConluido;
-//            }
-//        }
-//        return EstadosProjeto.Concluido;
-//    }
+    public Estados estadoDoProjeto() {
+        Estados estadoProjeto = Estados.NaoComecado;
+        if(duracaoEfetivaHoras() == 0){ // se ainda nao tiver horas no projeto é porque este ainda nao comecou
+            return estadoProjeto;
+        }
 
-//    public void mostrarProgresso(){
-//        System.out.println(this);
-//        System.out.println("Projeto "+this.estadoDoProjeto()+" com "+this.percentagemConclusao()+"%");
-//
-////        tarefas.stream().map(Tarefa::getNome).collect(Collectors.toList());
+        if(duracaoEfetivaHoras() >= duracaoPrevistaHoras()){
+            estadoProjeto = Estados.Concluido; // se o numero de horas efetivas for igual ou superior ás previstas, calculamos que ja terminaram todas as tarefas
+        }
+
+        for (TarefaPrevista t : this.tarefaPrevistas) { // percorremos as tarefas para verificar se todas já foram concluidas
+            if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido){
+                if(estadoProjeto == Estados.Concluido) { // se o estado de alguma tarefa for nao concluido quer dizer que o projeto ainda nao terminou mas como ja passou do tempo previsto, o projeto encontra-se atrasado
+                    return Estados.EmAndamento;
+                }
+                    return Estados.Atrasado;
+            }
+        }
+        return Estados.Concluido;
+    }
+
+    public void mostrarProgresso(){
+        System.out.println(this);
+        System.out.println("Projeto "+this.estadoDoProjeto()+" com "+this.percentagemConclusao()+"%");
+
+//        tarefas.stream().map(Tarefa::getNome).collect(Collectors.toList());
 //        for (Tarefa t:this.getTarefas()) {
 //            System.out.println(t);
 //        }
-//    }
+    }
 }
