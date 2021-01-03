@@ -20,16 +20,16 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     private final ClienteRepository clienteRepository;
     private final EmpregadoRepository empregadoRepository;
     private final ProjetoRepository projetoRepository;
-    private final TarefaRepository tarefaRepository;
-    private final TempoPrevistoRepository tempoPrevistoRepository;
+    private final TarefaEfetivaRepository tarefaEfetivaRepository;
+    private final TarefaPrevistaRepository tarefaPrevistaRepository;
 
     @Autowired
-    public Inicializacao(ClienteRepository clienteRepository, EmpregadoRepository empregadoRepository, ProjetoRepository projetoRepository, TarefaRepository tarefaRepository, TempoPrevistoRepository tempoPrevistoRepository) {
+    public Inicializacao(ClienteRepository clienteRepository, EmpregadoRepository empregadoRepository, ProjetoRepository projetoRepository, TarefaEfetivaRepository tarefaEfetivaRepository, TarefaPrevistaRepository tarefaPrevistaRepository) {
         this.clienteRepository = clienteRepository;
         this.empregadoRepository = empregadoRepository;
         this.projetoRepository = projetoRepository;
-        this.tarefaRepository = tarefaRepository;
-        this.tempoPrevistoRepository = tempoPrevistoRepository;
+        this.tarefaEfetivaRepository = tarefaEfetivaRepository;
+        this.tarefaPrevistaRepository = tarefaPrevistaRepository;
     }
 
     @SneakyThrows
@@ -49,28 +49,18 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         e1.setCargo(Cargo.desenvolvedorSenior);
         this.empregadoRepository.save(e1);
 
-        TarefaEfetiva t1 = new TarefaEfetiva();
-        t1.setNome("Tarefa1");
-       // tarefaRepository.save(t1);
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setNome("Tarefa1");
+        tp1.setTempoPrevistoHoras(8);
+        p1.adicionarTarefas(tp1); // associa o projeto à tarefa e vice-versa
 
-//        TarefaPrevista tprevisto = new TarefaPrevista(); // esta classe nao está a fazer nada (discutir se vamos ou nao tirá-la)
-//        tprevisto.setTempoPrevistoHoras(8);
-//        tprevisto.setTarefaEfetiva(t1);
-//        //tempoPrevistoRepository.save(tprevisto);
-//
-//        t1.setTempoPrevisto(tprevisto);
 
-        //this.projetoRepository.save(p1);
         p1.setCliente(c1); // associa projeto ao cliente
         c1.getProjetos().add(p1); // associa cliente ao projeto
-        //p1.adicionarTarefas(t1); // associa o projeto à tarefa e vice-versa
-    //    this.tarefaRepository.save(t1);
-        //this.projetoRepository.save(p1);
+        //p1.adicionarTarefas(tp1); // associa o projeto à tarefa e vice-versa
 
-        t1.setEmpregado(e1); // associa tarefa ao empregado
-        e1.getTarefaEfetivas().add(t1); // associa empregado à tarefa
-      //  this.tarefaRepository.save(t1);
         this.projetoRepository.save(p1);
+        tarefaPrevistaRepository.save(tp1); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
 
         System.out.println("\n" + "valorHora: "+ e1.valorHora()+"\n");
         /*

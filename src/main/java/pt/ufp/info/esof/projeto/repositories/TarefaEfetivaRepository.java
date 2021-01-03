@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 
 @Repository
-public interface TarefaRepository extends CrudRepository<TarefaEfetiva,Long> {
+public interface TarefaEfetivaRepository extends CrudRepository<TarefaEfetiva,Long> {
 }

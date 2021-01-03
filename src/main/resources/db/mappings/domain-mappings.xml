@@ -35,7 +35,7 @@
         </attributes>
     </entity>
 
-    <entity class="pt.ufp.info.esof.projeto.models.TarefaEfetiva">
+    <entity class="TarefaEfetiva">
         <table name="tarefaEfetiva"/>
         <attributes>
             <id name="id">
@@ -45,7 +45,7 @@
             <one-to-one name="tarefaPrevista"/>
         </attributes>
     </entity>
-    <entity class="pt.ufp.info.esof.projeto.models.TarefaPrevista">
+    <entity class="TarefaPrevista">
         <table name="tarefaPrevista"/>
         <attributes>
             <id name="id">

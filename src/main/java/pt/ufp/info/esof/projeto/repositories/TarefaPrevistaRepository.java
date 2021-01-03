@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 
 @Repository
-public interface TempoPrevistoRepository extends CrudRepository<TarefaPrevista,Long> {
+public interface TarefaPrevistaRepository extends CrudRepository<TarefaPrevista,Long> {
 }

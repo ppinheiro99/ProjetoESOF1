@@ -31,6 +31,9 @@ public class TarefaEfetiva {
     return duracaoHoras * empregado.valorHora();
   }
 
+  public float duracaoEfetivaHoras(float duracao){
+    return duracaoHoras = duracao;
+  }
   public int percentagemConclusao(){
     return (int)(duracaoHoras/(tarefaPrevista.getTempoPrevistoHoras())*100);
   }
