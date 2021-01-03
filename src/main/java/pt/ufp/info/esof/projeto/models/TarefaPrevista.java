@@ -14,6 +14,9 @@ public class TarefaPrevista {
     private Projeto projeto;
 
     public float custoPrevistoTarefa(){
-        return tarefaEfetiva.getEmpregado().valorHora()*tempoPrevistoHoras;
+        if( tarefaEfetiva != null) { // caso a tarefa ainda nao tenha empregado nao se pode fazer o custo pq nao sabemos qual é o empregado para sabermos o seu custo hora
+            return tarefaEfetiva.getEmpregado().valorHora() * tempoPrevistoHoras;
+        }
+        return 0;
     }
 }

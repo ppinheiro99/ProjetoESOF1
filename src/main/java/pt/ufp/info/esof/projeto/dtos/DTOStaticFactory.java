@@ -2,6 +2,7 @@ package pt.ufp.info.esof.projeto.dtos;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
+import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -61,6 +62,14 @@ public class DTOStaticFactory {
                 .tarefas(createDTOList)
                 .custo(projeto.custoPrevistoProjeto())
                 .tempoHoras(projeto.duracaoPrevistaHoras())
+                .build();
+    }
+
+    public TarefaResponseDTO tarefaResponseDTO(TarefaPrevista tarefa) {
+        return TarefaResponseDTO.builder()
+                .nome(tarefa.getNome())
+                .tempoPrevistoHoras(tarefa.getTempoPrevistoHoras())
+                .idProjeto(tarefa.getProjeto().getId())
                 .build();
     }
 }

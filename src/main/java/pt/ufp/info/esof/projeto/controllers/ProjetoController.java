@@ -8,16 +8,34 @@ import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("/Projeto")
+@RequestMapping("/projeto")
 public class ProjetoController {
     private final ProjetoService projetoService;
     private final DTOStaticFactory dtoStaticFactory=DTOStaticFactory.getInstance();
 
     public ProjetoController(ProjetoService projetoService) {
         this.projetoService = projetoService;
+    }
+
+    @GetMapping()
+    public ResponseEntity<Iterable<ProjetoResponseDTO>> getAllProjetos(){
+        List<ProjetoResponseDTO> responseDTOS=new ArrayList<>();
+        projetoService.findAll().forEach(projeto -> responseDTOS.add(dtoStaticFactory.projetoResponseDTO(projeto)));
+        return ResponseEntity.ok(responseDTOS);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ProjetoResponseDTO> getProjetoById(@PathVariable Long id){
+        Optional<Projeto> optionalProjeto = projetoService.findById(id);
+        return optionalProjeto.map(projeto -> {
+            ProjetoResponseDTO projetoResponseDTO = dtoStaticFactory.projetoResponseDTO(projeto);
+            return ResponseEntity.ok(projetoResponseDTO);
+        }).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @GetMapping("/{id}/valor") // Possivelmente nao é bem assim ( so devo ter de imprimir o valor ), perguntar ao professor !!!

@@ -7,7 +7,8 @@ import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
 import pt.ufp.info.esof.projeto.repositories.ProjetoRepository;
-
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 @Service
 public class ProjetoServiceImpl implements ProjetoService{
@@ -18,6 +19,17 @@ public class ProjetoServiceImpl implements ProjetoService{
     public ProjetoServiceImpl(ProjetoRepository projetoRepository, ClienteRepository clienteRepository) {
         this.projetoRepository = projetoRepository;
         this.clienteRepository = clienteRepository;
+    }
+    @Override
+    public List<Projeto> findAll() {
+        List<Projeto> p1 =new ArrayList<>();
+        projetoRepository.findAll().forEach(p1::add);
+        return p1;
+    }
+
+    @Override
+    public Optional<Projeto> findById(Long id) {
+        return projetoRepository.findById(id);
     }
 
     @Override

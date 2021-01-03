@@ -1,13 +1,11 @@
 package pt.ufp.info.esof.projeto.controllers;
 
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import pt.ufp.info.esof.projeto.dtos.DTOStaticFactory;
 import pt.ufp.info.esof.projeto.dtos.EmpregadoResponseDTO;
 import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.services.GestorProjetoService;
 
 import java.util.Optional;

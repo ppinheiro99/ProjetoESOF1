@@ -1402,3 +1402,419 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
+2021-01-03 18:19:29.511  INFO 25464 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 25464 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 18:19:29.513  INFO 25464 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 18:19:32.873 ERROR 25464 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.controllers.TarefaController required a bean of type 'pt.ufp.info.esof.projeto.services.TarefaService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pt.ufp.info.esof.projeto.services.TarefaService' in your configuration.
+
+2021-01-03 18:20:56.429  INFO 14080 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 14080 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 18:20:56.433  INFO 14080 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 18:20:59.804 ERROR 14080 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.controllers.TarefaController required a bean of type 'pt.ufp.info.esof.projeto.services.TarefaService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pt.ufp.info.esof.projeto.services.TarefaService' in your configuration.
+
+2021-01-03 18:30:51.039  INFO 24588 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 24588 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 18:30:51.043  INFO 24588 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 18:30:55.122  INFO 24588 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 18:30:55.189  INFO 24588 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.501 seconds (JVM running for 5.78)
+2021-01-03 18:38:31.926  INFO 14480 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 14480 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 18:38:31.930  INFO 14480 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 18:38:35.722  INFO 14480 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 18:38:35.800  INFO 14480 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.299 seconds (JVM running for 5.611)
+2021-01-03 19:17:14.120  INFO 26684 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 26684 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 19:17:14.124  INFO 26684 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 19:17:17.953  INFO 26684 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 19:17:18.025  INFO 26684 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.267 seconds (JVM running for 5.761)
+2021-01-03 19:24:18.283  INFO 31096 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 31096 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 19:24:18.286  INFO 31096 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 19:24:21.970  INFO 31096 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 19:24:22.041  INFO 31096 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.094 seconds (JVM running for 5.504)
+2021-01-03 19:24:34.110 ERROR 31096 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at pt.ufp.info.esof.projeto.models.TarefaPrevista.custoPrevistoTarefa(TarefaPrevista.java:17) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.models.Projeto.custoPrevistoProjeto(Projeto.java:28) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.dtos.DTOStaticFactory.projetoResponseDTO(DTOStaticFactory.java:63) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.lambda$getAllProjetos$0(ProjetoController.java:28) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.getAllProjetos(ProjetoController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-03 21:12:19.410  INFO 30880 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 30880 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 21:12:19.415  INFO 30880 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 21:12:27.430  INFO 30880 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 21:12:27.590  INFO 30880 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 8.877 seconds (JVM running for 11.87)
+2021-01-03 21:12:31.887 ERROR 30880 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at pt.ufp.info.esof.projeto.models.TarefaPrevista.custoPrevistoTarefa(TarefaPrevista.java:17) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.models.Projeto.custoPrevistoProjeto(Projeto.java:28) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.dtos.DTOStaticFactory.projetoResponseDTO(DTOStaticFactory.java:63) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.lambda$getAllProjetos$0(ProjetoController.java:28) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.getAllProjetos(ProjetoController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-03 21:15:25.092  INFO 5460 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 5460 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 21:15:25.097  INFO 5460 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 21:15:33.061  INFO 5460 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 21:15:33.234  INFO 5460 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 8.818 seconds (JVM running for 11.391)
+2021-01-03 21:15:42.979 ERROR 5460 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at pt.ufp.info.esof.projeto.models.TarefaPrevista.custoPrevistoTarefa(TarefaPrevista.java:17) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.models.Projeto.custoPrevistoProjeto(Projeto.java:28) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.dtos.DTOStaticFactory.projetoResponseDTO(DTOStaticFactory.java:63) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.lambda$getAllProjetos$0(ProjetoController.java:28) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.getAllProjetos(ProjetoController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-03 21:15:45.874 ERROR 5460 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at pt.ufp.info.esof.projeto.models.TarefaPrevista.custoPrevistoTarefa(TarefaPrevista.java:17) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.models.Projeto.custoPrevistoProjeto(Projeto.java:28) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.dtos.DTOStaticFactory.projetoResponseDTO(DTOStaticFactory.java:63) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.lambda$getAllProjetos$0(ProjetoController.java:28) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.getAllProjetos(ProjetoController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-03 21:18:28.681  INFO 6068 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 6068 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 21:18:28.688  INFO 6068 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 21:18:36.786  INFO 13592 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 13592 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 21:18:36.795  INFO 13592 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 21:18:45.578  INFO 13592 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 21:18:45.792  INFO 13592 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 9.763 seconds (JVM running for 14.021)
+2021-01-03 21:19:07.080 ERROR 13592 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at pt.ufp.info.esof.projeto.models.TarefaPrevista.custoPrevistoTarefa(TarefaPrevista.java:17) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.models.Projeto.custoPrevistoProjeto(Projeto.java:28) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.dtos.DTOStaticFactory.projetoResponseDTO(DTOStaticFactory.java:63) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.lambda$getAllProjetos$0(ProjetoController.java:28) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.getAllProjetos(ProjetoController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-03 21:19:30.141  INFO 30920 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 30920 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-03 21:19:30.148  INFO 30920 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-03 21:19:37.722  INFO 30920 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-03 21:19:37.872  INFO 30920 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 8.436 seconds (JVM running for 11.115)
