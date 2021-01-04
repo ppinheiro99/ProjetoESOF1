@@ -42,10 +42,12 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
 
         Cliente c1 = new Cliente();
         c1.setNome("Armando");
+        c1.setEmail("teste@gmail.com");
         this.clienteRepository.save(c1);
 
         Empregado e1 = new Empregado();
         e1.setNome("Pedro");
+        e1.setEmail("36763@ufp.edu.pt");
         e1.setCargo(Cargo.desenvolvedorSenior);
         this.empregadoRepository.save(e1);
 
@@ -57,7 +59,6 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
 
         p1.setCliente(c1); // associa projeto ao cliente
         c1.getProjetos().add(p1); // associa cliente ao projeto
-        //p1.adicionarTarefas(tp1); // associa o projeto à tarefa e vice-versa
 
         this.projetoRepository.save(p1);
         tarefaPrevistaRepository.save(tp1); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas

@@ -10,6 +10,7 @@ import java.util.List;
 @EqualsAndHashCode
 public class Empregado {
     private long id;
+    private String email;
     private String nome;
     private List<TarefaEfetiva> tarefaEfetivas = new ArrayList<>();
     private Cargo cargo;

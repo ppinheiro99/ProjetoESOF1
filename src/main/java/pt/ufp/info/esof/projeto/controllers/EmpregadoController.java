@@ -22,7 +22,6 @@ public class EmpregadoController {
         this.empregadoService = empregadoService;
     }
 
-    // retorno uma resposta com o código 200 (responsiveEntity.ok)
     @GetMapping()
     public ResponseEntity<Iterable<EmpregadoResponseDTO>> getAllEmpregados(){
         List<EmpregadoResponseDTO> responseDTOS=new ArrayList<>();
@@ -39,10 +38,9 @@ public class EmpregadoController {
         }).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping()
+    @PostMapping() // Falta corrigir algumas cenas ver depois !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     public ResponseEntity<EmpregadoResponseDTO> createEmpregado(@RequestBody Empregado empregado){
         Optional<Empregado> optionalEmpregado = empregadoService.findById(empregado.getId());
-        System.out.println(empregado);
         return optionalEmpregado.map(value -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }

@@ -13,7 +13,7 @@ import java.util.List;
 public class ProjetoResponseDTO {
     private String nome;
     private List<TarefaCreateDTO> tarefas = new ArrayList<>();
-    private Long clienteId;
+    private String emailCliente;
     private float custo;
     private float tempoHoras;
 }

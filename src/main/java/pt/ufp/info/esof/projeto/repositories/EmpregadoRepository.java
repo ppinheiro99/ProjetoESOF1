@@ -9,4 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface EmpregadoRepository extends CrudRepository<Empregado, Long> {
+    Optional<Empregado> findByEmail(String emailEmpregado);
 }

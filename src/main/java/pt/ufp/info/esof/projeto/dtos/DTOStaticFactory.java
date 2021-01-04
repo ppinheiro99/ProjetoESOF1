@@ -58,7 +58,7 @@ public class DTOStaticFactory {
 
         return ProjetoResponseDTO.builder()
                 .nome(projeto.getNome())
-                .clienteId(projeto.getCliente().getId())
+                .emailCliente(projeto.getCliente().getEmail())
                 .tarefas(createDTOList)
                 .custo(projeto.custoPrevistoProjeto())
                 .tempoHoras(projeto.duracaoPrevistaHoras())

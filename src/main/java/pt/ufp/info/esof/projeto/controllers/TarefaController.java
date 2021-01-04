@@ -2,12 +2,8 @@ package pt.ufp.info.esof.projeto.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import pt.ufp.info.esof.projeto.dtos.DTOStaticFactory;
-import pt.ufp.info.esof.projeto.dtos.EmpregadoResponseDTO;
-import pt.ufp.info.esof.projeto.dtos.TarefaResponseDTO;
+import org.springframework.web.bind.annotation.*;
+import pt.ufp.info.esof.projeto.dtos.*;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.TarefaService;
@@ -39,5 +35,16 @@ public class TarefaController {
             TarefaResponseDTO tarefaResponseDTO = dtoStaticFactory.tarefaResponseDTO(tarefa);
             return ResponseEntity.ok(tarefaResponseDTO);
         }).orElseGet(() -> ResponseEntity.notFound().build());
+    }
+    @PatchMapping(value = "/{emailEmpregado}/{idTarefa}")
+    public ResponseEntity<EmpregadoResponseDTO> patchTarefasEmpregado(@PathVariable("emailEmpregado") String emailEmpregado, @PathVariable("idTarefa") Long idTarefa) {
+        Optional<Empregado> optionalEmpregado = tarefaService.atribuiTarefasEmpregados(emailEmpregado,idTarefa);
+        return optionalEmpregado.map(empregado -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(empregado))).orElseGet(() -> ResponseEntity.badRequest().build());
+
+    }
+    @PostMapping() // Falta corrigir algumas cenas ver depois !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public ResponseEntity<TarefaResponseDTO> adicionaTarefa(@RequestBody TarefaPrevista tarefa){
+        Optional<TarefaPrevista> optionalTarefa = tarefaService.findById(tarefa.getId());
+        return optionalTarefa.map(tarefap -> ResponseEntity.ok(dtoStaticFactory.tarefaResponseDTO(tarefap))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }

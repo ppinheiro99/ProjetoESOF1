@@ -4,9 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Projeto;
+import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
 import pt.ufp.info.esof.projeto.repositories.ProjetoRepository;
+import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -14,11 +17,13 @@ import java.util.Optional;
 public class ProjetoServiceImpl implements ProjetoService{
     private final ProjetoRepository projetoRepository;
     private final ClienteRepository clienteRepository;
+    private final TarefaPrevistaRepository tarefaPrevistaRepository;
 
     @Autowired
-    public ProjetoServiceImpl(ProjetoRepository projetoRepository, ClienteRepository clienteRepository) {
+    public ProjetoServiceImpl(ProjetoRepository projetoRepository, ClienteRepository clienteRepository, TarefaPrevistaRepository tarefaPrevistaRepository) {
         this.projetoRepository = projetoRepository;
         this.clienteRepository = clienteRepository;
+        this.tarefaPrevistaRepository = tarefaPrevistaRepository;
     }
     @Override
     public List<Projeto> findAll() {
@@ -49,36 +54,55 @@ public class ProjetoServiceImpl implements ProjetoService{
     public Optional<Projeto> adicionarTarefa(Long projetoId, TarefaPrevista tarefa) {
         Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
         if(optionalProjeto.isPresent()){
-            Projeto projeto = optionalProjeto.get();
-            int quantidadeDeTarefasAntes=projeto.getTarefaPrevistas().size();
-            projeto.adicionarTarefas(tarefa);
-            int quantidadeDeTarefasDepois=projeto.getTarefaPrevistas().size();
-            if(quantidadeDeTarefasDepois != quantidadeDeTarefasAntes) {
-                return Optional.of(projeto);
+            if(!optionalProjeto.get().getTarefaPrevistas().contains(tarefa)) {
+                Projeto projeto = optionalProjeto.get();
+                int quantidadeDeTarefasAntes = projeto.getTarefaPrevistas().size();
+                projeto.adicionarTarefas(tarefa);
+                int quantidadeDeTarefasDepois = projeto.getTarefaPrevistas().size();
+                if (quantidadeDeTarefasDepois != quantidadeDeTarefasAntes) {
+                    return Optional.of(projeto);
+                }
             }
         }
         return Optional.empty();
     }
 
     @Override
-    public Optional<Projeto> custoPrevistoProjeto(Long projetoId) {
+    public Optional<Projeto> associarTarefa(Long projetoId, Long tarefaId) {
         Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
+        Optional<TarefaPrevista> optionalTarefa = this.tarefaPrevistaRepository.findById(projetoId);
         if(optionalProjeto.isPresent()){
-            Projeto projeto = optionalProjeto.get();
-            projeto.custoPrevistoProjeto();
-            return Optional.of(projeto);
+            if(!optionalProjeto.get().getTarefaPrevistas().contains(optionalTarefa.get())) {
+                Projeto projeto = optionalProjeto.get();
+                TarefaPrevista tp1 = optionalTarefa.get();
+                int quantidadeDeTarefasAntes = projeto.getTarefaPrevistas().size();
+                projeto.adicionarTarefas(tp1);
+                int quantidadeDeTarefasDepois = projeto.getTarefaPrevistas().size();
+                if (quantidadeDeTarefasDepois != quantidadeDeTarefasAntes) {
+                    return Optional.of(projeto);
+                }
+            }
         }
         return Optional.empty();
     }
 
     @Override
-    public Optional<Projeto> duracaoPrevistaProjeto(Long projetoId) {
+    public Float custoPrevistoProjeto(Long projetoId) {
         Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
         if(optionalProjeto.isPresent()){
             Projeto projeto = optionalProjeto.get();
-            projeto.custoPrevistoProjeto();
-            return Optional.of(projeto);
+            return projeto.custoPrevistoProjeto();
         }
-        return Optional.empty();
+        return 0f;
+    }
+
+    @Override
+    public Float duracaoPrevistaProjeto(Long projetoId) {
+        Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
+        if(optionalProjeto.isPresent()){
+            Projeto projeto = optionalProjeto.get();
+            return projeto.duracaoPrevistaHoras();
+        }
+        return 0f;
     }
 }

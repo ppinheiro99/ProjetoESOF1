@@ -10,6 +10,7 @@ import java.util.List;
 public class Cliente {
   private long id;
   private String nome;
+  private String email;
   private List<Projeto> projetos = new ArrayList<>();
 
   public float consultarCustoProjeto(){

@@ -4,7 +4,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import pt.ufp.info.esof.projeto.dtos.*;
-import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
@@ -16,21 +15,21 @@ import java.util.Optional;
 @RequestMapping("/projeto")
 public class ProjetoController {
     private final ProjetoService projetoService;
-    private final DTOStaticFactory dtoStaticFactory=DTOStaticFactory.getInstance();
+    private final DTOStaticFactory dtoStaticFactory = DTOStaticFactory.getInstance();
 
     public ProjetoController(ProjetoService projetoService) {
         this.projetoService = projetoService;
     }
 
     @GetMapping()
-    public ResponseEntity<Iterable<ProjetoResponseDTO>> getAllProjetos(){
-        List<ProjetoResponseDTO> responseDTOS=new ArrayList<>();
+    public ResponseEntity<Iterable<ProjetoResponseDTO>> getAllProjetos() {
+        List<ProjetoResponseDTO> responseDTOS = new ArrayList<>();
         projetoService.findAll().forEach(projeto -> responseDTOS.add(dtoStaticFactory.projetoResponseDTO(projeto)));
         return ResponseEntity.ok(responseDTOS);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ProjetoResponseDTO> getProjetoById(@PathVariable Long id){
+    public ResponseEntity<ProjetoResponseDTO> getProjetoById(@PathVariable Long id) {
         Optional<Projeto> optionalProjeto = projetoService.findById(id);
         return optionalProjeto.map(projeto -> {
             ProjetoResponseDTO projetoResponseDTO = dtoStaticFactory.projetoResponseDTO(projeto);
@@ -38,16 +37,14 @@ public class ProjetoController {
         }).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @GetMapping("/{id}/valor") // Possivelmente nao é bem assim ( so devo ter de imprimir o valor ), perguntar ao professor !!!
-    public ResponseEntity<ProjetoResponseDTO> getCustoProjeto(@PathVariable Long id){
-        Optional<Projeto> optionalProjeto = projetoService.custoPrevistoProjeto(id);
-        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
+    @GetMapping("/{id}/valor")
+    public ResponseEntity<Float> getCustoProjeto(@PathVariable Long id) {
+        return ResponseEntity.ok(projetoService.custoPrevistoProjeto(id));
     }
 
-    @GetMapping("/{id}/tempo") // o mesmo que o valor
-    public ResponseEntity<ProjetoResponseDTO> getDuracaoProjeto(@PathVariable Long id){
-        Optional<Projeto> optionalProjeto = projetoService.duracaoPrevistaProjeto(id);
-        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
+    @GetMapping("/{id}/tempo")
+    public ResponseEntity<Float> getDuracaoProjeto(@PathVariable Long id) {
+        return ResponseEntity.ok(projetoService.duracaoPrevistaProjeto(id));
     }
 
     @PostMapping
@@ -58,6 +55,13 @@ public class ProjetoController {
     @PatchMapping("/{projetoId}")
     public ResponseEntity<ProjetoResponseDTO> adicionaTarefa(@PathVariable Long projetoId, @RequestBody TarefaCreateDTO tarefa){
         Optional<Projeto> optionalProjeto = projetoService.adicionarTarefa(projetoId,tarefa.converter());
+        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
+    }
+
+    // Falta o endpoint de adicionar tarefa ao projeto
+    @PatchMapping("/{projetoId}/{tarefaId}")
+    public ResponseEntity<ProjetoResponseDTO> associarProjetoTarefa(@PathVariable Long projetoId, @PathVariable Long tarefaId){
+        Optional<Projeto> optionalProjeto = projetoService.associarTarefa(projetoId,tarefaId);
         return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }
