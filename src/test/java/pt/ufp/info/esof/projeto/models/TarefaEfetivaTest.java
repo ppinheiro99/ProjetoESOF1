@@ -39,10 +39,19 @@ class TarefaEfetivaTest {
 
     @Test
     void custoEfetivoTarefa() {
+        TarefaEfetiva te1 = new TarefaEfetiva();
+        TarefaPrevista tp1 = new TarefaPrevista();
+
+        te1.setTarefaPrevista(tp1);
+        tp1.setTarefaEfetiva(te1);
+
+        assertEquals(Estados.ConcluidoComAtraso,te1.custoEfetivoTarefa());
+
     }
 
     @Test
     void percentagemConclusao() {
+
     }
 
     @Test

@@ -271,4 +271,13 @@ Inicializou
 
 
 
-2021-01-08 02:50:24.271  INFO 2156 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.606 seconds (JVM running for 6.122)
+2021-01-04 16:32:10.256  INFO 29748 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 10.337 seconds (JVM running for 14.762)
+2021-01-08 02:08:09.255  INFO 20964 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-BRGOIH9 with PID 20964 (started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
+2021-01-08 02:08:09.259  INFO 20964 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 02:08:11.655  INFO 20964 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.089 seconds (JVM running for 4.611)
+2021-01-08 02:17:37.759  INFO 23976 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-BRGOIH9 with PID 23976 (started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
+2021-01-08 02:17:37.763  INFO 23976 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 02:17:40.050  INFO 23976 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.007 seconds (JVM running for 4.685)
+2021-01-08 02:17:56.169  INFO 27248 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-BRGOIH9 with PID 27248 (started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
+2021-01-08 02:17:56.179  INFO 27248 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 02:17:58.409  INFO 27248 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 2.875 seconds (JVM running for 4.305)
