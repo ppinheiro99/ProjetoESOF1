@@ -2549,3 +2549,36 @@ Inicializou
 2021-01-08 11:51:47.413  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-BRGOIH9 with PID 13700 (started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
 2021-01-08 11:51:47.426  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
 2021-01-08 11:51:49.687  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.058 seconds (JVM running for 4.76)
+2021-01-08 16:29:36.873  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 22924 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:29:36.878  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:29:41.683  INFO 22924 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 16:29:41.760  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 5.432 seconds (JVM running for 7.197)
+2021-01-08 16:35:32.415  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 19344 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:35:32.419  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:35:36.939  INFO 19344 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 16:35:37.017  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.978 seconds (JVM running for 6.334)
+2021-01-08 16:52:44.914  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 20560 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:52:44.918  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:52:51.293  INFO 20560 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 16:52:51.398  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.947 seconds (JVM running for 9.117)
+2021-01-08 17:45:41.620  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 820 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 17:45:41.626  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 17:45:44.867  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.997 seconds (JVM running for 6.098)

@@ -1,8 +1,5 @@
 package pt.ufp.info.esof.projeto.dtos;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.models.*;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -77,6 +74,13 @@ public class DTOStaticFactory {
                 .nome(tarefa.getNome())
                 .tempoPrevistoHoras(tarefa.getTempoPrevistoHoras())
                 .idProjeto(tarefa.getProjeto().getId())
+                .build();
+    }
+
+    public ClienteResponseDTO clienteResponseDTO(Cliente cliente) {
+        return ClienteResponseDTO.builder()
+                .nome(cliente.getNome())
+                .email(cliente.getEmail())
                 .build();
     }
 }
