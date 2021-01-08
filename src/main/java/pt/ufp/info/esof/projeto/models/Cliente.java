@@ -13,19 +13,19 @@ public class Cliente {
   private String email;
   private List<Projeto> projetos = new ArrayList<>();
 
-  public float consultarCustoProjeto(){
-    int custo=0;
-    for(Projeto projeto:projetos){
-      custo+=projeto.custoPrevistoProjeto();
-    }
+  public float consultarCustoProjeto(Projeto projeto){
+    float custo=0;
+    if(projetos.contains(projeto))
+      custo=projeto.custoPrevistoProjeto();
+
     return custo;
   }
 
-  public int consultarPrazoProjeto(){
-    int prazo = 0;
-    for(Projeto projeto:projetos){
-      prazo+=projeto.duracaoPrevistaHoras();
-    }
+  public float consultarPrazoProjeto(Projeto projeto){
+    float prazo = 0;
+    if(projetos.contains(projeto))
+      prazo =projeto.duracaoPrevistaHoras();
+
     return prazo;
   }
 
