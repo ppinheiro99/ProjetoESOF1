@@ -42,10 +42,13 @@ public class TarefaController {
         return optionalEmpregado.map(empregado -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(empregado))).orElseGet(() -> ResponseEntity.badRequest().build());
 
     }
-
     @PostMapping()
     public ResponseEntity<TarefaResponseDTO> criarTarefa(@RequestBody CriarTarefaPrevistaDTO tarefa){
         Optional<TarefaPrevista> optionalTarefa = tarefaService.createTarefa(tarefa.converter());
         return optionalTarefa.map(tarefap -> ResponseEntity.ok(dtoStaticFactory.tarefaResponseDTO(tarefap))).orElseGet(() -> ResponseEntity.badRequest().build());
+    }
+    @DeleteMapping("/{idTarefa}")
+    public ResponseEntity<Optional<TarefaPrevista>> deleteTarefa(@PathVariable Long idTarefa){
+        return ResponseEntity.ok(tarefaService.deleteTarefa(idTarefa));
     }
 }

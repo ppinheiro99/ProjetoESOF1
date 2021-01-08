@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TarefaResponseDTO {
-    private String nome;
-    private float tempoPrevistoHoras;
-    private long idProjeto;
-
+public class ClienteResponseDTO {
+    String nome;
+    String email;
 }

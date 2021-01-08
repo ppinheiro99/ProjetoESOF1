@@ -38,6 +38,11 @@ public class ProjetoServiceImpl implements ProjetoService{
     }
 
     @Override
+    public Optional<Projeto> deleteProjeto(Long idProjeto) {
+        return Optional.empty();
+    }
+
+    @Override
     public Optional<Projeto> criarProjeto(Projeto projeto) {
         Optional<Cliente> optionalCliente = clienteRepository
                 .findById(projeto.getCliente().getId());

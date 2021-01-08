@@ -73,8 +73,34 @@ public class TarefaServiceImpl implements TarefaService{
         if(optionalProjeto.isPresent()){
             if(!optionalTarefaPrevista.isPresent()){
                 tarefaPrevistaRepository.save(tarefaPrevista);
+                System.out.println(tarefaPrevista.getId());
                 return Optional.of(tarefaPrevista);
             }
+        }
+        return Optional.empty();
+    }
+
+    public void removeLigacoesComTarefa(TarefaPrevista tp1){
+        TarefaEfetiva te1 = tp1.getTarefaEfetiva();
+        tp1.getProjeto().getTarefaPrevistas().remove(tp1); // removo a conexao com o projeto e vice-versa
+        tp1.setProjeto(null);
+        if(tp1.getTarefaEfetiva() != null){ // se tiver tarefas efetivas, é porque já tem um empregado associado à tarefa, temos de cortar essas conexoes
+            te1.setTarefaPrevista(null); // removo a ligacao da tarefaEfetiva com a Tarefa prevista e vice-versa
+            tp1.setTarefaEfetiva(null);
+            te1.getEmpregado().getTarefaEfetivas().remove(te1); // removo a tarefa Efetiva do empregado e vice versa
+            System.out.println(te1.getEmpregado().getNome());
+            te1.setEmpregado(null);
+        }
+        tarefaEfetivaRepository.delete(te1); // como a efetiva depende da prevista ( e feita atraves dela ) quando a prevista é eliminada a efetiva tb tem de ser
+    }
+
+    @Override
+    public Optional<TarefaPrevista> deleteTarefa(Long idTarefa) {
+        Optional<TarefaPrevista> optionalTarefaPrevista = tarefaPrevistaRepository.findById(idTarefa);
+        if(optionalTarefaPrevista.isPresent()){
+            TarefaPrevista tp1 = optionalTarefaPrevista.get();
+            removeLigacoesComTarefa(tp1);
+            tarefaPrevistaRepository.delete(tp1);
         }
         return Optional.empty();
     }

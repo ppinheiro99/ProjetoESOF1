@@ -10,6 +10,6 @@ import java.util.Optional;
 public interface EmpregadoService{
     List<Empregado> findAll();
     Optional<Empregado> findById(Long id);
-
     Optional<Empregado> createEmpregado(Empregado empregado);
+    Optional<Empregado> deleteEmpregado(String email);
 }
