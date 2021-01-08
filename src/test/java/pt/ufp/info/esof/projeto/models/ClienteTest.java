@@ -94,7 +94,7 @@ class ClienteTest {
         t2.getTarefaEfetiva().adicionarEmpregado(e2);
 
         t1.getTarefaEfetiva().setDuracaoHoras(5);  // o empregado 1 trabalhou 10h
-        t2.getTarefaEfetiva().setDuracaoHoras(20);  // o empregado 2 trabalhou 10h
+        t2.getTarefaEfetiva().setDuracaoHoras(19);  // o empregado 2 trabalhou 10h
         assertEquals(Estados.EmAndamento,c1.consultarEstadoProjeto(p1));
 
         t1.getTarefaEfetiva().setDuracaoHoras(0);  // o empregado 1 trabalhou 10h
@@ -105,10 +105,12 @@ class ClienteTest {
         t2.getTarefaEfetiva().setDuracaoHoras(30);  // o empregado 2 trabalhou 10h
         assertEquals(Estados.Atrasado,c1.consultarEstadoProjeto(p1));
 
-       /* t1.getTarefaEfetiva().setDuracaoHoras(20);  // o empregado 1 trabalhou 10h
+        t1.getTarefaEfetiva().setDuracaoHoras(20);  // o empregado 1 trabalhou 10h
         t2.getTarefaEfetiva().setDuracaoHoras(30);  // o empregado 2 trabalhou 10h
+        t1.getTarefaEfetiva().concluirTarefa();
+        t2.getTarefaEfetiva().concluirTarefa();
         assertEquals(Estados.Concluido,c1.consultarEstadoProjeto(p1));
-        */
+
 
 
     }

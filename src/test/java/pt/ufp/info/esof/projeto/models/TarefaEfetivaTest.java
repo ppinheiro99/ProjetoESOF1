@@ -21,7 +21,7 @@ class TarefaEfetivaTest {
         //Atrasada
         tp1.setTempoPrevistoHoras(8);
         te1.setDuracaoHoras(10);
-        assertEquals(Estados.Atrasado,te1.estadoDaTarefa());
+        assertEquals(Estados.ConcluidoComAtraso,te1.estadoDaTarefa());
         //Nao comecou
         tp1.setTempoPrevistoHoras(8);
         te1.setDuracaoHoras(0);

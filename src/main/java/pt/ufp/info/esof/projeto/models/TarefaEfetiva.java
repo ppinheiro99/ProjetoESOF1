@@ -17,14 +17,19 @@ public class TarefaEfetiva {
 
     public Estados estadoDaTarefa() { // apenas diz o estado do projeto com base no tempo efetivo e previsto, para
         if (percentagemConclusao() == 0) {
+            this.estadoTarefa=Estados.NaoComecado;
             return Estados.NaoComecado;
         } else if (percentagemConclusao() >= 1 && percentagemConclusao() <= 99 && estadoTarefa != Estados.Concluido) {
+            this.estadoTarefa=Estados.EmAndamento;
             return Estados.EmAndamento;
         } else if (percentagemConclusao() > 100 && estadoTarefa != Estados.Concluido) {
+            this.estadoTarefa=Estados.Atrasado;
             return Estados.Atrasado;
         } else if (percentagemConclusao() > 100 && estadoTarefa == Estados.Concluido) {
+            this.estadoTarefa=Estados.ConcluidoComAtraso;
             return Estados.ConcluidoComAtraso;
         }
+        this.estadoTarefa=Estados.Concluido;
         return Estados.Concluido;
     }
 
@@ -51,5 +56,11 @@ public class TarefaEfetiva {
         empregado.getTarefaEfetivas().add(this);
 
     }
+
+
+    public void concluirTarefa() {
+        this.estadoTarefa=Estados.Concluido;
+    }
+
 
 }

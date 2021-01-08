@@ -13,7 +13,7 @@ import java.util.List;
 public class Projeto {
     private long id;
     private String nome;
-
+    private Estados estadoProjeto = Estados.NaoComecado;  //INICIALMENTE FICA A NÃO COMEÇADO
     private List<TarefaPrevista> tarefaPrevistas = new ArrayList<>();
     private Cliente cliente;
 
@@ -64,24 +64,24 @@ public class Projeto {
     }
 
     public Estados estadoDoProjeto() {
-        Estados estadoProjeto = Estados.NaoComecado;
         if (duracaoEfetivaHoras() == 0) { // se ainda nao tiver horas no projeto é porque este ainda nao comecou
-            return estadoProjeto;
+            return Estados.NaoComecado;
         }
 
-        if (duracaoEfetivaHoras() < duracaoPrevistaHoras()) {
-            estadoProjeto = Estados.EmAndamento; // se o numero de horas efetivas for igual ou superior ás previstas, calculamos que ja terminaram todas as tarefas
+        if (duracaoEfetivaHoras() < duracaoPrevistaHoras()) { // se o numero de horas efetivas for igual ou superior ás previstas, calculamos que ja terminaram todas as tarefas
             return Estados.EmAndamento;
         } else { // >=
-            for (TarefaPrevista t : this.tarefaPrevistas) { // percorremos as tarefas para verificar se todas já foram concluidas
-                if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido && estadoProjeto != Estados.Concluido) {
-                    return Estados.Atrasado; // se não tiver sido conmcluido mais cedo
-                }
+            if (estadoProjeto != Estados.Concluido)
+                for (TarefaPrevista t : this.tarefaPrevistas) { // percorremos as tarefas para verificar se todas já foram concluidas
+                    if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido) {
+                        return Estados.Atrasado; // se não tiver sido conmcluido mais cedo
+                    }
 
-            }
+                }
             return Estados.Concluido;
         }
-        
+
+
     }
 
 
