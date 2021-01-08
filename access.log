@@ -2552,6 +2552,27 @@ Inicializou
 2021-01-08 16:29:36.873  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 22924 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
 2021-01-08 16:29:36.878  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
 2021-01-08 16:29:41.683  INFO 22924 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+2021-01-08 16:34:42.321  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-9IC7MPS with PID 7708 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 16:34:42.329  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 16:34:48.089  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 6.871 seconds (JVM running for 12.227)
+2021-01-08 17:14:19.209  INFO 8268 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 8268 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:14:19.216  INFO 8268 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:14:26.699  INFO 8268 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 9.243 seconds (JVM running for 14.558)
+2021-01-08 17:16:41.335  INFO 5308 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 5308 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:16:41.343  INFO 5308 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:16:49.869  INFO 5308 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 10.995 seconds (JVM running for 17.261)
+2021-01-08 17:18:26.206  INFO 8320 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 8320 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:18:26.214  INFO 8320 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:18:37.329  INFO 8320 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 15.288 seconds (JVM running for 22.108)
+2021-01-08 17:19:34.268  INFO 14108 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 14108 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:19:34.277  INFO 14108 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:19:44.809  INFO 14108 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 12.385 seconds (JVM running for 19.953)
+2021-01-08 17:24:34.182  INFO 7372 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 7372 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:24:34.203  INFO 7372 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:24:47.701  INFO 7372 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 17.159 seconds (JVM running for 26.981)
+2021-01-08 17:26:41.503  INFO 4952 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on DESKTOP-9IC7MPS with PID 4952 (C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1\target\classes started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:26:41.519  INFO 4952 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 17:27:21.315  INFO 4952 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
 
 
 Inicializou
@@ -2582,3 +2603,15 @@ Inicializou
 2021-01-08 17:45:41.620  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 820 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
 2021-01-08 17:45:41.626  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
 2021-01-08 17:45:44.867  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.997 seconds (JVM running for 6.098)
+2021-01-08 17:27:23.549  INFO 4952 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 46.295 seconds (JVM running for 58.861)
+2021-01-08 17:32:06.628  INFO 12336 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 12336 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:32:06.647  INFO 12336 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:32:36.075  INFO 12336 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 39.184 seconds (JVM running for 65.612)
+2021-01-08 17:36:48.445  INFO 9624 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 9624 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:36:48.467  INFO 9624 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 17:43:48.098  INFO 8004 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on DESKTOP-9IC7MPS with PID 8004 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:43:48.129  INFO 8004 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 17:44:01.324  INFO 8004 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 16.641 seconds (JVM running for 26.626)
+2021-01-08 17:46:52.138  INFO 7840 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on DESKTOP-9IC7MPS with PID 7840 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-08 17:46:52.169  INFO 7840 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 17:47:08.713  INFO 7840 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 20.07 seconds (JVM running for 32.025)
