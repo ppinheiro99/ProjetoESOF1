@@ -72,18 +72,16 @@ public class Projeto {
         if (duracaoEfetivaHoras() < duracaoPrevistaHoras()) {
             estadoProjeto = Estados.EmAndamento; // se o numero de horas efetivas for igual ou superior ás previstas, calculamos que ja terminaram todas as tarefas
             return Estados.EmAndamento;
-        } else {
+        } else { // >=
             for (TarefaPrevista t : this.tarefaPrevistas) { // percorremos as tarefas para verificar se todas já foram concluidas
-                if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido) {
-                    if (estadoProjeto != Estados.Concluido) { // se não tiver sido conmcluido mais cedo
-                        return Estados.EmAndamento;
-                    }
-                    return Estados.Atrasado;
+                if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido && estadoProjeto != Estados.Concluido) {
+                    return Estados.Atrasado; // se não tiver sido conmcluido mais cedo
                 }
-            }
-        }
 
-        return Estados.Concluido;
+            }
+            return Estados.Concluido;
+        }
+        
     }
 
 
