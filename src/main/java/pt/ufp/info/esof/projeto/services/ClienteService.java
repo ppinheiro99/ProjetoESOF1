@@ -9,4 +9,5 @@ public interface ClienteService {
     List<Cliente> findAll();
     Optional<Cliente> findById(Long id);
     Optional<Cliente> createCliente(Cliente cliente);
+    Optional<Cliente>deleteCliente(Long idCliente);
 }

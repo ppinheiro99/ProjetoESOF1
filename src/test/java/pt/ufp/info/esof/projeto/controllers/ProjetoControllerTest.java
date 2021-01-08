@@ -41,7 +41,6 @@ class ProjetoControllerTest {
         assertNotNull(httpResponseAsString);
 
         mockMvc.perform(get("/projeto/2")).andExpect(status().isNotFound());
-
     }
 
     @Test
