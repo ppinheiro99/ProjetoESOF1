@@ -2,7 +2,6 @@ package pt.ufp.info.esof.projeto.services;
 
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 
 import java.util.ArrayList;
@@ -28,5 +27,14 @@ public class EmpregadoServiceImpl implements EmpregadoService {
     @Override
     public Optional<Empregado> findById(Long id) {
         return empregadoRepository.findById(id);
+    }
+
+    @Override
+    public Optional<Empregado> createEmpregado(Empregado empregado) {
+        Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(empregado.getEmail());
+        if(!optionalEmpregado.isPresent()){
+            return Optional.of( empregadoRepository.save(empregado));
+        }
+        return Optional.empty();
     }
 }

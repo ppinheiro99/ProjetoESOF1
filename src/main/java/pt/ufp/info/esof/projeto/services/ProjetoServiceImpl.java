@@ -45,6 +45,7 @@ public class ProjetoServiceImpl implements ProjetoService{
             Cliente cliente = optionalCliente.get();
             cliente.getProjetos().add(projeto);
             projeto.setCliente(cliente);
+            projetoRepository.save(projeto);
             return Optional.of(projeto);
         }
         return Optional.empty();

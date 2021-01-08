@@ -3,6 +3,7 @@ package pt.ufp.info.esof.projeto.controllers;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import pt.ufp.info.esof.projeto.dtos.CriarEmpregadoDTO;
 import pt.ufp.info.esof.projeto.dtos.DTOStaticFactory;
 import pt.ufp.info.esof.projeto.dtos.EmpregadoResponseDTO;
 import pt.ufp.info.esof.projeto.models.Empregado;
@@ -38,9 +39,9 @@ public class EmpregadoController {
         }).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping() // Falta corrigir algumas cenas ver depois !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    public ResponseEntity<EmpregadoResponseDTO> createEmpregado(@RequestBody Empregado empregado){
-        Optional<Empregado> optionalEmpregado = empregadoService.findById(empregado.getId());
-        return optionalEmpregado.map(value -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
+    @PostMapping()
+    public ResponseEntity<EmpregadoResponseDTO> createEmpregado(@RequestBody CriarEmpregadoDTO empregado){
+        Optional<Empregado> optionalEmpregado = empregadoService.createEmpregado(empregado.converter());
+        return optionalEmpregado.map(value -> ResponseEntity.ok(dtoStaticFactory.criarEmpregadoDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }

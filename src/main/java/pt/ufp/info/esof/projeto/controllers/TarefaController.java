@@ -42,9 +42,10 @@ public class TarefaController {
         return optionalEmpregado.map(empregado -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(empregado))).orElseGet(() -> ResponseEntity.badRequest().build());
 
     }
-    @PostMapping() // Falta corrigir algumas cenas ver depois !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    public ResponseEntity<TarefaResponseDTO> adicionaTarefa(@RequestBody TarefaPrevista tarefa){
-        Optional<TarefaPrevista> optionalTarefa = tarefaService.findById(tarefa.getId());
+
+    @PostMapping()
+    public ResponseEntity<TarefaResponseDTO> criarTarefa(@RequestBody CriarTarefaPrevistaDTO tarefa){
+        Optional<TarefaPrevista> optionalTarefa = tarefaService.createTarefa(tarefa.converter());
         return optionalTarefa.map(tarefap -> ResponseEntity.ok(dtoStaticFactory.tarefaResponseDTO(tarefap))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 }

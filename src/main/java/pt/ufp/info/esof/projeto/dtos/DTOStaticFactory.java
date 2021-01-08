@@ -64,7 +64,13 @@ public class DTOStaticFactory {
                 .tempoHoras(projeto.duracaoPrevistaHoras())
                 .build();
     }
-
+    public EmpregadoResponseDTO criarEmpregadoDTO(Empregado empregado) {
+        return EmpregadoResponseDTO.builder()
+                .nome(empregado.getNome())
+                .email(empregado.getEmail())
+                .cargo(empregado.getCargo())
+                .build();
+    }
     public TarefaResponseDTO tarefaResponseDTO(TarefaPrevista tarefa) {
         return TarefaResponseDTO.builder()
                 .nome(tarefa.getNome())
