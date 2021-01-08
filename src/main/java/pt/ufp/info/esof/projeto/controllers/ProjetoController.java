@@ -58,7 +58,6 @@ public class ProjetoController {
         return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
 
-    // Falta o endpoint de adicionar tarefa ao projeto
     @PatchMapping("/{projetoId}/{tarefaId}")
     public ResponseEntity<ProjetoResponseDTO> associarProjetoTarefa(@PathVariable Long projetoId, @PathVariable Long tarefaId){
         Optional<Projeto> optionalProjeto = projetoService.associarTarefa(projetoId,tarefaId);

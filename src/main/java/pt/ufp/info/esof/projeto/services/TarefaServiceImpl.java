@@ -1,15 +1,12 @@
 package pt.ufp.info.esof.projeto.services;
 
 import org.springframework.stereotype.Service;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
+import pt.ufp.info.esof.projeto.repositories.ProjetoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaEfetivaRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
 
-import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -17,11 +14,13 @@ import java.util.Optional;
 
 public class TarefaServiceImpl implements TarefaService{
     private final TarefaPrevistaRepository tarefaPrevistaRepository;
+    private final ProjetoRepository projetoRepository;
     private final EmpregadoRepository empregadoRepository;
     private final TarefaEfetivaRepository tarefaEfetivaRepository;
 
-    public TarefaServiceImpl(TarefaPrevistaRepository tarefaPrevistaRepository, EmpregadoRepository empregadoRepository, TarefaEfetivaRepository tarefaEfetivaRepository) {
+    public TarefaServiceImpl(TarefaPrevistaRepository tarefaPrevistaRepository, ProjetoRepository projetoRepository, EmpregadoRepository empregadoRepository, TarefaEfetivaRepository tarefaEfetivaRepository) {
         this.tarefaPrevistaRepository = tarefaPrevistaRepository;
+        this.projetoRepository = projetoRepository;
         this.empregadoRepository = empregadoRepository;
         this.tarefaEfetivaRepository = tarefaEfetivaRepository;
     }
@@ -63,6 +62,19 @@ public class TarefaServiceImpl implements TarefaService{
                 }
             }
 
+        }
+        return Optional.empty();
+    }
+
+    @Override
+    public Optional<TarefaPrevista> createTarefa(TarefaPrevista tarefaPrevista) {
+        Optional<TarefaPrevista> optionalTarefaPrevista = tarefaPrevistaRepository.findById(tarefaPrevista.getId());
+        Optional<Projeto> optionalProjeto = projetoRepository.findById(tarefaPrevista.getProjeto().getId());
+        if(optionalProjeto.isPresent()){
+            if(!optionalTarefaPrevista.isPresent()){
+                tarefaPrevistaRepository.save(tarefaPrevista);
+                return Optional.of(tarefaPrevista);
+            }
         }
         return Optional.empty();
     }
