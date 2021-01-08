@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static pt.ufp.info.esof.projeto.models.Cargo.*;
 
 import pt.ufp.info.esof.projeto.services.TarefaServiceImpl;
+
 class ProjetoTest {
 
     @Test
@@ -14,14 +15,14 @@ class ProjetoTest {
         TarefaPrevista t1 = new TarefaPrevista();
         TarefaPrevista t2 = new TarefaPrevista();
 
-        assertEquals(0,p1.getTarefaPrevistas().size());
+        assertEquals(0, p1.getTarefaPrevistas().size());
         p1.adicionarTarefas(t1);
-        assertEquals(1,p1.getTarefaPrevistas().size());
+        assertEquals(1, p1.getTarefaPrevistas().size());
         // Nao pode adicionar porque a tarefa já foi criada
         p1.adicionarTarefas(t1);
-        assertEquals(1,p1.getTarefaPrevistas().size());
+        assertEquals(1, p1.getTarefaPrevistas().size());
         p1.adicionarTarefas(t2);
-        assertEquals(2,p1.getTarefaPrevistas().size());
+        assertEquals(2, p1.getTarefaPrevistas().size());
     }
 
     @Test
@@ -48,9 +49,9 @@ class ProjetoTest {
         t2.getTarefaEfetiva().adicionarEmpregado(e2);
 
 
-       float custo = 40 *10 + 15*10;
+        float custo = 40 * 10 + 15 * 10;
 
-        assertEquals(custo,p1.custoPrevistoProjeto());
+        assertEquals(custo, p1.custoPrevistoProjeto());
 
 
     }
@@ -83,9 +84,9 @@ class ProjetoTest {
         t1.getTarefaEfetiva().setDuracaoHoras(5);  // o empregado 1 trabalhou 10h
         t2.getTarefaEfetiva().setDuracaoHoras(20);  // o empregado 2 trabalhou 10h
 
-        float custo = 40 * 5 + 10* 20;
+        float custo = 40 * 5 + 10 * 20;
 
-        assertEquals(custo,p1.custoEfetivoProjeto());
+        assertEquals(custo, p1.custoEfetivoProjeto());
 
     }
 
@@ -117,7 +118,7 @@ class ProjetoTest {
 
         float duracao = 5 + 20;
 
-        assertEquals(duracao,p1.duracaoPrevistaHoras());
+        assertEquals(duracao, p1.duracaoPrevistaHoras());
 
     }
 
@@ -149,7 +150,7 @@ class ProjetoTest {
 
         float duracao = 10 + 20;
 
-        assertEquals(duracao,p1.duracaoEfetivaHoras());
+        assertEquals(duracao, p1.duracaoEfetivaHoras());
     }
 
     @Test
@@ -179,10 +180,10 @@ class ProjetoTest {
         t1.getTarefaEfetiva().setDuracaoHoras(5); // o empregado 1 trabalhou 10h
         t2.getTarefaEfetiva().setDuracaoHoras(7);  // o empregado 1 trabalhou 10h
 
-        float percentagem = ((7f+5f)/(10f+15f))*100 ;
+        float percentagem = ((7f + 5f) / (10f + 15f)) * 100;
 
 
-        assertEquals( (int) percentagem,p1.percentagemConclusao());
+        assertEquals((int) percentagem, p1.percentagemConclusao());
 
     }
 
@@ -212,13 +213,13 @@ class ProjetoTest {
         t1.getTarefaEfetiva().setDuracaoHoras(5); // o empregado 1 trabalhou 10h
         t2.getTarefaEfetiva().setDuracaoHoras(7);  // o empregado 1 trabalhou 10h
 
-        assertEquals( Estados.EmAndamento,p1.estadoDoProjeto());
+        assertEquals(Estados.EmAndamento, p1.estadoDoProjeto());
 
     }
 
     @Test
     void mostrarProgresso() {
-
-
+      //não ha teste para este metodo que não retorna nada
+      // Apenas aapresenta informação relativa ão projeto
     }
 }
