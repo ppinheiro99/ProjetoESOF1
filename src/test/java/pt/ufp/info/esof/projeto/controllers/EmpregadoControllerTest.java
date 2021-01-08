@@ -6,6 +6,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import pt.ufp.info.esof.projeto.dtos.CriarEmpregadoDTO;
+import pt.ufp.info.esof.projeto.dtos.CriarTarefaPrevistaDTO;
+import pt.ufp.info.esof.projeto.models.Cargo;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.services.EmpregadoService;
 
@@ -59,17 +62,18 @@ class EmpregadoControllerTest {
         Empregado empregado = new Empregado();
         empregado.setId(1L);
 
-        when(this.empregadoService.findById(empregado.getId())).thenReturn(Optional.of(empregado));
+        CriarEmpregadoDTO empregadoDTO=new CriarEmpregadoDTO();
+        empregadoDTO.setNome("teste");
+        empregadoDTO.setCargo(Cargo.desenvolvedorJunior);
+        empregadoDTO.setEmail("email");
 
-        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(empregado);
+        when(this.empregadoService.createEmpregado(empregadoDTO.converter())).thenReturn(Optional.of(empregado));
+
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(empregadoDTO);
 
         mockMvc.perform(post("/empregado").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 
-        Empregado empregado1 = new Empregado();
 
-        empregado1.setId(2L);
-        String empregado1AsJsonString=new ObjectMapper().writeValueAsString(empregado1);
 
-        mockMvc.perform(post("/empregado").content(empregado1AsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
     }
 }

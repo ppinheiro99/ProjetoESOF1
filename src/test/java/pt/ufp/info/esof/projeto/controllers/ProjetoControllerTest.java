@@ -1,4 +1,5 @@
 package pt.ufp.info.esof.projeto.controllers;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,6 +7,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import pt.ufp.info.esof.projeto.models.Projeto;
@@ -27,14 +29,38 @@ class ProjetoControllerTest {
     private ProjetoService projetoService;
 
     @Test
-    void getAllProjetos() {
+    void getAllProjetos() throws Exception {
+        Projeto projeto = new Projeto();
+        String projetoAsJsonString = new ObjectMapper().writeValueAsString(projeto);
+        Cliente c1 = new Cliente();
+        c1.setEmail("teste");
+        projeto.setCliente(c1);
+        c1.getProjetos().add(projeto);
+
+        Projeto projeto2 = new Projeto();
+        String projeto2AsJsonString = new ObjectMapper().writeValueAsString(projeto2);
+        Cliente c2 = new Cliente();
+        projeto2.setCliente(c2);
+        c2.getProjetos().add(projeto2);
+
+        List<Projeto> projetos= Arrays.asList(projeto,projeto2);
+
+        when(projetoService.findAll()).thenReturn(projetos);
+
+        String httpResponseAsString=mockMvc.perform(get("/projeto")).andDo(print()).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
+        assertNotNull(httpResponseAsString);
     }
 
     @Test
     void getProjetoById() throws Exception {
         Projeto projeto = new Projeto();
         String projetoAsJsonString = new ObjectMapper().writeValueAsString(projeto);
-        //System.out.println(tarefa);
+        Cliente c1 = new Cliente();
+        c1.setEmail("teste");
+        projeto.setCliente(c1);
+        c1.getProjetos().add(projeto);
+
+
         when(projetoService.findById(1L)).thenReturn(Optional.of(projeto));
 
         String httpResponseAsString=mockMvc.perform(get("/projeto/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
@@ -45,7 +71,20 @@ class ProjetoControllerTest {
     }
 
     @Test
-    void getCustoProjeto() {
+    void getCustoProjeto() throws Exception {
+        Projeto projeto = new Projeto();
+        String projetoAsJsonString = new ObjectMapper().writeValueAsString(projeto);
+        Cliente c1 = new Cliente();
+        c1.setEmail("teste");
+        projeto.setCliente(c1);
+        c1.getProjetos().add(projeto);
+
+
+
+        when(projetoService.findById(1L)).thenReturn(Optional.of(projeto));
+
+        String httpResponseAsString=mockMvc.perform(get("/1/valor")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
+        assertNotNull(httpResponseAsString);
     }
 
     @Test
