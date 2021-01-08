@@ -48,4 +48,14 @@ public class TarefaController {
         Optional<TarefaPrevista> optionalTarefa = tarefaService.createTarefa(tarefa.converter());
         return optionalTarefa.map(tarefap -> ResponseEntity.ok(dtoStaticFactory.tarefaResponseDTO(tarefap))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
+
+    @DeleteMapping("/{idTarefa}")
+    public ResponseEntity<Optional<TarefaPrevista>> deleteTarefa(@PathVariable Long idTarefa){
+        tarefaService.deleteTarefa(idTarefa);
+        return null;
+    }
+//    @DeleteMapping("/{emailEmpregado}")
+//    public ResponseEntity<Optional<Empregado>> deleteEmpregado(@PathVariable String emailEmpregado){
+//        return ResponseEntity.ok(empregadoService.deleteEmpregado(emailEmpregado));
+//    }
 }

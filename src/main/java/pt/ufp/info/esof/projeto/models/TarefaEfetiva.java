@@ -46,10 +46,8 @@ public class TarefaEfetiva {
     }
 
     public void adicionarEmpregado(Empregado empregado) {
-
         this.setEmpregado(empregado);
         empregado.getTarefaEfetivas().add(this);
-
     }
 
 }

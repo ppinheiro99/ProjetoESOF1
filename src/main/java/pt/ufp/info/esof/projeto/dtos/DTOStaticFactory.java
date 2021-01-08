@@ -34,6 +34,7 @@ public class DTOStaticFactory {
         List<String> tarefasEfetivas = empregado.getTarefaEfetivas().stream().map(TarefaEfetiva::getNome).collect(Collectors.toList());
         return EmpregadoResponseDTO.builder()
                 .nome(empregado.getNome())
+                .email(empregado.getEmail())
                 .cargo(empregado.getCargo())
                 .tarefasEfetivas(tarefasEfetivas)
                 .build();

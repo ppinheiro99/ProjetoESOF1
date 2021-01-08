@@ -44,4 +44,9 @@ public class EmpregadoController {
         Optional<Empregado> optionalEmpregado = empregadoService.createEmpregado(empregado.converter());
         return optionalEmpregado.map(value -> ResponseEntity.ok(dtoStaticFactory.criarEmpregadoDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
+
+    @DeleteMapping("/{emailEmpregado}")
+    public ResponseEntity<Optional<Empregado>> deleteEmpregado(@PathVariable String emailEmpregado){
+        return ResponseEntity.ok(empregadoService.deleteEmpregado(emailEmpregado));
+    }
 }

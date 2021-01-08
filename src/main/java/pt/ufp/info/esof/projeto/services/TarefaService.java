@@ -11,4 +11,6 @@ public interface TarefaService{
     Optional<Empregado> atribuiTarefasEmpregados(String emailEmpregado, Long idTarefa);
 
     Optional<TarefaPrevista> createTarefa(TarefaPrevista converter);
+
+    Optional<TarefaPrevista> deleteTarefa(Long idTarefa);
 }
