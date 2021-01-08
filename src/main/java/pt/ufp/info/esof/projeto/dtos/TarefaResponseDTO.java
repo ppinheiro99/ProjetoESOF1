@@ -13,4 +13,5 @@ public class TarefaResponseDTO {
     private String nome;
     private float tempoPrevistoHoras;
     private long idProjeto;
+
 }
