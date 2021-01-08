@@ -40,17 +40,28 @@ class TarefaEfetivaTest {
     @Test
     void custoEfetivoTarefa() {
         TarefaEfetiva te1 = new TarefaEfetiva();
-        TarefaPrevista tp1 = new TarefaPrevista();
-
-        te1.setTarefaPrevista(tp1);
-        tp1.setTarefaEfetiva(te1);
-
-        assertEquals(Estados.ConcluidoComAtraso,te1.custoEfetivoTarefa());
+        Empregado e1 = new Empregado();
+        e1.setCargo(Cargo.analistaSenior); //80 euros/h
+        te1.adicionarEmpregado(e1);
+        te1.setDuracaoHoras(15); //15 h trabalhadas
+        float custo  = 1200 ;//15*80=1200
+        assertEquals(custo,te1.custoEfetivoTarefa());
 
     }
 
     @Test
     void percentagemConclusao() {
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setTempoPrevistoHoras(30);
+        tp1.atribuirTarefaEfetiva();
+        Empregado e1 = new Empregado();
+        e1.setCargo(Cargo.analistaSenior); //80 euros/h
+        tp1.getTarefaEfetiva().adicionarEmpregado(e1);
+        tp1.getTarefaEfetiva().setDuracaoHoras(15); //15 h trabalhadas
+
+
+        float percentagem  = 50 ;//15/30*100=50%
+        assertEquals((int) percentagem,tp1.getTarefaEfetiva().percentagemConclusao());
 
     }
 

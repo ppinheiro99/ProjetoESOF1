@@ -21,7 +21,7 @@ public class TarefaPrevista {
     }
 
 
-    public void atribuirTarefaPrevista(){
+    public void atribuirTarefaEfetiva(){
         this.tarefaEfetiva = new TarefaEfetiva();
         this.tarefaEfetiva.setId(this.getId());
         this.tarefaEfetiva.setNome(this.getNome());

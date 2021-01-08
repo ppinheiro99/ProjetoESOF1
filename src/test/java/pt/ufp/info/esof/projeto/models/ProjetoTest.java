@@ -36,8 +36,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
 
         Empregado e1 = new Empregado();
@@ -68,8 +68,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
 
         Empregado e1 = new Empregado();
@@ -101,8 +101,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
@@ -133,8 +133,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
@@ -165,8 +165,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
@@ -198,8 +198,8 @@ class ProjetoTest {
         t1.setTempoPrevistoHoras(10);
         t2.setTempoPrevistoHoras(15);
 
-        t1.atribuirTarefaPrevista();
-        t2.atribuirTarefaPrevista();
+        t1.atribuirTarefaEfetiva();
+        t2.atribuirTarefaEfetiva();
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
