@@ -7286,3 +7286,15 @@ Inicializou
 2021-01-09 14:12:44.532  INFO 7356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 7356 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
 2021-01-09 14:12:44.582  INFO 7356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
 2021-01-09 14:12:51.429  INFO 7356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 8.733 seconds (JVM running for 13.897)
+2021-01-09 15:19:23.305  INFO 4580 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on DESKTOP-9IC7MPS with PID 4580 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-09 15:19:23.356  INFO 4580 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-09 15:19:39.935  INFO 4580 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 22.639 seconds (JVM running for 39.001)
+2021-01-09 15:21:05.802  INFO 6620 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on DESKTOP-9IC7MPS with PID 6620 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-09 15:21:05.850  INFO 6620 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-09 15:21:22.824  INFO 6620 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 22.977 seconds (JVM running for 36.477)
+2021-01-09 15:22:31.781  INFO 1940 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on DESKTOP-9IC7MPS with PID 1940 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-09 15:22:31.827  INFO 1940 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-09 15:22:46.690  INFO 1940 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 18.686 seconds (JVM running for 29.484)
+2021-01-09 15:28:20.788  INFO 10172 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on DESKTOP-9IC7MPS with PID 10172 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-09 15:28:20.804  INFO 10172 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-09 15:28:34.363  INFO 10172 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 17.556 seconds (JVM running for 27.99)
