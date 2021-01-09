@@ -113,7 +113,6 @@ class ProjetoControllerTest {
     }
 
 
-
     @Test
     void associarProjetoTarefa() throws Exception {
         Projeto projeto = new Projeto();
@@ -130,7 +129,9 @@ class ProjetoControllerTest {
 
         when(projetoService.findById(1L)).thenReturn(Optional.of(projeto));
         String projetoAsJsonString=new ObjectMapper().writeValueAsString(projeto);
-        mockMvc.perform(patch("/projeto/"+ projeto.getId() +"/" + tarefa.getId()).content(projetoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+
+       mockMvc.perform(patch("/projeto/"+ projeto.getId() +"/" + tarefa.getId()).content(projetoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+
     }
 
 
