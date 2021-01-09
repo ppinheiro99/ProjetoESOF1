@@ -51,4 +51,8 @@ public class TarefaController {
     public ResponseEntity<Optional<TarefaPrevista>> deleteTarefa(@PathVariable Long idTarefa){
         return ResponseEntity.ok(tarefaService.deleteTarefa(idTarefa));
     }
+
+
+
+
 }
