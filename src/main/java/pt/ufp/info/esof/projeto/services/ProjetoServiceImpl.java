@@ -68,6 +68,34 @@ public class ProjetoServiceImpl implements ProjetoService{
     }
 
     @Override
+    public Optional<Projeto> assocTarefasProjeto(Long projetoid, Long idTarefa) {
+
+        Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoid);
+        Optional<TarefaPrevista> optionalTarefaPrevista = this.tarefaPrevistaRepository.findById(idTarefa);
+        System.out.println(projetoid);
+        System.out.println(idTarefa);
+        System.out.println(optionalProjeto);
+        System.out.println(optionalTarefaPrevista);
+        if(optionalProjeto.isPresent() && optionalTarefaPrevista.isPresent()) {
+
+
+             System.out.println("hello");
+            Projeto projeto = optionalProjeto.get();
+            TarefaPrevista tarefaPrevista = optionalTarefaPrevista.get();
+
+            projeto.adicionarTarefas(tarefaPrevista);
+
+            tarefaPrevista.setProjeto(projeto);
+
+            tarefaPrevistaRepository.save(tarefaPrevista);
+
+            return Optional.of(projeto);
+
+        }
+        return Optional.empty();
+    }
+
+    @Override
     public Optional<Projeto> criarProjeto(Projeto projeto) {
         Optional<Cliente> optionalCliente = clienteRepository
                 .findById(projeto.getCliente().getId());

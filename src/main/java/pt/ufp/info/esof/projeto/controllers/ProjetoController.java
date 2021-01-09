@@ -57,4 +57,14 @@ public class ProjetoController {
     public ResponseEntity<Optional<Projeto>> deleteProjeto(@PathVariable Long idProjeto){
        return ResponseEntity.ok(projetoService.deleteProjeto(idProjeto));
     }
+
+    @PatchMapping(value = "/{projetoid}/{idTarefa}")
+    public ResponseEntity<ProjetoResponseDTO> patchTarefasProjeto(@PathVariable("projetoid") Long projetoid, @PathVariable("idTarefa") Long idTarefa) {
+        Optional<Projeto> optionalProjeto = projetoService.assocTarefasProjeto(projetoid,idTarefa);
+       // System.out.println(optionalProjeto.get());
+       // System.out.println(tarefaPrevista);
+       // return optionalEmpregado.map(empregado -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(empregado))).orElseGet(() -> ResponseEntity.badRequest().build());
+        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
+    }
+
 }

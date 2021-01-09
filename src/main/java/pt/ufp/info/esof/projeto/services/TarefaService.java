@@ -8,6 +8,7 @@ import java.util.Optional;
 public interface TarefaService{
     List<TarefaPrevista> findAll();
     Optional<TarefaPrevista> findById(Long id);
+
     Optional<Empregado> atribuiTarefasEmpregados(String emailEmpregado, Long idTarefa);
 
     Optional<TarefaPrevista> createTarefa(TarefaPrevista converter);
