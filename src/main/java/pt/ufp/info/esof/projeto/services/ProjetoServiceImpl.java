@@ -86,42 +86,6 @@ public class ProjetoServiceImpl implements ProjetoService{
     }
 
     @Override
-    public Optional<Projeto> adicionarTarefa(Long projetoId, TarefaPrevista tarefa) {
-        Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
-        if(optionalProjeto.isPresent()){
-            if(!optionalProjeto.get().getTarefaPrevistas().contains(tarefa)) {
-                Projeto projeto = optionalProjeto.get();
-                int quantidadeDeTarefasAntes = projeto.getTarefaPrevistas().size();
-                projeto.adicionarTarefas(tarefa);
-                int quantidadeDeTarefasDepois = projeto.getTarefaPrevistas().size();
-                if (quantidadeDeTarefasDepois != quantidadeDeTarefasAntes) {
-                    return Optional.of(projeto);
-                }
-            }
-        }
-        return Optional.empty();
-    }
-
-    @Override
-    public Optional<Projeto> associarTarefa(Long projetoId, Long tarefaId) {
-        Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
-        Optional<TarefaPrevista> optionalTarefa = this.tarefaPrevistaRepository.findById(tarefaId);
-        if(optionalProjeto.isPresent()){
-            if(!optionalProjeto.get().getTarefaPrevistas().contains(optionalTarefa.get())) {
-                Projeto projeto = optionalProjeto.get();
-                TarefaPrevista tp1 = optionalTarefa.get();
-                int quantidadeDeTarefasAntes = projeto.getTarefaPrevistas().size();
-                projeto.adicionarTarefas(tp1);
-                int quantidadeDeTarefasDepois = projeto.getTarefaPrevistas().size();
-                if (quantidadeDeTarefasDepois != quantidadeDeTarefasAntes) {
-                    return Optional.of(projeto);
-                }
-            }
-        }
-        return Optional.empty();
-    }
-
-    @Override
     public Float custoPrevistoProjeto(Long projetoId) {
         Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
         if(optionalProjeto.isPresent()){

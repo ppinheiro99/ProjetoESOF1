@@ -53,17 +53,7 @@ public class ProjetoController {
         Optional<Projeto> optionalProjeto = projetoService.criarProjeto(projeto.converter());
         return optionalProjeto.map(value -> ResponseEntity.ok(dtoStaticFactory.criarProjetoDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
-    @PatchMapping("/{projetoId}")
-    public ResponseEntity<ProjetoResponseDTO> adicionaTarefa(@PathVariable Long projetoId, @RequestBody TarefaCreateDTO tarefa){
-        Optional<Projeto> optionalProjeto = projetoService.adicionarTarefa(projetoId,tarefa.converter());
-        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
-    }
 
-    @PatchMapping("/{projetoId}/{tarefaId}")
-    public ResponseEntity<ProjetoResponseDTO> associarProjetoTarefa(@PathVariable Long projetoId, @PathVariable Long tarefaId){
-        Optional<Projeto> optionalProjeto = projetoService.associarTarefa(projetoId,tarefaId);
-        return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
-    }
     @DeleteMapping("/{idProjeto}")
     public ResponseEntity<Optional<Projeto>> deleteProjeto(@PathVariable Long idProjeto){
        return ResponseEntity.ok(projetoService.deleteProjeto(idProjeto));

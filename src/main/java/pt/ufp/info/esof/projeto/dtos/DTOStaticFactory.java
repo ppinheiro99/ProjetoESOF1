@@ -47,10 +47,10 @@ public class DTOStaticFactory {
     }
 
     public ProjetoResponseDTO projetoResponseDTO(Projeto projeto) {
-        List<TarefaCreateDTO> createDTOList = projeto.getTarefaPrevistas().stream().map(tarefas ->
-                TarefaCreateDTO.builder()
+        List<CriarTarefaPrevistaDTO> createDTOList = projeto.getTarefaPrevistas().stream().map(tarefas ->
+                CriarTarefaPrevistaDTO.builder()
                         .nome(tarefas.getNome())
-                        .tempoPrevistoHoras(tarefas.getTempoPrevistoHoras())
+                        .duracaoHoras(tarefas.getTempoPrevistoHoras())
                         .build()
         ).collect(Collectors.toList());
 

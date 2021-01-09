@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 public class ProjetoResponseDTO {
     private String nome;
-    private List<TarefaCreateDTO> tarefas = new ArrayList<>();
+    private List<CriarTarefaPrevistaDTO> tarefas = new ArrayList<>();
     private String emailCliente;
     private float custo;
     private float tempoHoras;
