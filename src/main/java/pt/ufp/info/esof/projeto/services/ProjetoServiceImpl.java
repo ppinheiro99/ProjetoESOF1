@@ -105,7 +105,7 @@ public class ProjetoServiceImpl implements ProjetoService{
     @Override
     public Optional<Projeto> associarTarefa(Long projetoId, Long tarefaId) {
         Optional<Projeto> optionalProjeto = this.projetoRepository.findById(projetoId);
-        Optional<TarefaPrevista> optionalTarefa = this.tarefaPrevistaRepository.findById(projetoId);
+        Optional<TarefaPrevista> optionalTarefa = this.tarefaPrevistaRepository.findById(tarefaId);
         if(optionalProjeto.isPresent()){
             if(!optionalProjeto.get().getTarefaPrevistas().contains(optionalTarefa.get())) {
                 Projeto projeto = optionalProjeto.get();

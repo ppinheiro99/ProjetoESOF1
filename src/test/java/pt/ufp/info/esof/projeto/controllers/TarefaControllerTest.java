@@ -129,7 +129,7 @@ class TarefaControllerTest {
 
         when(tarefaService.findById(tarefa.getId())).thenReturn(Optional.of(tarefa));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tarefa);
-        mockMvc.perform(delete("/"+tarefa.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
+        mockMvc.perform(delete("/tarefa/"+tarefa.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
 
 
     }
