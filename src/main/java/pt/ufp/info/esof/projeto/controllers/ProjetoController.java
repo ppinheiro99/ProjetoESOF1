@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import pt.ufp.info.esof.projeto.dtos.*;
 import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import java.util.ArrayList;

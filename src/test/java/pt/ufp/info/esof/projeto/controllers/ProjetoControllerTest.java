@@ -8,7 +8,6 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.dtos.CriarProjetoDTO;
 import pt.ufp.info.esof.projeto.models.Cliente;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import pt.ufp.info.esof.projeto.models.Projeto;
@@ -114,24 +113,24 @@ class ProjetoControllerTest {
 
 
 
-    @Test
-    void associarProjetoTarefa() throws Exception {
-        Projeto projeto = new Projeto();
-        projeto.setId(1L);
-        Cliente c1 = new Cliente();
-        c1.setEmail("teste");
-        projeto.setCliente(c1);
-
-        TarefaPrevista tarefa = new TarefaPrevista();
-        tarefa.setId(1L);
-        tarefa.setNome("teste");
-        tarefa.setTempoPrevistoHoras(10);
-        tarefa.atribuirTarefaEfetiva();
-
-        when(projetoService.findById(1L)).thenReturn(Optional.of(projeto));
-        String projetoAsJsonString=new ObjectMapper().writeValueAsString(projeto);
-        mockMvc.perform(patch("/projeto/"+ projeto.getId() +"/" + tarefa.getId()).content(projetoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
-    }
+//    @Test
+//    void associarProjetoTarefa() throws Exception {
+//        Projeto projeto = new Projeto();
+//        projeto.setId(1L);
+//        Cliente c1 = new Cliente();
+//        c1.setEmail("teste");
+//        projeto.setCliente(c1);
+//
+//        TarefaPrevista tarefa = new TarefaPrevista();
+//        tarefa.setId(1L);
+//        tarefa.setNome("teste");
+//        tarefa.setTempoPrevistoHoras(10);
+//        tarefa.atribuirTarefaEfetiva();
+//
+//        when(projetoService.findById(1L)).thenReturn(Optional.of(projeto));
+//        String projetoAsJsonString=new ObjectMapper().writeValueAsString(projeto);
+//        mockMvc.perform(patch("/projeto/"+ projeto.getId() +"/" + tarefa.getId()).content(projetoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
+//    }
 
 
 

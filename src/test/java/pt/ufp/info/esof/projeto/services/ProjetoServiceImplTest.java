@@ -6,8 +6,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
-
-
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -22,9 +20,6 @@ class ProjetoServiceImplTest {
 
     @MockBean
     private ProjetoServiceImpl projetoServiceImpl;
-
-
-
 
     @Test
     void findAll() {
@@ -61,8 +56,6 @@ class ProjetoServiceImplTest {
         }else{
             assertNotEquals(1,0);
         }
-
-
     }
 
     @Test

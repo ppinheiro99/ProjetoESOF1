@@ -1,11 +1,7 @@
 package pt.ufp.info.esof.projeto.models;
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static pt.ufp.info.esof.projeto.models.Cargo.*;
-
-import pt.ufp.info.esof.projeto.services.TarefaServiceImpl;
 
 class ProjetoTest {
 

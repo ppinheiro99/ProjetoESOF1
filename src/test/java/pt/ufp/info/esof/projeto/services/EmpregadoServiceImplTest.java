@@ -2,22 +2,16 @@ package pt.ufp.info.esof.projeto.services;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.web.servlet.MockMvc;
-import pt.ufp.info.esof.projeto.controllers.EmpregadoController;
 import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 
 import java.util.ArrayList;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 @SpringBootTest(classes = EmpregadoServiceImpl.class)
 class EmpregadoServiceImplTest {
 
@@ -29,14 +23,14 @@ class EmpregadoServiceImplTest {
     @Test
     void findAll() {
         when(empregadoServiceImpl.findAll()).thenReturn(new ArrayList<>());
-        assertNotNull(empregadoServiceImpl.findAll());
+        assertNotNull(empregadoService.findAll());
     }
 
     @Test
     void findById() {
         when(empregadoServiceImpl.findById(1L)).thenReturn(Optional.of(new Empregado()));
-        assertTrue(empregadoServiceImpl.findById(1L).isPresent());
-        assertTrue(empregadoServiceImpl.findById(2L).isEmpty());
+        assertTrue(empregadoService.findById(1L).isPresent());
+        assertTrue(empregadoService.findById(2L).isEmpty());
     }
 
     @Test
@@ -46,7 +40,7 @@ class EmpregadoServiceImplTest {
 
         when(empregadoServiceImpl.createEmpregado(e)).thenReturn(Optional.of(e));
 
-        assertTrue(empregadoServiceImpl.createEmpregado(e).isPresent());
+        assertTrue(empregadoService.createEmpregado(e).isPresent());
     }
 
     @Test
@@ -56,6 +50,6 @@ class EmpregadoServiceImplTest {
 
         when(empregadoServiceImpl.deleteEmpregado(e.getEmail())).thenReturn(Optional.of(e));
 
-        assertTrue(empregadoServiceImpl.deleteEmpregado(e.getEmail()).isPresent());
+        assertTrue(empregadoService.deleteEmpregado(e.getEmail()).isPresent());
     }
 }

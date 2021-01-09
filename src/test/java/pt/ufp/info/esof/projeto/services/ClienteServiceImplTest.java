@@ -1,11 +1,8 @@
 package pt.ufp.info.esof.projeto.services;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Cliente;
-import pt.ufp.info.esof.projeto.models.Projeto;
-
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -15,7 +12,6 @@ import static org.mockito.Mockito.when;
 class ClienteServiceImplTest {
     @MockBean
     private ClienteService clienteService;
-
 
     @Test
     void findAll() {
