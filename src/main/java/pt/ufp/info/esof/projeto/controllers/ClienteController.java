@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import pt.ufp.info.esof.projeto.dtos.*;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Empregado;
+import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.services.ClienteService;
 
 import java.util.ArrayList;
@@ -41,5 +42,10 @@ public class ClienteController {
     public ResponseEntity<ClienteResponseDTO> createCliente(@RequestBody CriarClienteDTO cliente){
         Optional<Cliente> optionalCliente = clienteService.createCliente(cliente.converter());
         return optionalCliente.map(value -> ResponseEntity.ok(dtoStaticFactory.clienteResponseDTO(value))).orElseGet(() -> ResponseEntity.badRequest().build());
+    }
+
+    @DeleteMapping("/{idCliente}")
+    public ResponseEntity<Optional<Cliente>> deleteCliente(@PathVariable Long idCliente){
+        return ResponseEntity.ok(clienteService.deleteCliente(idCliente));
     }
 }
