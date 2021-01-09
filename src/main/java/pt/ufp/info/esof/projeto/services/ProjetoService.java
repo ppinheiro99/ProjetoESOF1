@@ -8,8 +8,6 @@ import java.util.Optional;
 
 public interface ProjetoService {
     Optional<Projeto> criarProjeto(Projeto projeto);
-    Optional<Projeto> adicionarTarefa(Long projetoId, TarefaPrevista tarefa);
-    Optional<Projeto> associarTarefa(Long projetoId, Long tarefaId);
     Float custoPrevistoProjeto(Long id);
     Float duracaoPrevistaProjeto(Long id);
     List<Projeto> findAll();

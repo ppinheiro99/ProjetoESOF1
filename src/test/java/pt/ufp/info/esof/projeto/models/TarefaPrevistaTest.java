@@ -15,11 +15,8 @@ class TarefaPrevistaTest {
         e1.setCargo(Cargo.analistaSenior); //80 euros/h
         tp1.getTarefaEfetiva().adicionarEmpregado(e1);
 
-
         float custo  = 30*80;
         assertEquals(custo,tp1.custoPrevistoTarefa());
-
-
 
     }
 }

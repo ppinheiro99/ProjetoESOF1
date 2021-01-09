@@ -1,6 +1,5 @@
 package pt.ufp.info.esof.projeto.controllers;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,9 +8,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.dtos.CriarTarefaPrevistaDTO;
+import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.TarefaService;
 
@@ -63,7 +62,6 @@ class TarefaControllerTest {
         Projeto p1 = new Projeto();
         tarefa.setProjeto(p1);
         p1.getTarefaPrevistas().add(tarefa);
-        //System.out.println(tarefa);
         when(tarefaService.findById(1L)).thenReturn(Optional.of(tarefa));
 
         String httpResponseAsString=mockMvc.perform(get("/tarefa/1")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
@@ -91,24 +89,11 @@ class TarefaControllerTest {
         tarefaDTO.setDuracaoHoras(10);
         tarefaDTO.setProjetoID(1L);
 
-
-
         when(this.tarefaService.createTarefa(tarefaDTO.converter())).thenReturn(Optional.of(tarefa));
 
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tarefaDTO);
 
         mockMvc.perform(post("/tarefa").content(tarefaAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
-
-//        TarefaPrevista tarefa1 = new TarefaPrevista();
-//        String tarefa1AsJsonString=new ObjectMapper().writeValueAsString(tarefa1);
-//        Projeto p2 = new Projeto();
-//        tarefa.setProjeto(p2);
-//        p2.getTarefaPrevistas().add(tarefa);
-//        tarefa1.setId(2L);
-//
-//
-//        mockMvc.perform(post("/tarefa").content(tarefa1AsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isBadRequest());
-
     }
 
     @Test
@@ -120,17 +105,28 @@ class TarefaControllerTest {
         tarefa.setNome("teste");
         tarefa.setTempoPrevistoHoras(10);
 
-        //p1.getTarefaPrevistas().add(tarefa);
         p1.setId(1L);
-
-
-
-
 
         when(tarefaService.findById(tarefa.getId())).thenReturn(Optional.of(tarefa));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tarefa);
         mockMvc.perform(delete("/tarefa/"+tarefa.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
+    }
 
+    @Test
+    void testPatchTarefasEmpregado() throws Exception {
+        Empregado e1 = new Empregado();
+        e1.setEmail("teste");
+        e1.setNome("teste");
+        Cliente c1 = new Cliente();
+        Projeto p1 = new Projeto();
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setId(1L);
 
+        tp1.setProjeto(p1);
+        p1.setCliente(c1);
+
+        when(tarefaService.findById(tp1.getId())).thenReturn(Optional.of(tp1));
+        String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tp1);
+        mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
     }
 }
