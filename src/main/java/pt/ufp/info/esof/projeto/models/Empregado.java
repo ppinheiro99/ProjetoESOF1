@@ -18,4 +18,5 @@ public class Empregado {
     public int valorHora(){
         return cargo.valorHora;
     }
+
 }

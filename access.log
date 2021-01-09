@@ -7244,3 +7244,223 @@ Inicializou
 2021-01-09 12:38:38.771  INFO 7596 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 7596 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
 2021-01-09 12:38:38.780  INFO 7596 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
 2021-01-09 12:38:42.648  INFO 7596 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 4.943 seconds (JVM running for 7.215)
+2021-01-09 12:48:03.081  INFO 9176 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 9176 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 12:48:03.085  INFO 9176 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-09 12:48:05.669  INFO 9176 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 3.101 seconds (JVM running for 4.381)
+2021-01-09 12:51:35.444  INFO 10424 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 10424 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 12:51:35.449  INFO 10424 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-09 12:51:37.894  INFO 10424 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 2.978 seconds (JVM running for 4.377)
+2021-01-09 12:59:14.402  INFO 16008 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 16008 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 12:59:14.408  INFO 16008 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-09 12:59:17.515  INFO 16008 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 3.775 seconds (JVM running for 5.507)
+2021-01-09 13:09:34.306  INFO 2400 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 2400 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 13:09:34.314  INFO 2400 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 13:09:39.062  INFO 2400 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.822 seconds (JVM running for 8.401)
+2021-01-09 13:10:39.977  INFO 23112 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 23112 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 13:10:39.988  INFO 23112 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 13:10:44.734  INFO 23112 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.987 seconds (JVM running for 8.563)
+2021-01-09 13:14:28.552  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 26592 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 13:14:28.563  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 13:14:33.435  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.882 seconds (JVM running for 8.488)
+2021-01-09 13:15:32.137  INFO 24808 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 24808 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 13:15:32.148  INFO 24808 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 13:15:36.717  INFO 24808 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.684 seconds (JVM running for 8.325)
+2021-01-09 14:13:33.864  INFO 8796 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 8796 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:13:33.873  INFO 8796 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:13:38.474  INFO 8796 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.799 seconds (JVM running for 8.512)
+2021-01-09 14:15:27.663  INFO 11068 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 11068 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:15:27.673  INFO 11068 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:15:33.022  INFO 11068 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.57 seconds (JVM running for 9.278)
+2021-01-09 14:15:59.479  INFO 26968 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 26968 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:15:59.486  INFO 26968 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:16:04.701  INFO 26968 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.268 seconds (JVM running for 8.91)
+2021-01-09 14:25:26.482  INFO 26704 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 26704 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:25:26.491  INFO 26704 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:25:31.374  INFO 26704 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 5.938 seconds (JVM running for 8.53)
+2021-01-09 14:31:51.363  INFO 21992 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 21992 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:31:51.372  INFO 21992 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:31:56.714  INFO 21992 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.55 seconds (JVM running for 9.656)
+2021-01-09 14:32:41.196  INFO 5928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 5928 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:32:41.208  INFO 5928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:32:46.260  INFO 5928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.317 seconds (JVM running for 9.029)
+2021-01-09 14:34:36.385  INFO 23020 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 23020 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:34:36.394  INFO 23020 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:34:41.710  INFO 23020 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.559 seconds (JVM running for 9.605)
+2021-01-09 14:35:49.239  INFO 23620 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 23620 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:35:49.256  INFO 23620 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:35:55.276  INFO 23620 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 7.448 seconds (JVM running for 10.54)
+2021-01-09 14:37:03.076  INFO 23140 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 23140 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:37:03.118  INFO 23140 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:37:08.396  INFO 23140 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.511 seconds (JVM running for 9.579)
+2021-01-09 14:40:26.216  INFO 26928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 26928 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:40:26.245  INFO 26928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:40:31.576  INFO 26928 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 7.283 seconds (JVM running for 10.204)
+2021-01-09 14:47:06.120  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 26592 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:47:06.131  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:47:11.356  INFO 26592 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 6.365 seconds (JVM running for 9.344)
+2021-01-09 14:48:47.075  INFO 24416 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 24416 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:48:47.079  INFO 24416 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:48:47.590 ERROR 24416 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' in your configuration.
+
+2021-01-09 14:48:47.611 ERROR 24416 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5e3f861] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@30b34287]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1621) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at java.base/java.util.Optional.orElseGet(Optional.java:362) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71) ~[junit-jupiter-engine-5.6.3.jar:5.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.6.3.jar:1.6.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[junit-platform-launcher-1.6.3.jar:1.6.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[junit-platform-launcher-1.6.3.jar:1.6.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) ~[junit-platform-launcher-1.6.3.jar:1.6.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) ~[junit-platform-launcher-1.6.3.jar:1.6.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132) ~[junit-platform-launcher-1.6.3.jar:1.6.3]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'empregadoServiceImpl': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 63 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 82 common frames omitted
+
+2021-01-09 14:49:40.214  INFO 1388 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 1388 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:49:40.218  INFO 1388 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:49:42.197  INFO 1388 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 2.806 seconds (JVM running for 5.488)
+2021-01-09 14:53:31.239  INFO 18832 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 18832 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:53:31.243  INFO 18832 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:53:33.040  INFO 18832 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 2.615 seconds (JVM running for 5.286)
+2021-01-09 14:54:42.493  INFO 19028 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 19028 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 14:54:42.497  INFO 19028 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 14:54:44.654  INFO 19028 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 2.945 seconds (JVM running for 5.388)
+2021-01-09 15:12:29.953  INFO 13236 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 13236 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:12:29.960  INFO 13236 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 15:12:32.107  INFO 13236 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 3.006 seconds (JVM running for 5.774)
+2021-01-09 15:19:16.603  INFO 11824 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 11824 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:19:16.610  INFO 11824 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-09 15:19:26.080  INFO 11824 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-09 15:19:26.247  INFO 11824 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 10.494 seconds (JVM running for 13.438)
+2021-01-09 15:29:17.354  INFO 27996 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 27996 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:17.358  INFO 27996 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:19.388  INFO 27996 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 3.161 seconds (JVM running for 6.038)
+2021-01-09 15:29:20.039  INFO 27996 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 27996 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:20.046  INFO 27996 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:23.255  INFO 27996 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 3.326 seconds (JVM running for 9.905)
+2021-01-09 15:29:23.932  INFO 27996 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 27996 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:23.937  INFO 27996 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:25.057  INFO 27996 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 1.208 seconds (JVM running for 11.707)
+2021-01-09 15:29:25.411  INFO 27996 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 27996 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:25.417  INFO 27996 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:26.689  INFO 27996 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 1.36 seconds (JVM running for 13.339)
+2021-01-09 15:29:26.875  INFO 27996 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 27996 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:26.879  INFO 27996 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:27.864  INFO 27996 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 1.058 seconds (JVM running for 14.514)
+2021-01-09 15:29:56.633  INFO 13288 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 13288 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:29:56.638  INFO 13288 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-09 15:29:59.689  INFO 13288 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 4.818 seconds (JVM running for 9.743)
+2021-01-09 15:30:00.525  INFO 13288 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 13288 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:30:00.545  INFO 13288 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-09 15:30:05.603  INFO 13288 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.241 seconds (JVM running for 15.657)
+2021-01-09 15:30:06.638  INFO 13288 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 13288 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:30:06.645  INFO 13288 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-09 15:30:08.149  INFO 13288 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 1.639 seconds (JVM running for 18.203)
+2021-01-09 15:30:08.564  INFO 13288 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 13288 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:30:08.572  INFO 13288 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-09 15:30:10.129  INFO 13288 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 1.655 seconds (JVM running for 20.183)
+2021-01-09 15:30:10.372  INFO 13288 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 13288 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-09 15:30:10.376  INFO 13288 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-09 15:30:11.994  INFO 13288 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 1.703 seconds (JVM running for 22.047)

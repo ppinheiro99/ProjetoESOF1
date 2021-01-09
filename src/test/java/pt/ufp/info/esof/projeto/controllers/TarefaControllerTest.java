@@ -71,10 +71,6 @@ class TarefaControllerTest {
     }
 
     @Test
-    void patchTarefasEmpregado() {
-    }
-
-    @Test
     void criarTarefa() throws Exception {
         TarefaPrevista tarefa = new TarefaPrevista();
         Projeto p1 = new Projeto();
@@ -127,6 +123,6 @@ class TarefaControllerTest {
 
         when(tarefaService.findById(tp1.getId())).thenReturn(Optional.of(tp1));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tp1);
-        mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
+        mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isBadRequest());
     }
 }

@@ -40,18 +40,6 @@ public class EmpregadoServiceImpl implements EmpregadoService {
         }
         return Optional.empty();
     }
-
-    // remove as tarefas e o empregado
-    public void removerTarefasEmpregado(Empregado e){
-        for (TarefaEfetiva te:e.getTarefaEfetivas()) {
-            te.setEmpregado(null); // remove o empregado da tarefa
-            te.getTarefaPrevista().setTarefaEfetiva(null); // remove a ligacao da tarefaPrevista com a Efetiva
-            te.setTarefaPrevista(null); // remove a ligacao da TarefaEfetiva com a tarefa prevista
-            tarefaEfetivaRepository.delete(te); // remove tarefa efetiva da base de dados
-        }
-        e.getTarefaEfetivas().clear(); // "zera" o array list de tarefas efetivas do empregado
-    }
-
     @Override
     public Optional<Empregado> deleteEmpregado(String email) {
         Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(email);
@@ -59,7 +47,13 @@ public class EmpregadoServiceImpl implements EmpregadoService {
             Empregado e1 = optionalEmpregado.get();
             // se o empregado tiver tarefas temos de remover todas as ligacoes em "cascata"
             if (!e1.getTarefaEfetivas().isEmpty()) {
-                removerTarefasEmpregado(e1);
+                for (TarefaEfetiva te:e1.getTarefaEfetivas()) {
+                    te.setEmpregado(null); // remove o empregado da tarefa
+                    te.getTarefaPrevista().setTarefaEfetiva(null); // remove a ligacao da tarefaPrevista com a Efetiva
+                    te.setTarefaPrevista(null); // remove a ligacao da TarefaEfetiva com a tarefa prevista
+                    tarefaEfetivaRepository.delete(te); // remove tarefa efetiva da base de dados
+                }
+                e1.getTarefaEfetivas().clear(); // "zera" o array list de tarefas efetivas do empregado
             }
             empregadoRepository.delete(optionalEmpregado.get()); // remove o empregado
 
