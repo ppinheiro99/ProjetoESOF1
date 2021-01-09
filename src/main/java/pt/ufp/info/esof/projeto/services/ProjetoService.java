@@ -13,4 +13,6 @@ public interface ProjetoService {
     List<Projeto> findAll();
     Optional<Projeto> findById(Long id);
     Optional<Projeto> deleteProjeto(Long idProjeto);
+
+
 }
