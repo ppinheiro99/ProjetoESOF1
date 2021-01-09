@@ -35,7 +35,7 @@ public class EmpregadoServiceImpl implements EmpregadoService {
     @Override
     public Optional<Empregado> createEmpregado(Empregado empregado) {
         Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(empregado.getEmail());
-        if(!optionalEmpregado.isPresent()){
+        if(optionalEmpregado.isEmpty()){
             return Optional.of( empregadoRepository.save(empregado));
         }
         return Optional.empty();
@@ -56,7 +56,6 @@ public class EmpregadoServiceImpl implements EmpregadoService {
                 e1.getTarefaEfetivas().clear(); // "zera" o array list de tarefas efetivas do empregado
             }
             empregadoRepository.delete(optionalEmpregado.get()); // remove o empregado
-
         }
         return Optional.empty();
     }

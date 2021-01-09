@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Controller
@@ -51,5 +52,11 @@ public class ClienteController {
     public ResponseEntity<Optional<Cliente>> deleteCliente(@PathVariable Long idCliente){
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(clienteService.deleteCliente(idCliente));
+    }
+    @GetMapping("/search")
+    public ResponseEntity<Optional<Cliente>> searchCliente(@RequestParam Map<String,String> query){
+        this.logger.info("Received a get request");
+        return ResponseEntity.ok(clienteService.searchCliente(query));
+        //return ResponseEntity.notFound().build();
     }
 }

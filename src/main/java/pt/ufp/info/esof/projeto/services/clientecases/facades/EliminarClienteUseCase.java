@@ -1,46 +1,23 @@
-package pt.ufp.info.esof.projeto.services;
+package pt.ufp.info.esof.projeto.services.clientecases.facades;
 
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
+import pt.ufp.info.esof.projeto.services.ProjetoServiceImpl;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ClienteServiceImpl implements ClienteService{
+public class EliminarClienteUseCase {
     private final ClienteRepository clienteRepository;
     private final ProjetoServiceImpl projetoService;
 
-    public ClienteServiceImpl(ClienteRepository clienteRepository, ProjetoServiceImpl projetoService) {
+    public EliminarClienteUseCase(ClienteRepository clienteRepository, ProjetoServiceImpl projetoService) {
         this.clienteRepository = clienteRepository;
         this.projetoService = projetoService;
     }
 
-    @Override
-    public List<Cliente> findAll() {
-        List<Cliente> c =new ArrayList<>();
-        clienteRepository.findAll().forEach(c::add);
-        return c;
-    }
-
-    @Override
-    public Optional<Cliente> findById(Long id) {
-        return clienteRepository.findById(id);
-    }
-
-    @Override
-    public Optional<Cliente> createCliente(Cliente cliente) {
-        Optional<Cliente> optionalCliente = clienteRepository.findByEmail(cliente.getEmail());
-        if(!optionalCliente.isPresent()){
-            return Optional.of(clienteRepository.save(cliente));
-        }
-        return Optional.empty();
-    }
-
-    @Override
     public Optional<Cliente> deleteCliente(Long idCliente) {
         Optional<Cliente> optionalCliente = clienteRepository
                 .findById(idCliente);
@@ -61,5 +38,4 @@ public class ClienteServiceImpl implements ClienteService{
 
         return Optional.empty();
     }
-
 }
