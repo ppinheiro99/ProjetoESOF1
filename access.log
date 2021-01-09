@@ -2549,6 +2549,9 @@ Inicializou
 2021-01-08 11:51:47.413  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-BRGOIH9 with PID 13700 (started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
 2021-01-08 11:51:47.426  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
 2021-01-08 11:51:49.687  INFO 13700 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.058 seconds (JVM running for 4.76)
+2021-01-08 16:29:36.873  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 22924 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:29:36.878  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:29:41.683  INFO 22924 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
 2021-01-08 16:34:42.321  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on DESKTOP-9IC7MPS with PID 7708 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
 2021-01-08 16:34:42.329  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
 2021-01-08 16:34:48.089  INFO 7708 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 6.871 seconds (JVM running for 12.227)
@@ -2576,6 +2579,30 @@ Inicializou
 
 
 
+2021-01-08 16:29:41.760  INFO 22924 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 5.432 seconds (JVM running for 7.197)
+2021-01-08 16:35:32.415  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 19344 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:35:32.419  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:35:36.939  INFO 19344 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 16:35:37.017  INFO 19344 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.978 seconds (JVM running for 6.334)
+2021-01-08 16:52:44.914  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 20560 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 16:52:44.918  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 16:52:51.293  INFO 20560 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 16:52:51.398  INFO 20560 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.947 seconds (JVM running for 9.117)
+2021-01-08 17:45:41.620  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 820 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 17:45:41.626  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 17:45:44.867  INFO 820 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 3.997 seconds (JVM running for 6.098)
 2021-01-08 17:27:23.549  INFO 4952 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 46.295 seconds (JVM running for 58.861)
 2021-01-08 17:32:06.628  INFO 12336 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on DESKTOP-9IC7MPS with PID 12336 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
 2021-01-08 17:32:06.647  INFO 12336 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
@@ -2789,3 +2816,494 @@ Inicializou
 2021-01-08 23:54:11.260  INFO 26532 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on DESKTOP-9IC7MPS with PID 26532 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
 2021-01-08 23:54:11.279  INFO 26532 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
 2021-01-08 23:54:26.061  INFO 26532 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 19.052 seconds (JVM running for 31.644)
+2021-01-08 18:00:55.562  INFO 9628 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 9628 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:00:55.579  INFO 9628 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:00:59.400  INFO 9628 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.642 seconds (JVM running for 6.911)
+2021-01-08 18:04:44.544  INFO 8176 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 8176 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:04:44.553  INFO 8176 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:04:48.224  INFO 8176 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.537 seconds (JVM running for 6.694)
+2021-01-08 18:12:00.064  INFO 5540 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 5540 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:12:00.075  INFO 5540 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:12:03.813  INFO 5540 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.628 seconds (JVM running for 6.553)
+2021-01-08 18:15:49.375  INFO 14876 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 14876 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:15:49.384  INFO 14876 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:15:53.643  INFO 14876 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.268 seconds (JVM running for 7.222)
+2021-01-08 18:17:00.844  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 16200 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:17:00.853  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:17:05.079  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.256 seconds (JVM running for 7.711)
+2021-01-08 18:19:08.360  INFO 21668 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 21668 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:19:08.375  INFO 21668 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:19:11.861  INFO 21668 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.581 seconds (JVM running for 6.992)
+2021-01-08 18:19:32.987  INFO 22276 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 22276 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:19:32.996  INFO 22276 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:19:36.492  INFO 22276 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.397 seconds (JVM running for 6.204)
+2021-01-08 18:20:58.460  INFO 17952 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 17952 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:20:58.466  INFO 17952 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 18:21:01.945  INFO 17952 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 4.355 seconds (JVM running for 6.56)
+2021-01-08 18:27:05.338  INFO 1048 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 1048 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:27:05.344  INFO 1048 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:27:08.553  INFO 1048 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 3.989 seconds (JVM running for 6.093)
+2021-01-08 18:27:37.831  INFO 23608 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 23608 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:27:37.840  INFO 23608 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:27:41.797  INFO 23608 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.971 seconds (JVM running for 6.976)
+2021-01-08 18:31:53.605  INFO 20192 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 20192 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:31:53.612  INFO 20192 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:31:59.620  INFO 20192 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 7.175 seconds (JVM running for 9.444)
+2021-01-08 18:32:00.339  INFO 19336 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 19336 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:32:00.349  INFO 19336 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 18:32:04.013  INFO 19336 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 5.112 seconds (JVM running for 8.002)
+2021-01-08 18:32:30.221  INFO 12088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 12088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:32:30.230  INFO 12088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-08 18:32:34.021  INFO 12088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 4.817 seconds (JVM running for 6.905)
+2021-01-08 18:32:50.418  INFO 10216 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 10216 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:32:50.430  INFO 10216 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:32:54.480  INFO 10216 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.209 seconds (JVM running for 7.347)
+2021-01-08 18:33:24.201  INFO 15616 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 15616 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:33:24.211  INFO 15616 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:33:28.012  INFO 15616 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.042 seconds (JVM running for 7.733)
+2021-01-08 18:34:16.536  INFO 22184 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 22184 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:34:16.543  INFO 22184 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:34:20.097  INFO 22184 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.601 seconds (JVM running for 6.451)
+2021-01-08 18:38:00.256  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 16200 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:38:00.272  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:38:03.894  INFO 16200 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.754 seconds (JVM running for 7.364)
+2021-01-08 18:41:22.735  INFO 10008 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 10008 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:41:22.750  INFO 10008 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:41:26.397  INFO 10008 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.806 seconds (JVM running for 7.193)
+2021-01-08 18:42:11.740  INFO 24016 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 24016 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:42:11.753  INFO 24016 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:42:15.632  INFO 24016 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.828 seconds (JVM running for 7.24)
+2021-01-08 18:43:33.801  INFO 16660 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 16660 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:43:33.822  INFO 16660 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:43:37.785  INFO 16660 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.886 seconds (JVM running for 6.927)
+2021-01-08 18:45:09.682  INFO 15320 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 15320 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:45:09.692  INFO 15320 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:45:13.881  INFO 15320 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 5.284 seconds (JVM running for 7.713)
+2021-01-08 18:50:06.821  INFO 24312 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 24312 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:50:06.829  INFO 24312 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:50:10.363  INFO 24312 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.299 seconds (JVM running for 6.055)
+2021-01-08 18:51:27.121  INFO 20664 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 20664 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:51:27.128  INFO 20664 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:51:30.668  INFO 20664 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 4.26 seconds (JVM running for 6.18)
+2021-01-08 18:52:42.145  INFO 16844 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 16844 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:52:42.152  INFO 16844 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:52:45.402  INFO 16844 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 3.987 seconds (JVM running for 6.001)
+2021-01-08 18:55:25.871  INFO 11144 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 11144 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:55:25.877  INFO 11144 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-08 18:55:29.101  INFO 11144 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 4.018 seconds (JVM running for 6.048)
+2021-01-08 18:57:22.620  INFO 21304 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 21304 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 18:57:22.641  INFO 21304 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 18:57:28.004  INFO 21304 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 6.427 seconds (JVM running for 8.783)
+2021-01-08 20:25:29.018  INFO 28440 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 28440 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 20:25:29.024  INFO 28440 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-08 20:25:31.552  INFO 28440 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 3.087 seconds (JVM running for 4.543)
+2021-01-08 20:25:40.518  INFO 20520 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 20520 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 20:25:40.524  INFO 20520 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 20:25:45.825  INFO 20520 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 20:25:45.918  INFO 20520 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 5.996 seconds (JVM running for 8.399)
+2021-01-08 22:33:21.441  INFO 6652 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 6652 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:33:21.445  INFO 6652 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:33:27.101  INFO 6652 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:33:27.206  INFO 6652 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.294 seconds (JVM running for 8.244)
+2021-01-08 22:34:36.865 ERROR 6652 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Entity must not be null!; nested exception is java.lang.IllegalArgumentException: Entity must not be null!] with root cause
+
+java.lang.IllegalArgumentException: Entity must not be null!
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.delete(SimpleJpaRepository.java:188) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:550) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy116.delete(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy74.delete(Unknown Source) ~[na:na]
+	at pt.ufp.info.esof.projeto.services.TarefaServiceImpl.removeLigacoesComTarefa(TarefaServiceImpl.java:93) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.ProjetoServiceImpl.removeTarefasProjeto(ProjetoServiceImpl.java:43) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.ProjetoServiceImpl.deleteProjeto(ProjetoServiceImpl.java:55) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.deleteProjeto(ProjetoController.java:69) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-08 22:39:26.553  INFO 21208 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 21208 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:39:26.558  INFO 21208 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:39:32.318  INFO 21208 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:39:32.426  INFO 21208 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.4 seconds (JVM running for 8.417)
+2021-01-08 22:39:42.068 ERROR 21208 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Entity must not be null!; nested exception is java.lang.IllegalArgumentException: Entity must not be null!] with root cause
+
+java.lang.IllegalArgumentException: Entity must not be null!
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.delete(SimpleJpaRepository.java:188) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:550) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy116.delete(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy74.delete(Unknown Source) ~[na:na]
+	at pt.ufp.info.esof.projeto.services.TarefaServiceImpl.removeLigacoesComTarefa(TarefaServiceImpl.java:94) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.ProjetoServiceImpl.removeTarefasProjeto(ProjetoServiceImpl.java:43) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.ProjetoServiceImpl.deleteProjeto(ProjetoServiceImpl.java:55) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.deleteProjeto(ProjetoController.java:69) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-08 22:40:57.680  INFO 3276 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 3276 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:40:57.686  INFO 3276 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:42:02.858  INFO 24092 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 24092 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:42:02.864  INFO 24092 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:42:08.291  INFO 24092 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:42:08.391  INFO 24092 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.015 seconds (JVM running for 8.069)
+2021-01-08 22:42:20.320 ERROR 24092 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.ConcurrentModificationException] with root cause
+
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1009) ~[na:na]
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:963) ~[na:na]
+	at org.hibernate.collection.internal.AbstractPersistentCollection$IteratorProxy.next(AbstractPersistentCollection.java:883) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at pt.ufp.info.esof.projeto.services.ProjetoServiceImpl.deleteProjeto(ProjetoServiceImpl.java:54) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.deleteProjeto(ProjetoController.java:69) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-08 22:44:34.599  INFO 15120 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 15120 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:44:34.603  INFO 15120 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:44:40.532  INFO 15120 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:44:40.661  INFO 15120 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.585 seconds (JVM running for 8.554)
+2021-01-08 22:49:41.826  INFO 12616 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 12616 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:49:41.834  INFO 12616 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:49:47.634  INFO 12616 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:49:47.747  INFO 12616 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.439 seconds (JVM running for 8.505)
+2021-01-08 22:54:57.981  INFO 20832 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 20832 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:54:57.987  INFO 20832 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:55:04.352  INFO 20832 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:55:04.455  INFO 20832 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.998 seconds (JVM running for 9.051)
+2021-01-08 22:58:28.441  INFO 19544 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 19544 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 22:58:28.445  INFO 19544 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 22:58:33.931  INFO 19544 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 22:58:34.031  INFO 19544 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.114 seconds (JVM running for 8.04)
+2021-01-08 23:00:48.420  INFO 10116 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 10116 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 23:00:48.424  INFO 10116 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 23:00:54.403  INFO 10116 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 23:00:54.507  INFO 10116 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.574 seconds (JVM running for 8.705)
+2021-01-08 23:40:42.118  INFO 16568 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 16568 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 23:40:42.122  INFO 16568 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 23:40:47.834  INFO 16568 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 23:40:47.945  INFO 16568 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.389 seconds (JVM running for 8.539)
+2021-01-08 23:42:02.924 ERROR 16568 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.ConcurrentModificationException] with root cause
+
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1009) ~[na:na]
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:963) ~[na:na]
+	at org.hibernate.collection.internal.AbstractPersistentCollection$IteratorProxy.next(AbstractPersistentCollection.java:883) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at pt.ufp.info.esof.projeto.services.ClienteServiceImpl.deleteCliente(ClienteServiceImpl.java:50) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ClienteController.deleteCliente(ClienteController.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-08 23:44:24.494  INFO 27500 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 27500 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-08 23:44:24.499  INFO 27500 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-08 23:44:30.051  INFO 27500 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-08 23:44:30.160  INFO 27500 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.152 seconds (JVM running for 8.126)
