@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.dtos.CriarProjetoDTO;
 import pt.ufp.info.esof.projeto.models.Cliente;
+import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import pt.ufp.info.esof.projeto.models.Projeto;

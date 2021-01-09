@@ -14,7 +14,6 @@ import pt.ufp.info.esof.projeto.repositories.*;
 
 @Component
 public class Inicializacao implements ApplicationListener<ContextRefreshedEvent> {
-
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private final ClienteRepository clienteRepository;
@@ -66,32 +65,12 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         associarTarefaProjeto(tp1,p1);
         associarTarefaProjeto(tp2,p1);
         associarTarefaProjeto(tp3,p2);
-        associarTarefaProjeto(tp3,p3);
+        associarTarefaProjeto(tp4,p3);
         associarTarefaProjeto(tp5,p3);
 
         associarTarefaEmpregado(tp1,e1);
         associarTarefaEmpregado(tp2,e2);
 
-
-
-
-
-
-
-
-
-        /*
-
-            Projeto p = new Projeto();
-            Tarefa t = new Tarefa();
-            t.setNome("tarefa1");
-            p.getTarefas().add(t);
-            System.out.println( p.estadoDoProjeto());
-
-            System.out.println(p);
-       */
-
-        //c1.getProjetos().get(0).mostrarProgresso();
     }
 
 
@@ -146,9 +125,9 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         tarefaPrevista.atribuirTarefaEfetiva();
         tarefaPrevista.getTarefaEfetiva().setEmpregado(empregado);
         empregado.getTarefaEfetivas().add(tarefaPrevista.getTarefaEfetiva());
-       tarefaEfetivaRepository.save(tarefaPrevista.getTarefaEfetiva());
-       tarefaPrevistaRepository.save(tarefaPrevista);
-       empregadoRepository.save(empregado);
+        tarefaEfetivaRepository.save(tarefaPrevista.getTarefaEfetiva());
+        tarefaPrevistaRepository.save(tarefaPrevista);
+        empregadoRepository.save(empregado);
     }
 
 }
