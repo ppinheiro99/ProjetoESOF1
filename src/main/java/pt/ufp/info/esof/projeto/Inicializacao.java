@@ -15,7 +15,12 @@ import pt.ufp.info.esof.projeto.repositories.*;
 @Component
 public class Inicializacao implements ApplicationListener<ContextRefreshedEvent> {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Logger logger = LoggerFactory.getLogger(this.getClass());
+=======
+
+    Logger logger= LoggerFactory.getLogger(this.getClass());
+>>>>>>> parent of 5d40acc... add respositorios estaticos para testes do swagger ui
 =======
 
     Logger logger= LoggerFactory.getLogger(this.getClass());
@@ -41,6 +46,7 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         logger.info("\n\n\nInicializou\n\n\n");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         Projeto p1 = criarProjeto("ESOF");
         Projeto p2 = criarProjeto("Projeto2");
@@ -136,6 +142,47 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         empregadoRepository.save(empregado);
     }
 
+=======
+        Projeto p1 = new Projeto();
+        p1.setNome("ESOF");
+
+        Cliente c1 = new Cliente();
+        c1.setNome("Armando");
+        c1.setEmail("teste@gmail.com");
+        this.clienteRepository.save(c1);
+
+        Empregado e1 = new Empregado();
+        e1.setNome("Pedro");
+        e1.setEmail("36763@ufp.edu.pt");
+        e1.setCargo(Cargo.desenvolvedorSenior);
+        this.empregadoRepository.save(e1);
+
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setNome("Tarefa1");
+        tp1.setTempoPrevistoHoras(8);
+        p1.adicionarTarefas(tp1); // associa o projeto à tarefa e vice-versa
+
+
+        p1.setCliente(c1); // associa projeto ao cliente
+        c1.getProjetos().add(p1); // associa cliente ao projeto
+
+        this.projetoRepository.save(p1);
+        tarefaPrevistaRepository.save(tp1); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
+
+        System.out.println("\n" + "valorHora: "+ e1.valorHora()+"\n");
+        /*
+            Projeto p = new Projeto();
+            Tarefa t = new Tarefa();
+            t.setNome("tarefa1");
+            p.getTarefas().add(t);
+            System.out.println( p.estadoDoProjeto());
+
+            System.out.println(p);
+       */
+
+        //c1.getProjetos().get(0).mostrarProgresso();
+    }
+>>>>>>> parent of 5d40acc... add respositorios estaticos para testes do swagger ui
 =======
         Projeto p1 = new Projeto();
         p1.setNome("ESOF");

@@ -2397,6 +2397,7 @@ Inicializou
 2021-01-09 13:56:19.322  INFO 14732 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
 2021-01-09 13:56:22.352  INFO 14732 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 3.791 seconds (JVM running for 5.488)
 <<<<<<< HEAD
+<<<<<<< HEAD
 2021-01-09 15:19:39.169  INFO 9608 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on DESKTOP-BRGOIH9 with PID 9608 (C:\Users\Samuel Mota\Documents\ProjetoESOF1\target\classes started by Samuel Mota in C:\Users\Samuel Mota\Documents\ProjetoESOF1)
 2021-01-09 15:19:39.172  INFO 9608 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
 2021-01-09 15:19:44.107  INFO 9608 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
@@ -6333,5 +6334,7 @@ Consider defining a bean of type 'pt.ufp.info.esof.projeto.services.ClienteServi
 2021-01-09 21:36:48.800  INFO 8428 --- [main] p.u.i.e.p.r.ClienteRepositoryTest        : Starting ClienteRepositoryTest on LAPTOP-2FDA8FO3 with PID 8428 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
 2021-01-09 21:36:48.803  INFO 8428 --- [main] p.u.i.e.p.r.ClienteRepositoryTest        : No active profile set, falling back to default profiles: default
 2021-01-09 21:36:53.948  INFO 8428 --- [main] p.u.i.e.p.r.ClienteRepositoryTest        : Started ClienteRepositoryTest in 5.22 seconds (JVM running for 23.735)
+=======
+>>>>>>> parent of 5d40acc... add respositorios estaticos para testes do swagger ui
 =======
 >>>>>>> parent of 5d40acc... add respositorios estaticos para testes do swagger ui
