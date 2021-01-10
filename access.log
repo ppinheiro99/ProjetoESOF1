@@ -27918,3 +27918,53 @@ Inicializou
 2021-01-10 14:33:41.534  INFO 14876 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
 2021-01-10 14:33:41.545  INFO 14876 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
 2021-01-10 14:33:41.566  INFO 14876 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-10 15:12:07.681  INFO 30900 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 30900 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-10 15:12:07.694  INFO 30900 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-10 15:13:36.163  INFO 30900 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-10 15:13:38.776  INFO 30900 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 94.957 seconds (JVM running for 113.297)
+2021-01-10 15:28:32.770  INFO 36356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 36356 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-10 15:28:32.777  INFO 36356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-10 15:29:33.964  INFO 36356 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-10 15:29:35.184  INFO 36356 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 65.623 seconds (JVM running for 77.051)
+2021-01-10 15:32:28.731  INFO 37524 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 37524 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-10 15:32:28.740  INFO 37524 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-10 15:33:18.583  INFO 37524 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-10 15:33:20.464  INFO 37524 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 54.059 seconds (JVM running for 64.919)
+2021-01-10 15:35:59.809  INFO 31736 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 31736 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-10 15:35:59.817  INFO 31736 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-10 15:36:51.786  INFO 31736 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-10 15:36:53.500  INFO 31736 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 56.305 seconds (JVM running for 68.799)
+2021-01-10 15:37:32.803  INFO 29384 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on DESKTOP-9IC7MPS with PID 29384 (started by jotaSV in C:\Users\jotaSV\Documents\GitHub\ProjetoESOF1)
+2021-01-10 15:37:32.811  INFO 29384 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-10 15:38:27.093  INFO 29384 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-10 15:38:29.095  INFO 29384 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 59.626 seconds (JVM running for 71.397)
