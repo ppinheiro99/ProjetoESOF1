@@ -6,6 +6,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import pt.ufp.info.esof.projeto.dtos.CriarTarefaPrevistaDTO;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
@@ -145,12 +146,13 @@ class TarefaControllerTest {
         te1.setTarefaPrevista(tp1);
         te1.setEmpregado(e1);
         tp1.setProjeto(p);
+        float duracao = 8.0f;
 
-
-        when(tarefaService.atribuiHorasTarefa(te1.getId(),8.0f)).thenReturn(Optional.of(te1));
+        when(tarefaService.atribuiHorasTarefa(te1.getId(),duracao)).thenReturn(Optional.of(te1));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(te1);
         System.out.println(tarefaAsJsonString);
-        mockMvc.perform(patch("/duracao/"+te1.getId()+"/"+8.0f).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
+        mockMvc.perform(patch("/tarefa/"+"/"+te1.getId()+"/"+duracao+"/tempo").contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
+        mockMvc.perform(patch("/tarefa/"+"/"+8+"/"+duracao+"/tempo").contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
 
     }
 }

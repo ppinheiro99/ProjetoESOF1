@@ -69,4 +69,13 @@ public class DTOStaticFactory {
                 .email(cliente.getEmail())
                 .build();
     }
+
+    public TarefaEfetivaResponseDTO tarefaEfetivaResponseDTO(TarefaEfetiva tarefaEfetiva) {
+        return TarefaEfetivaResponseDTO.builder()
+                .nome(tarefaEfetiva.getNome())
+                .idEmpregado(tarefaEfetiva.getEmpregado().getId())
+                .duracaoHoras(tarefaEfetiva.getDuracaoHoras())
+                .idTarefaPrevista(tarefaEfetiva.getTarefaPrevista().getId())
+                .build();
+    }
 }

@@ -50,7 +50,6 @@ public class TarefaController {
         this.logger.info("Received a patch request");
         Optional<Empregado> optionalEmpregado = tarefaService.atribuiTarefasEmpregados(emailEmpregado,idTarefa);
         return optionalEmpregado.map(empregado -> ResponseEntity.ok(dtoStaticFactory.empregadoResponseDTO(empregado))).orElseGet(() -> ResponseEntity.badRequest().build());
-
     }
     @PostMapping()
     public ResponseEntity<TarefaResponseDTO> criarTarefa(@RequestBody CriarTarefaPrevistaDTO tarefa){
@@ -63,21 +62,16 @@ public class TarefaController {
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(tarefaService.deleteTarefa(idTarefa));
     }
-    @PatchMapping(value ="/duracao/{idTarefa}/{duracaoHoras}")
-    public ResponseEntity<ProjetoResponseDTO> atribuiHorasTarefa(@PathVariable("idTarefa") Long idTarefa, @PathVariable("duracaoHoras")Float duracaoHoras){
+    @PatchMapping(value ="/{idTarefa}/{duracaoHoras}/tempo")
+    public ResponseEntity<TarefaEfetivaResponseDTO> atribuiHorasTarefa(@PathVariable("idTarefa") Long idTarefa, @PathVariable("duracaoHoras")Float duracaoHoras){
         this.logger.info("Received a patch request");
-        Optional<TarefaPrevista> optionalTarefaPrevista = tarefaService.findById(idTarefa); // tarefa efetiva e prevista em o mesmo id
-        if(optionalTarefaPrevista.isPresent()){
-            TarefaPrevista tp = optionalTarefaPrevista.get();
-            Optional<Projeto> optionalProjeto = projetoService.findById(tp.getProjeto().getId());
             Optional<TarefaEfetiva> optionalTarefaEfetiva= tarefaService.atribuiHorasTarefa(idTarefa, duracaoHoras); // atribui as horas da tarefa
             if(optionalTarefaEfetiva.isPresent()){
-                return optionalProjeto.map(projeto -> { // para retornar o projeto com os dados atualizados
-                    ProjetoResponseDTO projetoResponseDTO = dtoStaticFactory.projetoResponseDTO(projeto);
-                    return ResponseEntity.ok(projetoResponseDTO);
+                return optionalTarefaEfetiva.map(tarefaEfetiva -> { // para retornar o projeto com os dados atualizados
+                    TarefaEfetivaResponseDTO tarefaEfetivaResponseDTO = dtoStaticFactory.tarefaEfetivaResponseDTO(tarefaEfetiva);
+                    return ResponseEntity.ok(tarefaEfetivaResponseDTO);
                 }).orElseGet(() -> ResponseEntity.notFound().build());
             }
-        }
         return ResponseEntity.notFound().build();
     }
 }
