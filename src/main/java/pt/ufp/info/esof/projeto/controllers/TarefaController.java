@@ -59,8 +59,4 @@ public class TarefaController {
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(tarefaService.deleteTarefa(idTarefa));
     }
-
-
-
-
 }

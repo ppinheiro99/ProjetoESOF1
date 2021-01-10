@@ -49,21 +49,20 @@ public class TarefaServiceImpl implements TarefaService{
     public Optional<Empregado> atribuiTarefasEmpregados(String emailEmpregado, Long idTarefa) {
         Optional<Empregado> optionalEmpregado = this.empregadoRepository.findByEmail(emailEmpregado);
         Optional<TarefaPrevista> optionalTarefaPrevista = this.tarefaPrevistaRepository.findById(idTarefa);
-        if(optionalEmpregado.isPresent() && optionalTarefaPrevista.isPresent() ){
+        if(optionalEmpregado.isPresent()){
+            if(optionalTarefaPrevista.isPresent()){
                 TarefaPrevista tp1 = optionalTarefaPrevista.get();
                 if(!optionalEmpregado.get().getTarefaEfetivas().contains(tp1)) {
-
                     TarefaEfetiva t1 = convertTarefaPevistaEfetiva(tp1); // converve a tp1 para tarefa prevista
                     t1.setEmpregado(optionalEmpregado.get()); // associa o empregado à tarefa
                     tarefaEfetivaRepository.save(t1); // adiconar tarefa à  BD mal esta seja associada ao empregago
                     optionalEmpregado.get().getTarefaEfetivas().add(t1); // so pode associar depois da tefetiva estiver na BD
                     tp1.setTarefaEfetiva(t1);
-
                     return optionalEmpregado;
                 }
             }
 
-
+        }
         return Optional.empty();
     }
 
