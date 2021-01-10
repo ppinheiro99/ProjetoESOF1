@@ -37,10 +37,8 @@ public class TarefaServiceFacades implements TarefaService {
 
     @Override
     public Optional<Empregado> atribuiTarefasEmpregados(String emailEmpregado, Long idTarefa) {
-        Optional<Empregado> e = atribuiTarefaEmpregado.atribuiTarefasEmpregados(emailEmpregado,idTarefa);
-        //return atribuiTarefaEmpregado.atribuiTarefasEmpregados(emailEmpregado,idTarefa);
-        System.out.println(e);
-        return null;
+        return atribuiTarefaEmpregado.atribuiTarefasEmpregados(emailEmpregado,idTarefa);
+
     }
 
     @Override
