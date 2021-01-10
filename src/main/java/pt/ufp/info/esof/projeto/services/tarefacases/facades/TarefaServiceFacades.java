@@ -18,14 +18,16 @@ public class TarefaServiceFacades implements TarefaService {
     private final ListTodasTarefasUseCase listTodasTarefasUseCase;
     private final AtribuiTarefaEmpregado atribuiTarefaEmpregado;
     private final AtribuiHorasTarefa atribuiHorasTarefa;
+    private final ConcluirTarefa concluirTarefa;
 
-    public TarefaServiceFacades(EliminarTarefaUseCase eliminarTarefaUseCase, CriarTarefaUseCase criarTarefaUseCase, ListaTarefaPorIdUseCase listaExplicadorPorIdUseCase, ListTodasTarefasUseCase listTodasTarefasUseCase, AtribuiTarefaEmpregado atribuiTarefaEmpregado, AtribuiHorasTarefa atribuiHorasTarefa) {
+    public TarefaServiceFacades(EliminarTarefaUseCase eliminarTarefaUseCase, CriarTarefaUseCase criarTarefaUseCase, ListaTarefaPorIdUseCase listaExplicadorPorIdUseCase, ListTodasTarefasUseCase listTodasTarefasUseCase, AtribuiTarefaEmpregado atribuiTarefaEmpregado, AtribuiHorasTarefa atribuiHorasTarefa, ConcluirTarefa concluirTarefa) {
         this.eliminarTarefaUseCase = eliminarTarefaUseCase;
         this.criarTarefaUseCase = criarTarefaUseCase;
         this.listaExplicadorPorIdUseCase = listaExplicadorPorIdUseCase;
         this.listTodasTarefasUseCase = listTodasTarefasUseCase;
         this.atribuiTarefaEmpregado = atribuiTarefaEmpregado;
         this.atribuiHorasTarefa = atribuiHorasTarefa;
+        this.concluirTarefa = concluirTarefa;
     }
 
     @Override
@@ -56,5 +58,10 @@ public class TarefaServiceFacades implements TarefaService {
     @Override
     public Optional<TarefaEfetiva> atribuiHorasTarefa(Long idTarefa,Float duracaoHoras) {
         return atribuiHorasTarefa.atribuiHoras(idTarefa, duracaoHoras);
+    }
+
+    @Override
+    public Optional<TarefaEfetiva> concluirTarefa(Long idTarefa) {
+        return concluirTarefa.terminarTarefa(idTarefa);
     }
 }

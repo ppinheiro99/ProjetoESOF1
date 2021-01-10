@@ -4,9 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
 import pt.ufp.info.esof.projeto.services.tarefacases.facades.*;
@@ -37,7 +35,8 @@ class TarefaServiceImplTest {
     private AtribuiHorasTarefa atribuiHorasTarefa;
     @MockBean
     private EmpregadoRepository empregadoRepository;
-
+    @MockBean
+    private ConcluirTarefa concluirTarefa;
     @Test
     void findAll() {
         when(listTodasTarefasUseCase.findAll()).thenReturn(new ArrayList<>());
@@ -92,5 +91,18 @@ class TarefaServiceImplTest {
         assertTrue(tarefaService.atribuiHorasTarefa(tp1.getId(),8.0f).isPresent());
     }
 
+    @Test
+    void concluirTarefa() {
+        TarefaEfetiva te1 = new TarefaEfetiva();
+        te1.setId(1L);
+        Empregado e1 = new Empregado();
+        e1.setId(1L);
+
+        te1.setEmpregado(e1);
+        te1.setDuracaoHoras(6);
+
+        when(concluirTarefa.terminarTarefa(te1.getId())).thenReturn(Optional.of(te1));
+        assertTrue(tarefaService.concluirTarefa(te1.getId()).isPresent());
+    }
 
 }

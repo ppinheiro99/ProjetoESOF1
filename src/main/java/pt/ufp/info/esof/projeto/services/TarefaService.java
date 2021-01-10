@@ -13,4 +13,5 @@ public interface TarefaService{
     Optional<TarefaPrevista> createTarefa(TarefaPrevista converter);
     Optional<TarefaPrevista> deleteTarefa(Long idTarefa);
     Optional<TarefaEfetiva> atribuiHorasTarefa(Long idTarefa,Float duracaoHoras);
+    Optional<TarefaEfetiva> concluirTarefa(Long idTarefa);
 }
