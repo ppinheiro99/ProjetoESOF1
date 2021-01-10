@@ -53,10 +53,10 @@ public class ClienteController {
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(clienteService.deleteCliente(idCliente));
     }
-    @GetMapping("/search")
-    public ResponseEntity<Optional<Cliente>> searchCliente(@RequestParam Map<String,String> query){
-        this.logger.info("Received a get request");
-        return ResponseEntity.ok(clienteService.searchCliente(query));
-        //return ResponseEntity.notFound().build();
-    }
+//    @GetMapping("/search")
+//    public ResponseEntity<Optional<Cliente>> searchCliente(@RequestParam Map<String,String> query){
+//        this.logger.info("Received a get request");
+//        return ResponseEntity.ok(clienteService.searchCliente(query));
+//        //return ResponseEntity.notFound().build();
+//    }
 }

@@ -1,5 +1,4 @@
 package pt.ufp.info.esof.projeto.controllers;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +11,14 @@ import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.services.ProjetoService;
 import pt.ufp.info.esof.projeto.services.TarefaService;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -31,6 +31,8 @@ class TarefaControllerTest {
     private MockMvc mockMvc;
     @MockBean
     private TarefaService tarefaService;
+    @MockBean
+    private ProjetoService projetoService;
 
     @Test
     void getAllTarefas() throws Exception {
@@ -124,5 +126,9 @@ class TarefaControllerTest {
         when(tarefaService.findById(tp1.getId())).thenReturn(Optional.of(tp1));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tp1);
         mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void atribuiHorasTarefa() throws Exception {
     }
 }

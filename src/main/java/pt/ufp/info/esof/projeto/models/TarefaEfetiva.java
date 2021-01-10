@@ -38,7 +38,8 @@ public class TarefaEfetiva {
     }
 
     public float duracaoEfetivaHoras(float duracao) {
-        return duracaoHoras = duracao;
+        setDuracaoHoras(getDuracaoHoras() + duracao);
+        return duracao;
     }
 
     public int percentagemConclusao() {
