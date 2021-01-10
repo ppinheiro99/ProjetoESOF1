@@ -82,15 +82,5 @@ public class Projeto {
             return Estados.Concluido;
         }
     }
-
-
-    public void mostrarProgresso() {
-        System.out.println(this);
-        System.out.println("Projeto " + this.estadoDoProjeto() + " com " + this.percentagemConclusao() + "%");
-
-//        tarefas.stream().map(Tarefa::getNome).collect(Collectors.toList());
-//        for (Tarefa t:this.getTarefas()) {
-//            System.out.println(t);
-//        }
-    }
+    
 }

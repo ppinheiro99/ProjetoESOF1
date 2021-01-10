@@ -33,6 +33,11 @@ class TarefaEfetivaTest {
         // Concluida com atraso
         tp1.setTempoPrevistoHoras(8);
         te1.setDuracaoHoras(10);
+        te1.definirEstadoTarefa(Estados.EmAndamento);
+        assertEquals(Estados.Atrasado,te1.estadoDaTarefa());
+        // Atrasado
+        tp1.setTempoPrevistoHoras(8);
+        te1.setDuracaoHoras(10);
         te1.definirEstadoTarefa(Estados.Concluido);
         assertEquals(Estados.ConcluidoComAtraso,te1.estadoDaTarefa());
     }
@@ -81,4 +86,9 @@ class TarefaEfetivaTest {
 
     }
 
+    @Test
+    void duracaoEfetivaHoras() {
+        TarefaEfetiva te = new TarefaEfetiva();
+        assertEquals(10,te.duracaoEfetivaHoras(10));
+    }
 }

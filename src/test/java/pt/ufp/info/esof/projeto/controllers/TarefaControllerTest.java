@@ -140,9 +140,12 @@ class TarefaControllerTest {
         e1.setId(1L);
         e1.setEmail("1111");
 
+        when(projetoService.findById(1L)).thenReturn(Optional.of(p));
+
         te1.setTarefaPrevista(tp1);
         te1.setEmpregado(e1);
         tp1.setProjeto(p);
+
 
         when(tarefaService.atribuiHorasTarefa(te1.getId(),8.0f)).thenReturn(Optional.of(te1));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(te1);

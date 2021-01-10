@@ -20,12 +20,10 @@ public class TarefaPrevista {
         return 0;
     }
 
-
     public void atribuirTarefaEfetiva(){
         this.tarefaEfetiva = new TarefaEfetiva();
         this.tarefaEfetiva.setId(this.getId());
         this.tarefaEfetiva.setNome(this.getNome());
         this.tarefaEfetiva.setTarefaPrevista(this);
     }
-
 }

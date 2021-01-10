@@ -56,10 +56,8 @@ public class TarefaEfetiva {
         empregado.getTarefaEfetivas().add(this);
     }
 
-
     public void concluirTarefa() {
         this.estadoTarefa=Estados.Concluido;
     }
-
 
 }
