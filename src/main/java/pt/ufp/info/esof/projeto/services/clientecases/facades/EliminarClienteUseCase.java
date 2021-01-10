@@ -4,16 +4,16 @@ import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
-import pt.ufp.info.esof.projeto.services.ProjetoServiceImpl;
+import pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades;
 
 import java.util.Optional;
 
 @Service
 public class EliminarClienteUseCase {
     private final ClienteRepository clienteRepository;
-    private final ProjetoServiceImpl projetoService;
+    private final ProjetoServiceFacades projetoService;
 
-    public EliminarClienteUseCase(ClienteRepository clienteRepository, ProjetoServiceImpl projetoService) {
+    public EliminarClienteUseCase(ClienteRepository clienteRepository, ProjetoServiceFacades projetoService) {
         this.clienteRepository = clienteRepository;
         this.projetoService = projetoService;
     }
