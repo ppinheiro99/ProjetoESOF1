@@ -15,14 +15,16 @@ public class ProjetoServiceFacades implements ProjetoService {
     private final ListTodosProjetosUseCase listTodosProjetosUseCase;
     private final CustoPrevistoProjeto custoPrevistoProjeto;
     private final DuracaoPrevistaProjeto duracaoPrevistaProjeto;
+    private final AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase;
 
-    public ProjetoServiceFacades(EliminarProjetoUseCase eliminarProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjeto custoPrevistoProjeto, DuracaoPrevistaProjeto duracaoPrevistaProjeto) {
+    public ProjetoServiceFacades(EliminarProjetoUseCase eliminarProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjeto custoPrevistoProjeto, DuracaoPrevistaProjeto duracaoPrevistaProjeto, AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase) {
         this.eliminarProjetoUseCase = eliminarProjetoUseCase;
         this.criarProjetoUseCase = criarProjetoUseCase;
         this.listaProjetoPorIdUseCase = listaProjetoPorIdUseCase;
         this.listTodosProjetosUseCase = listTodosProjetosUseCase;
         this.custoPrevistoProjeto = custoPrevistoProjeto;
         this.duracaoPrevistaProjeto = duracaoPrevistaProjeto;
+        this.associarTarefasAoProjetoUseCase = associarTarefasAoProjetoUseCase;
     }
 
     @Override
@@ -57,6 +59,6 @@ public class ProjetoServiceFacades implements ProjetoService {
 
     @Override
     public Optional<Projeto> assocTarefasProjeto(Long projetoid, Long idTarefa) {
-        return Optional.empty();
+        return associarTarefasAoProjetoUseCase.assocTarefasProjeto(projetoid, idTarefa);
     }
 }
