@@ -53,7 +53,9 @@ public class Projeto {
     public float duracaoEfetivaHoras() {
         float duracao = 0;
         for (TarefaPrevista t : this.tarefaPrevistas) {
-            duracao = duracao + t.getTarefaEfetiva().getDuracaoHoras();
+            if (t.getTarefaEfetiva() != null){
+                duracao = duracao + t.getTarefaEfetiva().getDuracaoHoras();
+            }
         }
         return duracao;
     }
@@ -76,12 +78,9 @@ public class Projeto {
                     if (t.getTarefaEfetiva().getEstadoTarefa() != Estados.Concluido) {
                         return Estados.Atrasado; // se não tiver sido conmcluido mais cedo
                     }
-
                 }
             return Estados.Concluido;
         }
-
-
     }
 
 

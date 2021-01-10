@@ -3,6 +3,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import pt.ufp.info.esof.projeto.models.Estados;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,8 +14,10 @@ import java.util.List;
 @AllArgsConstructor
 public class ProjetoResponseDTO {
     private String nome;
-    private List<CriarTarefaPrevistaDTO> tarefas = new ArrayList<>();
+    private List<String> tarefas = new ArrayList<>();
     private String emailCliente;
+    private Estados estadoProjeto;
     private float custo;
+    private float custoEfetivo;
     private float tempoHoras;
 }

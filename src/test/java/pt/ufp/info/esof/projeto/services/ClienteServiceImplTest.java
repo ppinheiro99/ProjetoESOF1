@@ -2,6 +2,7 @@ package pt.ufp.info.esof.projeto.services;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.services.clientecases.facades.*;
@@ -11,7 +12,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
-@WebMvcTest(ClienteServiceFacades.class)
+@SpringBootTest(classes = ClienteServiceFacades.class)
 class ClienteServiceImplTest {
     @Autowired
     private ClienteService clienteService;
