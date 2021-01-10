@@ -28,6 +28,8 @@ class ProjetoServiceImplTest {
     private  CustoPrevistoProjeto custoPrevistoProjeto;
     @MockBean
     private  DuracaoPrevistaProjeto duracaoPrevistaProjeto;
+    @MockBean
+    private  AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase;
 
     @Test
     void findAll() {
@@ -69,6 +71,12 @@ class ProjetoServiceImplTest {
     void duracaoPrevistaProjeto() {
         when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
         assertNotNull(duracaoPrevistaProjeto.duracaoPrevistaProjeto(1L).isNaN());
+    }
+
+    @Test
+    void assocTarefasProjeto() {
+        assertTrue(associarTarefasAoProjetoUseCase.assocTarefasProjeto(1L,2L).isPresent());
+        assertTrue(associarTarefasAoProjetoUseCase.assocTarefasProjeto(1L,10L).isEmpty());
     }
 
 
