@@ -6,6 +6,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Empregado;
+import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
@@ -23,21 +24,21 @@ class TarefaServiceImplTest {
     @Autowired
     private TarefaService tarefaService;
     @MockBean
-    private  EliminarTarefaUseCase eliminarTarefaUseCase;
+    private EliminarTarefaUseCase eliminarTarefaUseCase;
     @MockBean
-    private  CriarTarefaUseCase criarTarefaUseCase;
+    private CriarTarefaUseCase criarTarefaUseCase;
     @MockBean
-    private  ListaTarefaPorIdUseCase listaTarefaPorIdUseCase;
+    private ListaTarefaPorIdUseCase listaTarefaPorIdUseCase;
     @MockBean
-    private  ListTodasTarefasUseCase listTodasTarefasUseCase;
+    private ListTodasTarefasUseCase listTodasTarefasUseCase;
     @MockBean
-    private  AtribuiTarefaEmpregado atribuiTarefaEmpregado;
+    private AtribuiTarefaEmpregado atribuiTarefaEmpregado;
     @MockBean
-    private  TarefaPrevistaRepository tarefaPrevistaRepository;
+    private TarefaPrevistaRepository tarefaPrevistaRepository;
     @MockBean
-    private  AtribuiHorasTarefa atribuiHorasTarefa;
+    private AtribuiHorasTarefa atribuiHorasTarefa;
     @MockBean
-    private  EmpregadoRepository empregadoRepository;
+    private EmpregadoRepository empregadoRepository;
 
     @Test
     void findAll() {
@@ -59,12 +60,19 @@ class TarefaServiceImplTest {
         Empregado e = new Empregado();
         e.setId(1L);
         e.setEmail("teste");
-//        when(tarefaPrevistaRepository.findById(1L)).thenReturn(Optional.of(tp));
-//        when(empregadoRepository.findById(1L)).thenReturn(Optional.of(e));
-//        Optional<Empregado> optionalEmpregado = atribuiTarefaEmpregado.atribuiTarefasEmpregados(e.getEmail(),tp.getId());
-//        if(optionalEmpregado.isEmpty()){
-//            System.out.println("nao vou adicionada a ligacao entre eles");
-//        }
+
+       when(tarefaPrevistaRepository.findById(1L)).thenReturn(Optional.of(tp));
+       when(empregadoRepository.findById(1L)).thenReturn(Optional.of(e));
+       when(atribuiTarefaEmpregado.atribuiTarefasEmpregados(e.getEmail(),tp.getId())).thenReturn(Optional.of(new Empregado()));
+
+      assertTrue(atribuiTarefaEmpregado.atribuiTarefasEmpregados(e.getEmail(),tp.getId()).isPresent());
+
+    /*  Optional<Empregado> optionalEmpregado = atribuiTarefaEmpregado.atribuiTarefasEmpregados(e.getEmail(),tp.getId());
+
+      if(optionalEmpregado.isEmpty()){
+          System.out.println("nao vou adicionada a ligacao entre eles");
+        }*/
+
     }
 
     @Test
@@ -82,4 +90,15 @@ class TarefaServiceImplTest {
         when(eliminarTarefaUseCase.deleteTarefa(1L)).thenReturn(Optional.of(new TarefaPrevista()));
         assertTrue(tarefaService.deleteTarefa(1L).isPresent());
     }
+
+
+    @Test
+    void atribuiHorasTarefa() {
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setId(1L);
+        when(atribuiHorasTarefa.atribuiHoras(tp1.getId(),8.0f)).thenReturn(Optional.of(new TarefaEfetiva()));
+        assertTrue(tarefaService.atribuiHorasTarefa(tp1.getId(),8.0f).isPresent());
+    }
+
+
 }
