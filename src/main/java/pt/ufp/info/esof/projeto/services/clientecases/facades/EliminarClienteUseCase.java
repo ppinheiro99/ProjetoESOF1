@@ -4,18 +4,18 @@ import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
-import pt.ufp.info.esof.projeto.services.ProjetoServiceImpl;
+import pt.ufp.info.esof.projeto.services.projetocases.facades.EliminarProjetoUseCase;
 
 import java.util.Optional;
 
 @Service
 public class EliminarClienteUseCase {
     private final ClienteRepository clienteRepository;
-    private final ProjetoServiceImpl projetoService;
+    private final EliminarProjetoUseCase eliminarProjetoUseCase;
 
-    public EliminarClienteUseCase(ClienteRepository clienteRepository, ProjetoServiceImpl projetoService) {
+    public EliminarClienteUseCase(ClienteRepository clienteRepository, EliminarProjetoUseCase eliminarProjetoUseCase) {
         this.clienteRepository = clienteRepository;
-        this.projetoService = projetoService;
+        this.eliminarProjetoUseCase = eliminarProjetoUseCase;
     }
 
     public Optional<Cliente> deleteCliente(Long idCliente) {
@@ -26,7 +26,7 @@ public class EliminarClienteUseCase {
             if(!cliente.getProjetos().isEmpty()) { // se tiver projeto temos de os eliminar
                 System.out.println(cliente.getProjetos().size());
                 for (Projeto p:cliente.getProjetos()) {
-                    projetoService.deleteProjeto(p.getId()); // chamar o metodo já feito de remover projetos e todas as suas ligacoes
+                    eliminarProjetoUseCase.deleteProjeto(p.getId()); // chamar o metodo já feito de remover projetos e todas as suas ligacoes
                     if(cliente.getProjetos().isEmpty()){
                         break;
                     }

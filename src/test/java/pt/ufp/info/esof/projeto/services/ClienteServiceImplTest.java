@@ -15,7 +15,6 @@ import static org.mockito.Mockito.when;
 class ClienteServiceImplTest {
     @Autowired
     private ClienteService clienteService;
-
     @MockBean
     private EliminarClienteUseCase eliminarClienteUseCase;
     @MockBean

@@ -1,6 +1,8 @@
-
+<<<<<<< HEAD:src/main/java/pt/ufp/info/esof/projeto/services/empregado/facades/EliminarEmpregadoUseCase.java
 package pt.ufp.info.esof.projeto.services.empregado.facades;
-
+=======
+package pt.ufp.info.esof.projeto.services.empregadocases.facades;
+>>>>>>> master:src/main/java/pt/ufp/info/esof/projeto/services/empregadocases/facades/EliminarEmpregadoUseCase.java
 
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Empregado;
