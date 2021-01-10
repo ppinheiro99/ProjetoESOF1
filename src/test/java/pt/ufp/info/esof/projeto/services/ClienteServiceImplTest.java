@@ -12,7 +12,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
-@SpringBootTest(classes = ClienteServiceFacades.class)
+@SpringBootTest
 class ClienteServiceImplTest {
     @Autowired
     private ClienteService clienteService;

@@ -14,7 +14,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
-@SpringBootTest(classes = EmpregadoServiceFacades.class)
+@SpringBootTest
 class EmpregadoServiceImplTest {
     @Autowired
     private EmpregadoService empregadoService;

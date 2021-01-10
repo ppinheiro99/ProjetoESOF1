@@ -1,13 +1,9 @@
 package pt.ufp.info.esof.projeto.services;
-
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.services.empregadocases.facades.EmpregadoServiceFacades;
 import pt.ufp.info.esof.projeto.services.projetocases.facades.*;
 import pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades;
 
@@ -28,6 +24,10 @@ class ProjetoServiceImplTest {
     private ListaProjetoPorIdUseCase listaProjetoPorIdUseCase;
     @MockBean
     private ListTodosProjetosUseCase listTodosProjetosUseCase;
+    @MockBean
+    private  CustoPrevistoProjeto custoPrevistoProjeto;
+    @MockBean
+    private  DuracaoPrevistaProjeto duracaoPrevistaProjeto;
 
     @Test
     void findAll() {

@@ -20,10 +20,8 @@ import static org.mockito.Mockito.when;
 
 @SpringBootTest(classes = TarefaServiceFacades.class)
 class TarefaServiceImplTest {
-
     @Autowired
     private TarefaService tarefaService;
-
     @MockBean
     private  EliminarTarefaUseCase eliminarTarefaUseCase;
     @MockBean
@@ -36,6 +34,8 @@ class TarefaServiceImplTest {
     private  AtribuiTarefaEmpregado atribuiTarefaEmpregado;
     @MockBean
     private  TarefaPrevistaRepository tarefaPrevistaRepository;
+    @MockBean
+    private  AtribuiHorasTarefa atribuiHorasTarefa;
     @MockBean
     private  EmpregadoRepository empregadoRepository;
 
