@@ -5,8 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import pt.ufp.info.esof.projeto.models.Cliente;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.Projeto;
+
 @Data
 @Builder
 @NoArgsConstructor

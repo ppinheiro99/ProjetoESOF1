@@ -7,7 +7,6 @@ import pt.ufp.info.esof.projeto.models.Estados;
 
 import java.util.ArrayList;
 import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor

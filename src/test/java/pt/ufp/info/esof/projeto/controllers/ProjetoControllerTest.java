@@ -133,8 +133,6 @@ class ProjetoControllerTest {
         mockMvc.perform(patch("/projeto/"+ projeto.getId() +"/" + tarefa.getId()).content(projetoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
     }
 
-
-
     @Test
     void deleteProjeto() throws Exception {
         Projeto projeto = new Projeto();

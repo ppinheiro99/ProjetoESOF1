@@ -1,6 +1,5 @@
 package pt.ufp.info.esof.projeto.models;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static pt.ufp.info.esof.projeto.models.Cargo.desenvolvedorJunior;
 import static pt.ufp.info.esof.projeto.models.Cargo.desenvolvedorSenior;
@@ -22,7 +21,6 @@ class ClienteTest {
 
         t1.atribuirTarefaEfetiva();
         t2.atribuirTarefaEfetiva();
-
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
@@ -51,7 +49,6 @@ class ClienteTest {
 
         t1.atribuirTarefaEfetiva();
         t2.atribuirTarefaEfetiva();
-
 
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
@@ -84,7 +81,6 @@ class ClienteTest {
         t1.atribuirTarefaEfetiva();
         t2.atribuirTarefaEfetiva();
 
-
         Empregado e1 = new Empregado();
         Empregado e2 = new Empregado();
         e1.setCargo(desenvolvedorSenior);  //40 euros por hora
@@ -110,8 +106,6 @@ class ClienteTest {
         t1.getTarefaEfetiva().concluirTarefa();
         t2.getTarefaEfetiva().concluirTarefa();
         assertEquals(Estados.Concluido,c1.consultarEstadoProjeto(p1));
-
-
 
     }
 }

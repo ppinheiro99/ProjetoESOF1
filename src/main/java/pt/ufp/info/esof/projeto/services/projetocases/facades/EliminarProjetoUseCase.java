@@ -24,8 +24,7 @@ public class EliminarProjetoUseCase {
         Optional<TarefaPrevista> optionalTarefaPrevista = tarefaPrevistaRepository.findById(tp.getId());
         if(optionalTarefaPrevista.isPresent()){
             TarefaPrevista tp1 = optionalTarefaPrevista.get();
-            //tarefaService.removeLigacoesComTarefa(tp1); // estava assim se nao der voltar a meter como estava
-            eliminarTarefaUseCase.deleteTarefa(tp1.getId()); /////////////////////// VErificar se isto esta bem
+            eliminarTarefaUseCase.deleteTarefa(tp1.getId());
             tarefaPrevistaRepository.delete(tp1);
         }
     }

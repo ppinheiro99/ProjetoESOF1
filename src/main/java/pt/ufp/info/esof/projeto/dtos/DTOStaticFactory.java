@@ -1,20 +1,9 @@
 package pt.ufp.info.esof.projeto.dtos;
 import pt.ufp.info.esof.projeto.models.*;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Fábrica estática para criação de DTO's
- * É implementada em conjunto com o padrão Singleton
- */
 public class DTOStaticFactory {
-
-    /**
-     *
-     *
-     * Implementa a lógica necessária para garantir uma única instância da fábrica estática
-     */
     private static DTOStaticFactory dtoAbstractFactory;
 
     private DTOStaticFactory() {
