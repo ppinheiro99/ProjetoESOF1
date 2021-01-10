@@ -42,13 +42,13 @@ class ProjetoServiceImplTest {
         assertTrue(projetoService.findById(2L).isEmpty());
     }
 
-//    @Test
-//    void deleteProjeto() {
-//        Projeto p = new Projeto();
-//        p.setId(1L);
-//        when(eliminarProjetoUseCase.deleteProjeto(p.getId())).thenReturn(Optional.of(new Projeto()));
-//        assertTrue(projetoService.deleteProjeto(p.getId()).isEmpty());
-//    }
+    @Test
+    void deleteProjeto() {
+        Projeto p = new Projeto();
+        p.setId(1L);
+        when(eliminarProjetoUseCase.deleteProjeto(p.getId())).thenReturn(Optional.of(new Projeto()));
+        assertTrue(projetoService.deleteProjeto(p.getId()).isPresent());
+    }
 
     @Test
     void criarProjeto() {
