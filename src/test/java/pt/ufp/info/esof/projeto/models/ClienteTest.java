@@ -70,6 +70,8 @@ class ClienteTest {
     void consultarEstadoProjeto() {
         Cliente c1 = new Cliente();
         Projeto p1 = new Projeto();
+        // Para a condicao de quando o aluno nao "possui" aquele projeto
+        assertNull(c1.consultarEstadoProjeto(p1));
         c1.getProjetos().add(p1);
         TarefaPrevista t1 = new TarefaPrevista();
         TarefaPrevista t2 = new TarefaPrevista();
