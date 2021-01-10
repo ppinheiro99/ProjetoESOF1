@@ -26,9 +26,6 @@ public class TarefaPrevista {
         this.tarefaEfetiva.setId(this.getId());
         this.tarefaEfetiva.setNome(this.getNome());
         this.tarefaEfetiva.setTarefaPrevista(this);
-        //this.setTarefaEfetiva(t);
-
-
     }
 
 }

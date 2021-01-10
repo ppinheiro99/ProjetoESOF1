@@ -126,26 +126,28 @@ class TarefaControllerTest {
     }
 
     @Test
-    void atribuiHorasTarefa() throws Exception { // CORRIGIR ISTO
+    void atribuiHorasTarefa()  throws Exception{
         Projeto p = new Projeto();
         p.setId(1L);
+
         TarefaPrevista tp1 = new TarefaPrevista();
         tp1.setId(1L);
+
         TarefaEfetiva te1 = new TarefaEfetiva();
         te1.setId(1L);
+
         Empregado e1 = new Empregado();
         e1.setId(1L);
         e1.setEmail("1111");
+
         te1.setTarefaPrevista(tp1);
         te1.setEmpregado(e1);
         tp1.setProjeto(p);
 
-        float horasTarefa = 8;
-
-        when(tarefaService.atribuiHorasTarefa(te1.getId(),horasTarefa)).thenReturn(Optional.of(te1));
+        when(tarefaService.atribuiHorasTarefa(te1.getId(),8.0f)).thenReturn(Optional.of(te1));
         String tarefaAsJsonString=new ObjectMapper().writeValueAsString(te1);
-        mockMvc.perform(patch("/duracao/"+te1.getId()+"/"+horasTarefa).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
+        System.out.println(tarefaAsJsonString);
+        mockMvc.perform(patch("/duracao/"+te1.getId()+"/"+8.0f).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
 
     }
-
 }
