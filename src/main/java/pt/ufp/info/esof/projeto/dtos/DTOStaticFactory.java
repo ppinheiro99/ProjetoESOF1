@@ -47,19 +47,16 @@ public class DTOStaticFactory {
     }
 
     public ProjetoResponseDTO projetoResponseDTO(Projeto projeto) {
-        List<CriarTarefaPrevistaDTO> createDTOList = projeto.getTarefaPrevistas().stream().map(tarefas ->
-                CriarTarefaPrevistaDTO.builder()
-                        .nome(tarefas.getNome())
-                        .duracaoHoras(tarefas.getTempoPrevistoHoras())
-                        .build()
-        ).collect(Collectors.toList());
+        List<String> tarefasPrevistas = projeto.getTarefaPrevistas().stream().map(TarefaPrevista::getNome).collect(Collectors.toList());
 
         return ProjetoResponseDTO.builder()
                 .nome(projeto.getNome())
                 .emailCliente(projeto.getCliente().getEmail())
-                .tarefas(createDTOList)
+                .tarefas(tarefasPrevistas)
                 .custo(projeto.custoPrevistoProjeto())
+                .custoEfetivo(projeto.custoEfetivoProjeto())
                 .tempoHoras(projeto.duracaoPrevistaHoras())
+                .estadoProjeto(projeto.estadoDoProjeto())
                 .build();
     }
     public EmpregadoResponseDTO criarEmpregadoDTO(Empregado empregado) {
