@@ -3,9 +3,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import pt.ufp.info.esof.projeto.models.Projeto;
+import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.projetocases.facades.*;
-import pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -62,22 +61,54 @@ class ProjetoServiceImplTest {
 
     @Test
     void custoPrevistoProjeto() {
-        when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
-        assertNotNull(custoPrevistoProjeto.custoPrevistoProjeto(1L).isNaN());
+        Projeto projeto = new Projeto();
+        projeto.setId(1L);
+
+        TarefaPrevista tarefa = new TarefaPrevista();
+        tarefa.setId(1L);
+        tarefa.setTempoPrevistoHoras(8);
+
+        Empregado e1 = new Empregado();
+        e1.setCargo(Cargo.desenvolvedorSenior);
+
+        tarefa.atribuirTarefaEfetiva();
+        tarefa.getTarefaEfetiva().setEmpregado(e1);
+
+        float valor = tarefa.custoPrevistoTarefa() ;
+        projeto.getTarefaPrevistas().add(tarefa);
+
+        when(custoPrevistoProjeto.custoPrevistoProjeto(projeto.getId())).thenReturn(valor);
+        assertEquals(valor,projetoService.custoPrevistoProjeto(projeto.getId()));
 
     }
 
     @Test
     void duracaoPrevistaProjeto() {
-        when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
-        assertNotNull(duracaoPrevistaProjeto.duracaoPrevistaProjeto(1L).isNaN());
+        Projeto projeto = new Projeto();
+        projeto.setId(1L);
+
+        TarefaPrevista tarefa = new TarefaPrevista();
+        tarefa.setId(1L);
+        tarefa.setTempoPrevistoHoras(8);
+        float valor = 0 ;
+        projeto.getTarefaPrevistas().add(tarefa);
+
+        when(duracaoPrevistaProjeto.duracaoPrevistaProjeto(projeto.getId())).thenReturn(valor);
+        assertEquals(valor,projetoService.duracaoPrevistaProjeto(projeto.getId()));
     }
 
     @Test
     void assocTarefasProjeto() {
-        assertTrue(associarTarefasAoProjetoUseCase.assocTarefasProjeto(1L,2L).isPresent());
-        assertTrue(associarTarefasAoProjetoUseCase.assocTarefasProjeto(1L,10L).isEmpty());
-    }
+        Projeto projeto = new Projeto();
+        projeto.setId(1L);
 
+        TarefaPrevista tarefa = new TarefaPrevista();
+        tarefa.setId(1L);
+
+        when(associarTarefasAoProjetoUseCase.assocTarefasProjeto(projeto.getId(),tarefa.getId())).thenReturn(Optional.of(projeto));
+
+        assertTrue(projetoService.assocTarefasProjeto(1L,1L).isPresent());
+        assertTrue(projetoService.assocTarefasProjeto(1L,10L).isEmpty());
+    }
 
 }

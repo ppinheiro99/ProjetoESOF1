@@ -2,11 +2,9 @@ package pt.ufp.info.esof.projeto.services;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.services.clientecases.facades.ClienteServiceFacades;
 import pt.ufp.info.esof.projeto.services.empregadocases.facades.*;
 
 import java.util.ArrayList;
@@ -43,9 +41,7 @@ class EmpregadoServiceImplTest {
     void createEmpregado() {
         Empregado e = new Empregado();
         e.setEmail("mail");
-
         when(criarEmpregadoUseCase.createEmpregado(e)).thenReturn(Optional.of(e));
-
         assertTrue(empregadoService.createEmpregado(e).isPresent());
     }
 
