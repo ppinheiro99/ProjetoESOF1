@@ -10,19 +10,19 @@ import java.util.Optional;
 @Service
 public class ProjetoServiceFacades implements ProjetoService {
     private final CriarProjetoUseCase criarProjetoUseCase;
-    private final deleteProjetoUseCase deleteProjetoUseCase;
+    private final EliminarProjetoUseCase eliminarProjetoUseCase;
     private final ListaProjetoPorIdUseCase listaProjetoPorIdUseCase;
     private final ListTodosProjetosUseCase listTodosProjetosUseCase;
-    private final CustoPrevistoProjetoUseCase custoPrevistoProjetoUseCase;
-    private final DuracaoPrevistaProjetoUseCase duracaoPrevistaProjetoUseCase;
+    private final CustoPrevistoProjeto custoPrevistoProjeto;
+    private final DuracaoPrevistaProjeto duracaoPrevistaProjeto;
 
-    public ProjetoServiceFacades(deleteProjetoUseCase deleteProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjetoUseCase custoPrevistoProjetoUseCase, DuracaoPrevistaProjetoUseCase duracaoPrevistaProjetoUseCase) {
-        this.deleteProjetoUseCase = deleteProjetoUseCase;
+    public ProjetoServiceFacades(EliminarProjetoUseCase eliminarProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjeto custoPrevistoProjeto, DuracaoPrevistaProjeto duracaoPrevistaProjeto) {
+        this.eliminarProjetoUseCase = eliminarProjetoUseCase;
         this.criarProjetoUseCase = criarProjetoUseCase;
         this.listaProjetoPorIdUseCase = listaProjetoPorIdUseCase;
         this.listTodosProjetosUseCase = listTodosProjetosUseCase;
-        this.custoPrevistoProjetoUseCase = custoPrevistoProjetoUseCase;
-        this.duracaoPrevistaProjetoUseCase = duracaoPrevistaProjetoUseCase;
+        this.custoPrevistoProjeto = custoPrevistoProjeto;
+        this.duracaoPrevistaProjeto = duracaoPrevistaProjeto;
     }
 
     @Override
@@ -42,26 +42,21 @@ public class ProjetoServiceFacades implements ProjetoService {
 
     @Override
     public Float custoPrevistoProjeto(Long id) {
-            return custoPrevistoProjetoUseCase.custoPrevistoProjeto(id);
-        }
-
-
+        return custoPrevistoProjeto.custoPrevistoProjeto(id);
+    }
 
     @Override
     public Float duracaoPrevistaProjeto(Long id) {
-        return duracaoPrevistaProjetoUseCase.duracaoPrevistaProjeto(id);
+        return duracaoPrevistaProjeto.duracaoPrevistaProjeto(id);
     }
-
 
     @Override
     public Optional<Projeto> deleteProjeto(Long idProjeto) {
-        return deleteProjetoUseCase.deleteProjeto(idProjeto);
+        return eliminarProjetoUseCase.deleteProjeto(idProjeto);
     }
 
     @Override
     public Optional<Projeto> assocTarefasProjeto(Long projetoid, Long idTarefa) {
         return Optional.empty();
     }
-
-
 }

@@ -7,17 +7,11 @@ import java.util.Optional;
 @Service
 public class ListaProjetoPorIdUseCase {
     private final ProjetoRepository projetoRepository;
-
-
     public ListaProjetoPorIdUseCase(ProjetoRepository projetoRepository) {
         this.projetoRepository = projetoRepository;
     }
 
-
     public Optional<Projeto> findById(Long id) {
         return projetoRepository.findById(id);
     }
-
-
-
 }

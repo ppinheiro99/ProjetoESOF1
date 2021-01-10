@@ -8,14 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 @Service
 public class ListTodosProjetosUseCase {
-
     private final ProjetoRepository projetoRepository;
-
-
     public ListTodosProjetosUseCase(ProjetoRepository projetoRepository) {
         this.projetoRepository = projetoRepository;
     }
-
 
     public List<Projeto> findAll() {
         List<Projeto> p1 =new ArrayList<>();
