@@ -57,4 +57,19 @@ class ProjetoServiceImplTest {
         when(criarProjetoUseCase.criarProjeto(p1)).thenReturn(Optional.of(new Projeto()));
         assertTrue(projetoService.criarProjeto(p1).isPresent());
     }
+
+    @Test
+    void custoPrevistoProjeto() {
+        when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
+        assertNotNull(custoPrevistoProjeto.custoPrevistoProjeto(1L).isNaN());
+
+    }
+
+    @Test
+    void duracaoPrevistaProjeto() {
+        when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
+        assertNotNull(duracaoPrevistaProjeto.duracaoPrevistaProjeto(1L).isNaN());
+    }
+
+
 }
