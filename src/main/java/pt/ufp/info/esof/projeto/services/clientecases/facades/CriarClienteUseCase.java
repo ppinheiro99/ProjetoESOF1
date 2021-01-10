@@ -5,6 +5,7 @@ import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.repositories.ClienteRepository;
 
 import java.util.Optional;
+
 @Service
 public class CriarClienteUseCase {
     private final ClienteRepository clienteRepository;
@@ -15,7 +16,7 @@ public class CriarClienteUseCase {
 
     public Optional<Cliente> createCliente(Cliente cliente) {
         Optional<Cliente> optionalCliente = clienteRepository.findByEmail(cliente.getEmail());
-        if(optionalCliente.isEmpty()){
+        if (optionalCliente.isEmpty()) {
             return Optional.of(clienteRepository.save(cliente));
         }
         return Optional.empty();

@@ -1,4 +1,4 @@
-package pt.ufp.info.esof.projeto.services;
+package pt.ufp.info.esof.projeto.services.empregado.facades;
 
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Empregado;
@@ -6,48 +6,24 @@ import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaEfetivaRepository;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
-
 @Service
-public class EmpregadoServiceImpl implements EmpregadoService {
+public class EliminarEmpregadoUseCase {
     private final EmpregadoRepository empregadoRepository;
     private final TarefaEfetivaRepository tarefaEfetivaRepository;
 
-    public EmpregadoServiceImpl(EmpregadoRepository empregadoRepository, TarefaEfetivaRepository tarefaEfetivaRepository) {
-        this.tarefaEfetivaRepository = tarefaEfetivaRepository;
+    public EliminarEmpregadoUseCase(EmpregadoRepository empregadoRepository, TarefaEfetivaRepository tarefaEfetivaRepository) {
         this.empregadoRepository = empregadoRepository;
+        this.tarefaEfetivaRepository = tarefaEfetivaRepository;
     }
 
-    @Override
-    public List<Empregado> findAll() {
-        List<Empregado> e =new ArrayList<>();
-        empregadoRepository.findAll().forEach(e::add);
-        return e;
-    }
-
-    @Override
-    public Optional<Empregado> findById(Long id) {
-        return empregadoRepository.findById(id);
-    }
-
-    @Override
-    public Optional<Empregado> createEmpregado(Empregado empregado) {
-        Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(empregado.getEmail());
-        if(optionalEmpregado.isEmpty()){
-            return Optional.of( empregadoRepository.save(empregado));
-        }
-        return Optional.empty();
-    }
-    @Override
     public Optional<Empregado> deleteEmpregado(String email) {
         Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(email);
-        if(optionalEmpregado.isPresent()){
+        if (optionalEmpregado.isPresent()) {
             Empregado e1 = optionalEmpregado.get();
             // se o empregado tiver tarefas temos de remover todas as ligacoes em "cascata"
             if (!e1.getTarefaEfetivas().isEmpty()) {
-                for (TarefaEfetiva te:e1.getTarefaEfetivas()) {
+                for (TarefaEfetiva te : e1.getTarefaEfetivas()) {
                     te.setEmpregado(null); // remove o empregado da tarefa
                     te.getTarefaPrevista().setTarefaEfetiva(null); // remove a ligacao da tarefaPrevista com a Efetiva
                     te.setTarefaPrevista(null); // remove a ligacao da TarefaEfetiva com a tarefa prevista

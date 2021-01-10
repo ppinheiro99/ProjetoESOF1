@@ -3336,7 +3336,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
 
 
 Action:
@@ -3989,7 +3989,7 @@ Inicializou
 2021-01-09 19:36:10.739  INFO 2924 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 1.961 seconds (JVM running for 4.31)
 2021-01-09 19:36:10.817 ERROR 2924 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73d983ea] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@65d57e4e]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4058,7 +4058,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4067,7 +4067,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:36:10.844 ERROR 2924 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73d983ea] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@720bf653]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4136,7 +4136,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4145,7 +4145,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:36:10.856 ERROR 2924 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73d983ea] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@70c53dbe]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4214,7 +4214,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4223,7 +4223,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:36:10.866 ERROR 2924 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73d983ea] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@2a331b46]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4292,7 +4292,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4349,7 +4349,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2021-01-09 19:37:00.006  INFO 1484 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 3.279 seconds (JVM running for 7.46)
 2021-01-09 19:37:00.128 ERROR 1484 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e70f13a] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@77b919a3]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4418,7 +4418,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4427,7 +4427,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:37:00.179 ERROR 1484 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e70f13a] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@7724704f]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4496,7 +4496,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4505,7 +4505,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:37:00.194 ERROR 1484 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e70f13a] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@3cd9aa64]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4574,7 +4574,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4583,7 +4583,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 19:37:00.206 ERROR 1484 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e70f13a] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@517a2b0]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4652,7 +4652,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -4750,7 +4750,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
 
 
 Action:
@@ -4864,7 +4864,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
 
 
 Action:
@@ -4978,7 +4978,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
 
 
 Action:
@@ -5092,7 +5092,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
+Parameter 0 of constructor in pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl required a bean of type 'pt.ufp.info.esof.projeto.repositories.EmpregadoRepository' that could not be found.
 
 
 Action:
@@ -5201,7 +5201,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2021-01-09 20:21:09.192  INFO 20880 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 2.233 seconds (JVM running for 3.962)
 2021-01-09 20:21:09.250 ERROR 20880 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e0ae11f] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@48eb9836]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5270,7 +5270,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5279,7 +5279,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 20:21:09.269 ERROR 20880 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e0ae11f] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@2e060819]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5348,7 +5348,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5357,7 +5357,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 20:21:09.277 ERROR 20880 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e0ae11f] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@63411512]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5426,7 +5426,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5435,7 +5435,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 
 2021-01-09 20:21:09.287 ERROR 20880 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e0ae11f] to prepare test instance [pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest@6ba30587]
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImplTest': Unsatisfied dependency expressed through field 'empregadoServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
@@ -5504,7 +5504,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'pt.ufp.info.esof.projeto.services.empregado.facades.EmpregadoServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
