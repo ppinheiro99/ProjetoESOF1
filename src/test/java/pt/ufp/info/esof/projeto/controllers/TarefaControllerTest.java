@@ -7,10 +7,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.dtos.CriarTarefaPrevistaDTO;
-import pt.ufp.info.esof.projeto.models.Cliente;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.Projeto;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 import pt.ufp.info.esof.projeto.services.TarefaService;
 
@@ -123,12 +120,34 @@ class TarefaControllerTest {
         tp1.setProjeto(p1);
         p1.setCliente(c1);
 
-        when(tarefaService.findById(tp1.getId())).thenReturn(Optional.of(tp1));
-        String tarefaAsJsonString=new ObjectMapper().writeValueAsString(tp1);
-        mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isBadRequest());
+        when(tarefaService.atribuiTarefasEmpregados(e1.getEmail(), tp1.getId())).thenReturn(Optional.of(e1));
+        String tarefaAsJsonString=new ObjectMapper().writeValueAsString(e1);
+        mockMvc.perform(patch("/tarefa/"+e1.getEmail()+"/"+tp1.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
     }
 
     @Test
-    void atribuiHorasTarefa() throws Exception {
+    void atribuiHorasTarefa()  throws Exception{
+        Projeto p = new Projeto();
+        p.setId(1L);
+
+        TarefaPrevista tp1 = new TarefaPrevista();
+        tp1.setId(1L);
+
+        TarefaEfetiva te1 = new TarefaEfetiva();
+        te1.setId(1L);
+
+        Empregado e1 = new Empregado();
+        e1.setId(1L);
+        e1.setEmail("1111");
+
+        te1.setTarefaPrevista(tp1);
+        te1.setEmpregado(e1);
+        tp1.setProjeto(p);
+
+        when(tarefaService.atribuiHorasTarefa(te1.getId(),8.0f)).thenReturn(Optional.of(te1));
+        String tarefaAsJsonString=new ObjectMapper().writeValueAsString(te1);
+        System.out.println(tarefaAsJsonString);
+        mockMvc.perform(patch("/duracao/"+te1.getId()+"/"+8.0f).contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
+
     }
 }
