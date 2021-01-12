@@ -4,6 +4,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import pt.ufp.info.esof.projeto.dtos.ClienteResponseDTO;
 import pt.ufp.info.esof.projeto.dtos.CriarEmpregadoDTO;
 import pt.ufp.info.esof.projeto.dtos.DTOStaticFactory;
 import pt.ufp.info.esof.projeto.dtos.EmpregadoResponseDTO;
@@ -12,6 +13,7 @@ import pt.ufp.info.esof.projeto.services.EmpregadoService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Controller
@@ -55,4 +57,16 @@ public class EmpregadoController {
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(empregadoService.deleteEmpregado(emailEmpregado));
     }
+
+    @GetMapping("/search")
+    public ResponseEntity<Iterable<EmpregadoResponseDTO>> searchEmpregado(@RequestParam Map<String,String> query){
+        this.logger.info("Received a get request searchEmpregado");
+        System.out.println(query);
+        List<EmpregadoResponseDTO> responseDTOS=new ArrayList<>();
+        empregadoService.searchEmpregado(query).forEach(empregado -> responseDTOS.add(dtoStaticFactory.empregadoResponseDTO(empregado)));
+        return ResponseEntity.ok(responseDTOS);
+    }
+
+
+
 }
