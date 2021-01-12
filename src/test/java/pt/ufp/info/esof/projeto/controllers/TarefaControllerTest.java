@@ -12,9 +12,7 @@ import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 import pt.ufp.info.esof.projeto.services.TarefaService;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
@@ -174,6 +172,22 @@ class TarefaControllerTest {
 
         mockMvc.perform(patch("/tarefa/" +te1.getId() +"/concuirTarefa").contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isOk());
         mockMvc.perform(patch("/tarefa/" +8 +"/concuirTarefa").contentType(MediaType.APPLICATION_JSON_VALUE).content(tarefaAsJsonString)).andExpect(status().isNotFound());
+
+    }
+
+    @Test
+    void searchTarefas() throws Exception {
+        TarefaPrevista t = new TarefaPrevista();
+        t.setNome("teste");
+        t.setId(1L);
+        Map<String, String> query = new HashMap<>();
+        query.put("query[nome]",t.getNome());
+
+        List<TarefaPrevista> tarefaPrevistas = Collections.singletonList(t);
+
+        when(this.tarefaService.pesquisarTarefas(query)).thenReturn(tarefaPrevistas);
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(tarefaPrevistas);
+        mockMvc.perform(get("/tarefa/search").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 
     }
 }

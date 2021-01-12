@@ -155,7 +155,7 @@ class ProjetoControllerTest {
         c.setNome("Cliente2");
         c.setEmail("cliente2@teste.com");
         Map<String, String> query = new HashMap<>();
-        query.put("query[email]",c.getEmail());
+        query.put("query[nome]",c.getNome());
 
         p.setCliente(c);
         List<Projeto> projetos = Collections.singletonList(p);

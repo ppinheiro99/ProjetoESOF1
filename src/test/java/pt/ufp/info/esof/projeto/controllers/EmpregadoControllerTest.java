@@ -1,4 +1,5 @@
 package pt.ufp.info.esof.projeto.controllers;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,15 +8,10 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pt.ufp.info.esof.projeto.dtos.CriarEmpregadoDTO;
-import pt.ufp.info.esof.projeto.models.Cargo;
-import pt.ufp.info.esof.projeto.models.Empregado;
-import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
-import pt.ufp.info.esof.projeto.models.TarefaPrevista;
+import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.EmpregadoService;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
@@ -83,5 +79,22 @@ class EmpregadoControllerTest {
         String empregadoAsJsonString=new ObjectMapper().writeValueAsString(e);
 
         mockMvc.perform(delete("/empregado/"+e.getEmail()).content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+    }
+
+    @Test
+    void searchEmpregado() throws Exception {
+        Empregado e = new Empregado();
+        e.setNome("Teste");
+        e.setId(1L);
+        e.setEmail("teste@teste.com");
+        Map<String, String> query = new HashMap<>();
+        query.put("query[nome]",e.getNome());
+
+        List<Empregado> empregados = Collections.singletonList(e);
+
+        when(this.empregadoService.searchEmpregado(query)).thenReturn(empregados);
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(empregados);
+        mockMvc.perform(get("/empregado/search").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+
     }
 }
