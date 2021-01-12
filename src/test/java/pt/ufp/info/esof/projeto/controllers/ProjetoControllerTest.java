@@ -1,4 +1,5 @@
 package pt.ufp.info.esof.projeto.controllers;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,9 +14,7 @@ import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import pt.ufp.info.esof.projeto.models.Projeto;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
@@ -144,5 +143,25 @@ class ProjetoControllerTest {
         when(projetoService.findById(projeto.getId())).thenReturn(Optional.of(projeto));
         String projetoAsJsonString=new ObjectMapper().writeValueAsString(projeto);
         mockMvc.perform(delete("/projeto/"+projeto.getId()).contentType(MediaType.APPLICATION_JSON_VALUE).content(projetoAsJsonString)).andExpect(status().isOk());
+    }
+
+    @Test
+    void searchProjeto() throws Exception {
+        Projeto p = new Projeto();
+        p.setNome("ESOF");
+        p.setId(1L);
+        Cliente c = new Cliente();
+        c.setId(1L);
+        c.setNome("Cliente2");
+        c.setEmail("cliente2@teste.com");
+        Map<String, String> query = new HashMap<>();
+        query.put("query[email]",c.getEmail());
+
+        p.setCliente(c);
+        List<Projeto> projetos = Collections.singletonList(p);
+
+        when(this.projetoService.searchProjeto(query)).thenReturn(projetos);
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(projetos);
+        mockMvc.perform(get("/projeto/search").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
     }
 }

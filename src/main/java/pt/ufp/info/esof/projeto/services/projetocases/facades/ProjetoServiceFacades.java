@@ -4,6 +4,7 @@ import pt.ufp.info.esof.projeto.models.Projeto;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -15,8 +16,9 @@ public class ProjetoServiceFacades implements ProjetoService {
     private final CustoPrevistoProjeto custoPrevistoProjeto;
     private final DuracaoPrevistaProjeto duracaoPrevistaProjeto;
     private final AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase;
+    private final SearchProjetoUseCase searchProjetoUseCase;
 
-    public ProjetoServiceFacades(EliminarProjetoUseCase eliminarProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjeto custoPrevistoProjeto, DuracaoPrevistaProjeto duracaoPrevistaProjeto, AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase) {
+    public ProjetoServiceFacades(EliminarProjetoUseCase eliminarProjetoUseCase, CriarProjetoUseCase criarProjetoUseCase, ListaProjetoPorIdUseCase listaProjetoPorIdUseCase, ListTodosProjetosUseCase listTodosProjetosUseCase, CustoPrevistoProjeto custoPrevistoProjeto, DuracaoPrevistaProjeto duracaoPrevistaProjeto, AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase, SearchProjetoUseCase searchProjetoUseCase) {
         this.eliminarProjetoUseCase = eliminarProjetoUseCase;
         this.criarProjetoUseCase = criarProjetoUseCase;
         this.listaProjetoPorIdUseCase = listaProjetoPorIdUseCase;
@@ -24,6 +26,7 @@ public class ProjetoServiceFacades implements ProjetoService {
         this.custoPrevistoProjeto = custoPrevistoProjeto;
         this.duracaoPrevistaProjeto = duracaoPrevistaProjeto;
         this.associarTarefasAoProjetoUseCase = associarTarefasAoProjetoUseCase;
+        this.searchProjetoUseCase = searchProjetoUseCase;
     }
 
     @Override
@@ -59,5 +62,10 @@ public class ProjetoServiceFacades implements ProjetoService {
     @Override
     public Optional<Projeto> assocTarefasProjeto(Long projetoid, Long idTarefa) {
         return associarTarefasAoProjetoUseCase.assocTarefasProjeto(projetoid, idTarefa);
+    }
+
+    @Override
+    public List<Projeto> searchProjeto(Map<String, String> query) {
+        return searchProjetoUseCase.pesquisarProjeto(query);
     }
 }

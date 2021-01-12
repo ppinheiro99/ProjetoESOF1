@@ -10,6 +10,7 @@ import pt.ufp.info.esof.projeto.services.ProjetoService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Controller
@@ -72,5 +73,12 @@ public class ProjetoController {
         Optional<Projeto> optionalProjeto = projetoService.assocTarefasProjeto(projetoid,idTarefa);
         return optionalProjeto.map(projeto -> ResponseEntity.ok(dtoStaticFactory.projetoResponseDTO(projeto))).orElseGet(() -> ResponseEntity.badRequest().build());
     }
-
+    @GetMapping("/search")
+    public ResponseEntity<Iterable<ProjetoResponseDTO>> searchProjeto(@RequestParam Map<String,String> query){
+        this.logger.info("Received a get request");
+        System.out.println(query);
+        List<ProjetoResponseDTO> responseDTOS=new ArrayList<>();
+        projetoService.searchProjeto(query).forEach(projeto -> responseDTOS.add(dtoStaticFactory.projetoResponseDTO(projeto)));
+        return ResponseEntity.ok(responseDTOS);
+    }
 }

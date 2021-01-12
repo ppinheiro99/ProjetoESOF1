@@ -7,6 +7,8 @@ import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.projetocases.facades.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -29,6 +31,8 @@ class ProjetoServiceImplTest {
     private  DuracaoPrevistaProjeto duracaoPrevistaProjeto;
     @MockBean
     private  AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase;
+    @MockBean
+    private  SearchProjetoUseCase searchProjetoUseCase;
 
     @Test
     void findAll() {
@@ -110,5 +114,23 @@ class ProjetoServiceImplTest {
         assertTrue(projetoService.assocTarefasProjeto(1L,1L).isPresent());
         assertTrue(projetoService.assocTarefasProjeto(1L,10L).isEmpty());
     }
+    @Test
+    void pesquisarProjeto(){
+        Projeto p = new Projeto();
+        p.setNome("ESOF");
+        p.setId(1L);
+        Cliente c = new Cliente();
+        c.setNome("Cliente2");
+        c.setId(1L);
+        c.setEmail("cliente2@teste.com");
 
+        Map<String, String> query = new HashMap<>();
+        query.put("nome",p.getNome());
+
+        p.setCliente(c);
+        ArrayList<Projeto>projetos = new ArrayList<>();
+        projetos.add(p);
+        when(searchProjetoUseCase.pesquisarProjeto(query)).thenReturn(projetos);
+        assertEquals(projetoService.searchProjeto(query),projetos);
+    }
 }
