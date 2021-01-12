@@ -13,12 +13,14 @@ public class ClienteServiceFacades implements ClienteService {
     private final CriarClienteUseCase criarClienteUseCase;
     private final ListaClientePorIdUseCase listaExplicadorPorIdUseCase;
     private final ListTodosClientesUseCase listTodosClientesUseCase;
+    private final SearchClientesUseCase searchClientesUseCase;
 
-    public ClienteServiceFacades(EliminarClienteUseCase eliminarClienteUseCase, CriarClienteUseCase criarClienteUseCase, ListaClientePorIdUseCase listaExplicadorPorIdUseCase, ListTodosClientesUseCase listTodosClientesUseCase) {
+    public ClienteServiceFacades(EliminarClienteUseCase eliminarClienteUseCase, CriarClienteUseCase criarClienteUseCase, ListaClientePorIdUseCase listaExplicadorPorIdUseCase, ListTodosClientesUseCase listTodosClientesUseCase, SearchClientesUseCase searchClientesUseCase) {
         this.eliminarClienteUseCase = eliminarClienteUseCase;
         this.criarClienteUseCase = criarClienteUseCase;
         this.listaExplicadorPorIdUseCase = listaExplicadorPorIdUseCase;
         this.listTodosClientesUseCase = listTodosClientesUseCase;
+        this.searchClientesUseCase = searchClientesUseCase;
     }
 
     @Override
@@ -42,7 +44,7 @@ public class ClienteServiceFacades implements ClienteService {
     }
 
     @Override
-    public Optional<Cliente> searchCliente(Map<String, String> query) {
-        return Optional.empty();
+    public List<Cliente> searchCliente(Map<String, String> query) {
+        return searchClientesUseCase.pesquisarCliente(query);
     }
 }

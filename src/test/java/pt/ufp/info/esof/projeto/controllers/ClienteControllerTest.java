@@ -7,13 +7,12 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.web.bind.annotation.RequestParam;
 import pt.ufp.info.esof.projeto.dtos.CriarClienteDTO;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.ClienteService;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
@@ -78,5 +77,21 @@ class ClienteControllerTest {
         when(this.clienteService.deleteCliente(c.getId())).thenReturn(Optional.of(c));
         String empregadoAsJsonString=new ObjectMapper().writeValueAsString(c);
         mockMvc.perform(delete("/cliente/"+c.getId()).content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+    }
+
+    @Test
+    void searchCliente() throws Exception{
+        Cliente c = new Cliente();
+        c.setNome("Cliente2");
+        c.setId(1L);
+        c.setEmail("cliente2@teste.com");
+        Map<String, String> query = new HashMap<>();
+        query.put("query[email]",c.getEmail());
+
+        List<Cliente> clientes = Collections.singletonList(c);
+
+        when(this.clienteService.searchCliente(query)).thenReturn(clientes);
+        String empregadoAsJsonString=new ObjectMapper().writeValueAsString(clientes);
+        mockMvc.perform(get("/cliente/search").content(empregadoAsJsonString).contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
     }
 }

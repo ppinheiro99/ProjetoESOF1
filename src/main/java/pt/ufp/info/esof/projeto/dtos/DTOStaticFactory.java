@@ -34,7 +34,6 @@ public class DTOStaticFactory {
                 .build();
 
     }
-
     public ProjetoResponseDTO projetoResponseDTO(Projeto projeto) {
         List<String> tarefasPrevistas = projeto.getTarefaPrevistas().stream().map(TarefaPrevista::getNome).collect(Collectors.toList());
 

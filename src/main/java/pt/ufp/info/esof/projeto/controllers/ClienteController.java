@@ -7,9 +7,8 @@ import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.services.ClienteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+
+import java.util.*;
 
 @Controller
 @RequestMapping("/cliente")
@@ -51,10 +50,12 @@ public class ClienteController {
         this.logger.info("Received a delete request");
         return ResponseEntity.ok(clienteService.deleteCliente(idCliente));
     }
-//    @GetMapping("/search")
-//    public ResponseEntity<Optional<Cliente>> searchCliente(@RequestParam Map<String,String> query){
-//        this.logger.info("Received a get request");
-//        return ResponseEntity.ok(clienteService.searchCliente(query));
-//        //return ResponseEntity.notFound().build();
-//    }
+    @GetMapping("/search")
+    public ResponseEntity<Iterable<ClienteResponseDTO>> searchCliente(@RequestParam Map<String,String> query){
+        this.logger.info("Received a get request");
+        System.out.println(query);
+        List<ClienteResponseDTO> responseDTOS=new ArrayList<>();
+        clienteService.searchCliente(query).forEach(cliente -> responseDTOS.add(dtoStaticFactory.clienteResponseDTO(cliente)));
+        return ResponseEntity.ok(responseDTOS);
+    }
 }

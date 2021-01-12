@@ -11,5 +11,5 @@ public interface ClienteService {
     Optional<Cliente> findById(Long id);
     Optional<Cliente> createCliente(Cliente cliente);
     Optional<Cliente>deleteCliente(Long idCliente);
-    Optional<Cliente> searchCliente(Map<String, String> query);
+    List<Cliente> searchCliente(Map<String, String> query);
 }

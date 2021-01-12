@@ -12,6 +12,6 @@ import java.util.Optional;
 @Repository
 public interface ClienteRepository extends CrudRepository<Cliente,Long> {
     Optional<Cliente> findByEmail(String email);
-    @Query("SELECT c FROM Cliente c where (:nome is null or c.nome=:nome) and (:email is null or c.email=:email)")
-    List<Cliente> pesquisaClientes(@Param("nome") String nome, @Param("email") String email);
+    @Query("SELECT c FROM Cliente c join c.projetos p where (:nome is null or c.nome=:nome) and (:email is null or c.email=:email) and (:nomeProjeto is null or p.nome=:nomeProjeto) and (:idProjeto is null or p.id=:idProjeto)")
+    List<Cliente> pesquisaClientes(@Param("nome") String nome, @Param("email") String email, @Param("nomeProjeto") String nomeProjeto, @Param("idProjeto") Long idProjeto);
 }
