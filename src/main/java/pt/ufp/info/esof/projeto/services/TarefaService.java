@@ -1,9 +1,11 @@
 package pt.ufp.info.esof.projeto.services;
+import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.TarefaEfetiva;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 public interface TarefaService{
@@ -14,4 +16,5 @@ public interface TarefaService{
     Optional<TarefaPrevista> deleteTarefa(Long idTarefa);
     Optional<TarefaEfetiva> atribuiHorasTarefa(Long idTarefa,Float duracaoHoras);
     Optional<TarefaEfetiva> concluirTarefa(Long idTarefa);
+    List<TarefaPrevista> pesquisarTarefas(Map<String, String> query);
 }

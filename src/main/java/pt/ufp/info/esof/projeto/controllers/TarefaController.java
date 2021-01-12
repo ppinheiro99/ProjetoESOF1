@@ -12,6 +12,7 @@ import pt.ufp.info.esof.projeto.services.TarefaService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Controller
@@ -81,6 +82,15 @@ public class TarefaController {
             }).orElseGet(() -> ResponseEntity.notFound().build());
         }
         return ResponseEntity.notFound().build();
+    }
+
+    @GetMapping("/search")
+    public ResponseEntity<Iterable<TarefaResponseDTO>> searchTarefas(@RequestParam Map<String,String> query){
+        this.logger.info("Received a get request");
+        System.out.println(query);
+        List<TarefaResponseDTO> responseDTOS=new ArrayList<>();
+        tarefaService.pesquisarTarefas(query).forEach(tarefa -> responseDTOS.add(dtoStaticFactory.tarefaResponseDTO(tarefa)));
+        return ResponseEntity.ok(responseDTOS);
     }
 
 }

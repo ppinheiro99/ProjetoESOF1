@@ -97,18 +97,18 @@ class ProjetoServiceImplTest {
         assertEquals(valor,projetoService.duracaoPrevistaProjeto(projeto.getId()));
     }
 
-    @Test
-    void assocTarefasProjeto() {
-        Projeto projeto = new Projeto();
-        projeto.setId(1L);
-
-        TarefaPrevista tarefa = new TarefaPrevista();
-        tarefa.setId(1L);
-
-        when(associarTarefasAoProjetoUseCase.assocTarefasProjeto(projeto.getId(),tarefa.getId())).thenReturn(Optional.of(projeto));
-
-        assertTrue(projetoService.assocTarefasProjeto(1L,1L).isPresent());
-        assertTrue(projetoService.assocTarefasProjeto(1L,10L).isEmpty());
-    }
+//    @Test
+//    void assocTarefasProjeto() {
+//        Projeto projeto = new Projeto();
+//        projeto.setId(1L);
+//
+//        TarefaPrevista tarefa = new TarefaPrevista();
+//        tarefa.setId(1L);
+//
+//        when(associarTarefasAoProjetoUseCase.assocTarefasProjeto(projeto.getId(),tarefa.getId())).thenReturn(Optional.of(projeto));
+//
+//        assertTrue(projetoService.assocTarefasProjeto(1L,1L).isPresent());
+//        assertTrue(projetoService.assocTarefasProjeto(1L,10L).isEmpty());
+//    }
 
 }
