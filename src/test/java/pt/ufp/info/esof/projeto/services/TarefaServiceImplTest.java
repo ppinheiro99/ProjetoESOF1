@@ -7,9 +7,12 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
+import pt.ufp.info.esof.projeto.services.clientecases.facades.SearchClientesUseCase;
 import pt.ufp.info.esof.projeto.services.tarefacases.facades.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -37,6 +40,8 @@ class TarefaServiceImplTest {
     private EmpregadoRepository empregadoRepository;
     @MockBean
     private ConcluirTarefa concluirTarefa;
+    @MockBean
+    private SearchTarefasUseCase searchTarefasUseCase;
     @Test
     void findAll() {
         when(listTodasTarefasUseCase.findAll()).thenReturn(new ArrayList<>());
@@ -105,4 +110,20 @@ class TarefaServiceImplTest {
         assertTrue(tarefaService.concluirTarefa(te1.getId()).isPresent());
     }
 
+
+    @Test
+    void pesquisarTarefas(){
+        TarefaPrevista t = new TarefaPrevista();
+        t.setNome("Cliente2");
+        t.setId(1L);
+        Projeto p1 = new Projeto();
+        t.setProjeto(p1);
+        Map<String, String> query = new HashMap<>();
+        query.put("nome",t.getNome());
+
+        ArrayList<TarefaPrevista> tarefas = new ArrayList<>();
+        tarefas.add(t);
+        when(searchTarefasUseCase.pesquisarTarefas(query)).thenReturn(tarefas);
+        assertEquals(tarefaService.pesquisarTarefas(query),tarefas);
+    }
 }

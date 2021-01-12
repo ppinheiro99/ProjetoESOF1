@@ -7,6 +7,7 @@ import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.TarefaService;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 
@@ -19,8 +20,9 @@ public class TarefaServiceFacades implements TarefaService {
     private final AtribuiTarefaEmpregado atribuiTarefaEmpregado;
     private final AtribuiHorasTarefa atribuiHorasTarefa;
     private final ConcluirTarefa concluirTarefa;
+    private final SearchTarefasUseCase pesquisarTarefas;
 
-    public TarefaServiceFacades(EliminarTarefaUseCase eliminarTarefaUseCase, CriarTarefaUseCase criarTarefaUseCase, ListaTarefaPorIdUseCase listaExplicadorPorIdUseCase, ListTodasTarefasUseCase listTodasTarefasUseCase, AtribuiTarefaEmpregado atribuiTarefaEmpregado, AtribuiHorasTarefa atribuiHorasTarefa, ConcluirTarefa concluirTarefa) {
+    public TarefaServiceFacades(EliminarTarefaUseCase eliminarTarefaUseCase, CriarTarefaUseCase criarTarefaUseCase, ListaTarefaPorIdUseCase listaExplicadorPorIdUseCase, ListTodasTarefasUseCase listTodasTarefasUseCase, AtribuiTarefaEmpregado atribuiTarefaEmpregado, AtribuiHorasTarefa atribuiHorasTarefa, ConcluirTarefa concluirTarefa, SearchTarefasUseCase pesquisarTarefas) {
         this.eliminarTarefaUseCase = eliminarTarefaUseCase;
         this.criarTarefaUseCase = criarTarefaUseCase;
         this.listaExplicadorPorIdUseCase = listaExplicadorPorIdUseCase;
@@ -28,6 +30,7 @@ public class TarefaServiceFacades implements TarefaService {
         this.atribuiTarefaEmpregado = atribuiTarefaEmpregado;
         this.atribuiHorasTarefa = atribuiHorasTarefa;
         this.concluirTarefa = concluirTarefa;
+        this.pesquisarTarefas = pesquisarTarefas;
     }
 
     @Override
@@ -63,5 +66,10 @@ public class TarefaServiceFacades implements TarefaService {
     @Override
     public Optional<TarefaEfetiva> concluirTarefa(Long idTarefa) {
         return concluirTarefa.terminarTarefa(idTarefa);
+    }
+
+    @Override
+    public List<TarefaPrevista> pesquisarTarefas(Map<String, String> query) {
+        return pesquisarTarefas.pesquisarTarefas(query);
     }
 }
