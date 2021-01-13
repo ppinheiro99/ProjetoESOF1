@@ -18,6 +18,7 @@ public class CriarTarefaUseCase {
     }
 
     public Optional<TarefaPrevista> createTarefa(TarefaPrevista tarefaPrevista) {
+        System.out.println(tarefaPrevista.getNome());
         Optional<TarefaPrevista> optionalTarefaPrevista = tarefaPrevistaRepository.findById(tarefaPrevista.getId());
         Optional<Projeto> optionalProjeto = projetoRepository.findById(tarefaPrevista.getProjeto().getId());
         if(optionalProjeto.isPresent()){
