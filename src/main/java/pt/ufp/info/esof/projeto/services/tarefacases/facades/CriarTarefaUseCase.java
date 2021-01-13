@@ -21,7 +21,7 @@ public class CriarTarefaUseCase {
         Optional<TarefaPrevista> optionalTarefaPrevista = tarefaPrevistaRepository.findById(tarefaPrevista.getId());
         Optional<Projeto> optionalProjeto = projetoRepository.findById(tarefaPrevista.getProjeto().getId());
         if(optionalProjeto.isPresent()){
-            if(!optionalTarefaPrevista.isPresent()){
+            if(optionalTarefaPrevista.isEmpty()){
                 tarefaPrevistaRepository.save(tarefaPrevista);
                 System.out.println(tarefaPrevista.getId());
                 return Optional.of(tarefaPrevista);
