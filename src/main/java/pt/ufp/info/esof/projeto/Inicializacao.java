@@ -36,6 +36,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         logger.info("\n\n\nInicializou\n\n\n");
 
+        criarTestesRepositorios();
+    }
+
+
+    void criarTestesRepositorios(){
         Projeto p1 = criarProjeto("ESOF");
         Projeto p2 = criarProjeto("Projeto2");
         Projeto p3 = criarProjeto("Projeto3");
@@ -117,7 +122,7 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     void associarProjetoCliente(Projeto projeto,Cliente cliente){
         projeto.setCliente(cliente); // associa projeto ao cliente
         cliente.getProjetos().add(projeto); // associa cliente ao projeto
-        projetoRepository.save(projeto);
+       // projetoRepository.save(projeto);
         clienteRepository.save(cliente);
     }
 

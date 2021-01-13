@@ -84,7 +84,6 @@ class TarefaServiceImplTest {
         e.setId(1L);
         e.setEmail("36763@ufp.edu.pt");
 
-
         when(tarefaPrevistaRepository.findById(1L)).thenReturn(Optional.of(tp));
 //        when(empregadoRepository.findById(1L)).thenReturn(Optional.of(e));
         Optional<Empregado> optionalEmpregado = tarefaService.atribuiTarefasEmpregados(e.getEmail(),tp.getId());

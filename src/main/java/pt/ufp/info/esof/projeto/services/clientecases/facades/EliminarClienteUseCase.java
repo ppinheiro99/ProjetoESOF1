@@ -22,6 +22,7 @@ public class EliminarClienteUseCase {
                 .findById(idCliente);
         if(optionalCliente.isPresent()){
             Cliente cliente = optionalCliente.get();
+
             if(!cliente.getProjetos().isEmpty()) { // se tiver projeto temos de os eliminar
                 System.out.println(cliente.getProjetos().size());
                 for (Projeto p:cliente.getProjetos()) {
@@ -34,7 +35,6 @@ public class EliminarClienteUseCase {
             cliente.getProjetos().clear();
             clienteRepository.delete(cliente);
         }
-
         return Optional.empty();
     }
 }
