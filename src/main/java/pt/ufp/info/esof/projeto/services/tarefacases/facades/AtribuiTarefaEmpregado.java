@@ -36,14 +36,8 @@ public class AtribuiTarefaEmpregado {
             TarefaPrevista tp1 = optionalTarefaPrevista.get();
             if(!optionalEmpregado.get().getTarefaEfetivas().contains(tp1)) {
                 TarefaEfetiva t1 = convertTarefaPevistaEfetiva(tp1); // converve a tp1 para tarefa prevista
-                t1.setEmpregado(optionalEmpregado.get()); // associa o empregado à tarefa
-                tarefaEfetivaRepository.save(t1); // adiconar tarefa à  BD mal esta seja associada ao empregago
+                t1.setEmpregado(optionalEmpregado.get()); // associa o empregado à tarefa  //tarefaEfetivaRepository.save(t1);
                 optionalEmpregado.get().getTarefaEfetivas().add(t1); // so pode associar depois da tefetiva estiver na BD
                 tp1.setTarefaEfetiva(t1);
-
-                return optionalEmpregado;
-            }
-        }
-        return Optional.empty();
-    }
-}
+                return optionalEmpregado; } }
+        return Optional.empty(); }}
