@@ -73,8 +73,8 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         associarTarefaProjeto(tp4,p3);
         associarTarefaProjeto(tp5,p3);
 
-        associarTarefaEmpregado(tp1,e1);
-        associarTarefaEmpregado(tp2,e2);
+//        associarTarefaEmpregado(tp1,e1);
+//        associarTarefaEmpregado(tp2,e2);
 
     }
 
@@ -120,19 +120,20 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     }
 
     void associarProjetoCliente(Projeto projeto,Cliente cliente){
-        projeto.setCliente(cliente); // associa projeto ao cliente
         cliente.getProjetos().add(projeto); // associa cliente ao projeto
-       // projetoRepository.save(projeto);
         clienteRepository.save(cliente);
+        projetoRepository.save(projeto);
+        projeto.setCliente(cliente); // associa projeto ao cliente
     }
 
     void associarTarefaEmpregado(TarefaPrevista tarefaPrevista,Empregado empregado){
         tarefaPrevista.atribuirTarefaEfetiva();
         tarefaPrevista.getTarefaEfetiva().setEmpregado(empregado);
         empregado.getTarefaEfetivas().add(tarefaPrevista.getTarefaEfetiva());
-        tarefaEfetivaRepository.save(tarefaPrevista.getTarefaEfetiva());
-        tarefaPrevistaRepository.save(tarefaPrevista);
+//
+//        tarefaPrevistaRepository.save(tarefaPrevista);
         empregadoRepository.save(empregado);
+        tarefaEfetivaRepository.save(tarefaPrevista.getTarefaEfetiva());
     }
 
 }
