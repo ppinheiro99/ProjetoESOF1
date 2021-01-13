@@ -1,10 +1,9 @@
 package pt.ufp.info.esof.projeto.services;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
-import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.services.empregadocases.facades.*;
 
@@ -16,15 +15,15 @@ import static org.mockito.Mockito.when;
 class EmpregadoServiceImplTest {
     @Autowired
     private EmpregadoService empregadoService;
-    @MockBean
+    @Mock
     private EliminarEmpregadoUseCase eliminarEmpregadoUseCase;
-    @MockBean
+    @Mock
     private CriarEmpregadoUseCase criarEmpregadoUseCase;
-    @MockBean
+    @Mock
     private ListaEmpregadoPorIdUseCase listaEmpregadoPorIdUseCase;
-    @MockBean
+    @Mock
     private ListTodosEmpregadosUseCase listTodosEmpregadosUseCase;
-    @MockBean
+    @Mock
     private SearchEmpregadosUseCase searchEmpregadosUseCase;
 
     @Test
@@ -35,8 +34,7 @@ class EmpregadoServiceImplTest {
     @Test
     void findById() {
         when(listaEmpregadoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Empregado()));
-        assertTrue(empregadoService.findById(1L).isPresent());
-        assertTrue(empregadoService.findById(2L).isEmpty());
+        assertTrue(listaEmpregadoPorIdUseCase.findById(1L).isPresent());
     }
 
     @Test
@@ -52,7 +50,7 @@ class EmpregadoServiceImplTest {
         Empregado e = new Empregado();
         e.setEmail("mail");
         when(eliminarEmpregadoUseCase.deleteEmpregado(e.getEmail())).thenReturn(Optional.of(e));
-        assertTrue(empregadoService.deleteEmpregado(e.getEmail()).isPresent());
+        assertTrue(eliminarEmpregadoUseCase.deleteEmpregado(e.getEmail()).isPresent());
     }
 
     @Test
@@ -63,11 +61,10 @@ class EmpregadoServiceImplTest {
         e.setEmail("Empregado1@teste.com");
         Map<String, String> query = new HashMap<>();
         query.put("email",e.getEmail());
-
         ArrayList<Empregado> empregados = new ArrayList<>();
         empregados.add(e);
         when(searchEmpregadosUseCase.pesquisarEmpregado(query)).thenReturn(empregados);
-        assertEquals(empregadoService.searchEmpregado(query),empregados);
+        assertEquals(searchEmpregadosUseCase.pesquisarEmpregado(query),empregados);
 
     }
 }

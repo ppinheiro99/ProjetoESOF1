@@ -9,6 +9,7 @@ import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
 
 import java.util.List;
 import java.util.Map;
+
 @Service
 public class SearchTarefasUseCase {
 
@@ -20,13 +21,13 @@ public class SearchTarefasUseCase {
 
     public List<TarefaPrevista> pesquisarTarefas(Map<String, String> query) {
         String nome = query.get("query[nome]");
-        Long idProjeto = Long.parseLong(query.get("query[idProjeto]"));
+        String stringIdProjeto = query.get("query[idProjeto]");
 
-
-        if(nome != null){
-            return tarefaPrevistaRepository.pesquisarTarefas(nome,idProjeto);
+        if (stringIdProjeto != null) {
+            Long idProjeto = Long.parseLong(stringIdProjeto);
+            return tarefaPrevistaRepository.pesquisarTarefas(nome, idProjeto);
         }
-        return tarefaPrevistaRepository.pesquisarTarefas(nome,idProjeto);
+        return tarefaPrevistaRepository.pesquisarTarefas(nome, null);
     }
 
 

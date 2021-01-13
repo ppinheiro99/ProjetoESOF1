@@ -1,8 +1,8 @@
 package pt.ufp.info.esof.projeto.services;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.services.clientecases.facades.*;
 
@@ -17,15 +17,15 @@ import static org.mockito.Mockito.when;
 class ClienteServiceImplTest {
     @Autowired
     private ClienteService clienteService;
-    @MockBean
+    @Mock
     private EliminarClienteUseCase eliminarClienteUseCase;
-    @MockBean
+    @Mock
     private CriarClienteUseCase criarClienteUseCase;
-    @MockBean
+    @Mock
     private ListaClientePorIdUseCase listaClientePorIdUseCase;
-    @MockBean
+    @Mock
     private ListTodosClientesUseCase listTodosClientesUseCase;
-    @MockBean
+    @Mock
     private SearchClientesUseCase searchClientesUseCase;
 
     @Test
@@ -37,8 +37,7 @@ class ClienteServiceImplTest {
     @Test
     void findById() {
         when(listaClientePorIdUseCase.findById(1L)).thenReturn(Optional.of(new Cliente()));
-        assertTrue(clienteService.findById(1L).isPresent());
-        assertTrue(clienteService.findById(2L).isEmpty());
+        assertTrue(listaClientePorIdUseCase.findById(1L).isPresent());
     }
 
     @Test
@@ -53,8 +52,8 @@ class ClienteServiceImplTest {
     void deleteCliente() {
         Cliente c1 = new Cliente();
         c1.setId(1L);
-        when(eliminarClienteUseCase.deleteCliente(1L)).thenReturn(Optional.of(new Cliente()));
-        assertTrue(clienteService.deleteCliente(1L).isPresent());
+        when(eliminarClienteUseCase.deleteCliente(1L)).thenReturn(Optional.of(c1));
+        assertTrue(eliminarClienteUseCase.deleteCliente(1L).isPresent());
     }
     @Test
     void pesquisarCliente(){
@@ -64,10 +63,9 @@ class ClienteServiceImplTest {
         c.setEmail("cliente2@teste.com");
         Map<String, String> query = new HashMap<>();
         query.put("email",c.getEmail());
-
         ArrayList<Cliente> clientes = new ArrayList<>();
         clientes.add(c);
         when(searchClientesUseCase.pesquisarCliente(query)).thenReturn(clientes);
-        assertEquals(clienteService.searchCliente(query),clientes);
+        assertEquals(searchClientesUseCase.pesquisarCliente(query),clientes);
     }
 }

@@ -1,5 +1,6 @@
 package pt.ufp.info.esof.projeto.services;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -17,21 +18,21 @@ import static org.mockito.Mockito.when;
 class ProjetoServiceImplTest {
     @Autowired
     private ProjetoService projetoService;
-    @MockBean
+    @Mock
     private EliminarProjetoUseCase eliminarProjetoUseCase;
-    @MockBean
+    @Mock
     private CriarProjetoUseCase criarProjetoUseCase;
-    @MockBean
+    @Mock
     private ListaProjetoPorIdUseCase listaProjetoPorIdUseCase;
-    @MockBean
+    @Mock
     private ListTodosProjetosUseCase listTodosProjetosUseCase;
-    @MockBean
+    @Mock
     private  CustoPrevistoProjeto custoPrevistoProjeto;
-    @MockBean
+    @Mock
     private  DuracaoPrevistaProjeto duracaoPrevistaProjeto;
-    @MockBean
+    @Mock
     private  AssociarTarefasAoProjetoUseCase associarTarefasAoProjetoUseCase;
-    @MockBean
+    @Mock
     private  SearchProjetoUseCase searchProjetoUseCase;
 
     @Test
@@ -43,24 +44,23 @@ class ProjetoServiceImplTest {
     @Test
     void findById() {
         when(listaProjetoPorIdUseCase.findById(1L)).thenReturn(Optional.of(new Projeto()));
-        assertTrue(projetoService.findById(1L).isPresent());
-        assertTrue(projetoService.findById(2L).isEmpty());
+        assertTrue(listaProjetoPorIdUseCase.findById(1L).isPresent());
     }
 
     @Test
     void deleteProjeto() {
         Projeto p = new Projeto();
         p.setId(1L);
-        when(eliminarProjetoUseCase.deleteProjeto(p.getId())).thenReturn(Optional.of(new Projeto()));
-        assertTrue(projetoService.deleteProjeto(p.getId()).isPresent());
+        when(eliminarProjetoUseCase.deleteProjeto(p.getId())).thenReturn(Optional.of(p));
+        assertTrue(eliminarProjetoUseCase.deleteProjeto(p.getId()).isPresent());
     }
 
     @Test
     void criarProjeto() {
         Projeto p1 = new Projeto();
         p1.setId(1L);
-        when(criarProjetoUseCase.criarProjeto(p1)).thenReturn(Optional.of(new Projeto()));
-        assertTrue(projetoService.criarProjeto(p1).isPresent());
+        when(criarProjetoUseCase.criarProjeto(p1)).thenReturn(Optional.of(p1));
+        assertTrue(criarProjetoUseCase.criarProjeto(p1).isPresent());
     }
 
     @Test
@@ -71,15 +71,16 @@ class ProjetoServiceImplTest {
         TarefaPrevista tarefa = new TarefaPrevista();
         tarefa.setId(1L);
         tarefa.setTempoPrevistoHoras(8);
-
         Empregado e1 = new Empregado();
         e1.setCargo(Cargo.desenvolvedorSenior);
-
         tarefa.atribuirTarefaEfetiva();
         tarefa.getTarefaEfetiva().setEmpregado(e1);
 
         float valor = tarefa.custoPrevistoTarefa() ;
+        System.out.println(valor);
+        System.out.println(valor);
         projeto.getTarefaPrevistas().add(tarefa);
+        tarefa.setProjeto(projeto);
 
         when(custoPrevistoProjeto.custoPrevistoProjeto(projeto.getId())).thenReturn(valor);
         assertEquals(valor,projetoService.custoPrevistoProjeto(projeto.getId()));
