@@ -67,11 +67,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
 
 
 
-        associarTarefaProjeto(tp1,p1);
-        associarTarefaProjeto(tp2,p1);
-        associarTarefaProjeto(tp3,p2);
-        associarTarefaProjeto(tp4,p3);
-        associarTarefaProjeto(tp5,p3);
+//        associarTarefaProjeto(tp1,p1);
+//        associarTarefaProjeto(tp2,p1);
+//        associarTarefaProjeto(tp3,p2);
+//        associarTarefaProjeto(tp4,p3);
+//        associarTarefaProjeto(tp5,p3);
 
         associarTarefaEmpregado(tp1,e1);
         associarTarefaEmpregado(tp2,e2);
@@ -113,11 +113,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     }
 
 
-    void associarTarefaProjeto(TarefaPrevista tarefaPrevista,Projeto projeto){
-        projeto.adicionarTarefas(tarefaPrevista); // associa o projeto à tarefa e vice-versa
-        tarefaPrevistaRepository.save(tarefaPrevista); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
-
-    }
+//    void associarTarefaProjeto(TarefaPrevista tarefaPrevista,Projeto projeto){
+//        projeto.adicionarTarefas(tarefaPrevista); // associa o projeto à tarefa e vice-versa
+//        tarefaPrevistaRepository.save(tarefaPrevista); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
+//
+//    }
 
     void associarProjetoCliente(Projeto projeto,Cliente cliente){
         projeto.setCliente(cliente); // associa projeto ao cliente
