@@ -1,6 +1,5 @@
 package pt.ufp.info.esof.projeto.services.tarefacases.facades;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Empregado;
 import pt.ufp.info.esof.projeto.models.TarefaEfetiva;

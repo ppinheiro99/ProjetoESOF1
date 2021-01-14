@@ -1,13 +1,11 @@
 package pt.ufp.info.esof.projeto.services;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
-import pt.ufp.info.esof.projeto.services.empregadocases.facades.*;
 
 import java.util.*;
 
@@ -83,10 +81,8 @@ class EmpregadoServiceImplTest {
         System.out.println(query);
 
         empregadoService.searchEmpregado(query);
-        // com o cargo
-        query.put("cargo", String.valueOf(e.getCargo()));
-        empregadoService.searchEmpregado(query);
         // com todos os campos
         query.put("idTarefaEfetiva", String.valueOf(e.getTarefaEfetivas().get(0).getId()));
+        empregadoService.searchEmpregado(query);
     }
 }

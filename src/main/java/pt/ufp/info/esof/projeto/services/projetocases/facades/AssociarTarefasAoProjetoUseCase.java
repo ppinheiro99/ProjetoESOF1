@@ -8,7 +8,6 @@ import pt.ufp.info.esof.projeto.services.tarefacases.facades.ListaTarefaPorIdUse
 
 import java.util.Optional;
 
-
 @Service
 public class AssociarTarefasAoProjetoUseCase {
     private final ProjetoRepository projetoRepository;
