@@ -63,13 +63,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         TarefaPrevista tp4 = criarTarefaPrevista("Tarefa4");
         TarefaPrevista tp5 = criarTarefaPrevista("Tarefa5");
 
-
-
-//        associarTarefaProjeto(tp1,p1);
-//        associarTarefaProjeto(tp2,p1);
-//        associarTarefaProjeto(tp3,p2);
-//        associarTarefaProjeto(tp4,p3);
-//        associarTarefaProjeto(tp5,p3);
+        associarTarefaProjeto(tp1,p1);
+        associarTarefaProjeto(tp2,p1);
+        associarTarefaProjeto(tp3,p2);
+        associarTarefaProjeto(tp4,p3);
+        associarTarefaProjeto(tp5,p3);
 
     }
 
