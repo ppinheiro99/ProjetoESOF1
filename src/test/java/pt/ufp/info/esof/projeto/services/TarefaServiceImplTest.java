@@ -1,52 +1,22 @@
 package pt.ufp.info.esof.projeto.services;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.boot.test.mock.mockito.MockBeans;
-import org.springframework.boot.test.mock.mockito.SpyBean;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.ContextHierarchy;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
-import org.springframework.test.web.servlet.MockMvc;
-import pt.ufp.info.esof.projeto.controllers.TarefaController;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.repositories.EmpregadoRepository;
 import pt.ufp.info.esof.projeto.repositories.ProjetoRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaEfetivaRepository;
 import pt.ufp.info.esof.projeto.repositories.TarefaPrevistaRepository;
-import pt.ufp.info.esof.projeto.services.clientecases.facades.SearchClientesUseCase;
-import pt.ufp.info.esof.projeto.services.tarefacases.facades.*;
-
-import javax.management.Query;
 import java.util.*;
-
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
-
 
 @SpringBootTest
 class TarefaServiceImplTest {
     @Autowired
     private TarefaService tarefaService;
-
-    private EliminarTarefaUseCase eliminarTarefaUseCase;
-    private ListaTarefaPorIdUseCase listaTarefaPorIdUseCase;
-    private ListTodasTarefasUseCase listTodasTarefasUseCase;
-    private AtribuiTarefaEmpregado atribuiTarefaEmpregado;
-    private AtribuiHorasTarefa atribuiHorasTarefa;
-    private ConcluirTarefa concluirTarefa;
-    private CriarTarefaUseCase criarTarefaUseCase;
-    private SearchTarefasUseCase searchTarefasUseCase;
-
     @MockBean
     private EmpregadoRepository empregadoRepository;
     @MockBean
@@ -99,6 +69,7 @@ class TarefaServiceImplTest {
     void createTarefa() {
         TarefaPrevista tp1 = new TarefaPrevista();
         tp1.setId(1L);
+        tp1.setNome("po caralhp");
         Projeto p1 = new Projeto();
         p1.setId(1L);
         tp1.setProjeto(p1);

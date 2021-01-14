@@ -19,9 +19,11 @@ public class SearchProjetoUseCase {
     public List<Projeto> pesquisarProjeto(Map<String, String> query) {
         String nomeCliente = query.get("query[nomeCliente]");
         String nome = query.get("query[nome]");
-        if(query.get("query[estado]").equals("Concluido") || query.get("query[estado]").equals("EmAndamento") || query.get("query[estado]").equals("Atrasado") || query.get("query[estado]").equals("NaoComecado") || query.get("query[estado]").equals ("ConcluidoComAtraso") ){
-            Estados estado = Estados.valueOf(query.get("query[estado]"));
-            return projetoRepository.pesquisaProjeto(nomeCliente,nome,estado);
+        if(query.get("query[estado]") != null){
+            if(query.get("query[estado]").equals("Concluido") || query.get("query[estado]").equals("EmAndamento") || query.get("query[estado]").equals("Atrasado") || query.get("query[estado]").equals("NaoComecado") || query.get("query[estado]").equals ("ConcluidoComAtraso") ){
+                Estados estado = Estados.valueOf(query.get("query[estado]"));
+                return projetoRepository.pesquisaProjeto(nomeCliente,nome,estado);
+            }
         }
         return projetoRepository.pesquisaProjeto(nomeCliente,nome,null);
     }

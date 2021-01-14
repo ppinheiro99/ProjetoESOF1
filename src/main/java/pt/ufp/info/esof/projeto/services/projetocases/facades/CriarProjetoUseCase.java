@@ -15,7 +15,8 @@ public class CriarProjetoUseCase {
     public Optional<Projeto> criarProjeto(Projeto projeto) {
         Optional<Projeto> optionalProjeto = projetoRepository.findById(projeto.getId());
         if(optionalProjeto.isEmpty()){
-            return Optional.of(projetoRepository.save(projeto));
+            projetoRepository.save(projeto);
+            return Optional.of(projeto);
         }
         return Optional.empty();
     }

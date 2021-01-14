@@ -16,7 +16,8 @@ public class CriarEmpregadoUseCase {
     public Optional<Empregado> createEmpregado(Empregado empregado) {
         Optional<Empregado> optionalEmpregado = empregadoRepository.findByEmail(empregado.getEmail());
         if (optionalEmpregado.isEmpty()) {
-            return Optional.of(empregadoRepository.save(empregado));
+            empregadoRepository.save(empregado);
+            return Optional.of(empregado);
         }
         return Optional.empty();
     }
