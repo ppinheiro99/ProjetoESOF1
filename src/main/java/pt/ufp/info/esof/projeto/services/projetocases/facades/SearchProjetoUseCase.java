@@ -1,5 +1,4 @@
 package pt.ufp.info.esof.projeto.services.projetocases.facades;
-
 import org.springframework.stereotype.Service;
 import pt.ufp.info.esof.projeto.models.Estados;
 import pt.ufp.info.esof.projeto.models.Projeto;

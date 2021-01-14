@@ -4,7 +4,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import pt.ufp.info.esof.projeto.dtos.ClienteResponseDTO;
 import pt.ufp.info.esof.projeto.dtos.CriarEmpregadoDTO;
 import pt.ufp.info.esof.projeto.dtos.DTOStaticFactory;
 import pt.ufp.info.esof.projeto.dtos.EmpregadoResponseDTO;

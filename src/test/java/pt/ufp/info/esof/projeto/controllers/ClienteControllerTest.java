@@ -1,5 +1,4 @@
 package pt.ufp.info.esof.projeto.controllers;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +6,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.web.bind.annotation.RequestParam;
 import pt.ufp.info.esof.projeto.dtos.CriarClienteDTO;
 import pt.ufp.info.esof.projeto.models.*;
 import pt.ufp.info.esof.projeto.services.ClienteService;

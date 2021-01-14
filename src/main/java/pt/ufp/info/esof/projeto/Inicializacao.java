@@ -63,13 +63,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         TarefaPrevista tp4 = criarTarefaPrevista("Tarefa4");
         TarefaPrevista tp5 = criarTarefaPrevista("Tarefa5");
 
-
-
-//        associarTarefaProjeto(tp1,p1);
-//        associarTarefaProjeto(tp2,p1);
-//        associarTarefaProjeto(tp3,p2);
-//        associarTarefaProjeto(tp4,p3);
-//        associarTarefaProjeto(tp5,p3);
+        associarTarefaProjeto(tp1,p1);
+        associarTarefaProjeto(tp2,p1);
+        associarTarefaProjeto(tp3,p2);
+        associarTarefaProjeto(tp4,p3);
+        associarTarefaProjeto(tp5,p3);
 
     }
 
@@ -107,11 +105,11 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     }
 
 
-//    void associarTarefaProjeto(TarefaPrevista tarefaPrevista,Projeto projeto){
-//        projeto.adicionarTarefas(tarefaPrevista); // associa o projeto à tarefa e vice-versa
-//        tarefaPrevistaRepository.save(tarefaPrevista); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
-//
-//    }
+    void associarTarefaProjeto(TarefaPrevista tarefaPrevista,Projeto projeto){
+        projeto.adicionarTarefas(tarefaPrevista); // associa o projeto à tarefa e vice-versa
+        tarefaPrevistaRepository.save(tarefaPrevista); // como as tarefas sao mapeadas pelo projeto, tem de ser salvas depois do projeto, enquanto o projeto nao estiver na bd nao posso salvar as tarefas
+
+    }
 
     void associarProjetoCliente(Projeto projeto,Cliente cliente){
         cliente.getProjetos().add(projeto); // associa cliente ao projeto

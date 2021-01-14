@@ -1,5 +1,4 @@
 package pt.ufp.info.esof.projeto.controllers;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,6 @@ import pt.ufp.info.esof.projeto.dtos.CriarProjetoDTO;
 import pt.ufp.info.esof.projeto.models.Cliente;
 import pt.ufp.info.esof.projeto.models.TarefaPrevista;
 import pt.ufp.info.esof.projeto.services.ProjetoService;
-
 import pt.ufp.info.esof.projeto.models.Projeto;
 
 import java.util.*;
