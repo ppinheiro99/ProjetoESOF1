@@ -36,7 +36,7 @@ public class EliminarProjetoUseCase {
             if(!p.getTarefaPrevistas().isEmpty()){
                 for (TarefaPrevista tp:p.getTarefaPrevistas()) {
                     removeTarefasProjeto(tp); // removo todas as ligacoes entre as tarefas e das tarefas
-                    if(p.getTarefaPrevistas().isEmpty()){ // como estou a remover enquanto percorro se nao fizer esta condicao ele parte
+                    if(p.getTarefaPrevistas().size() == 0){ // como estou a remover enquanto percorro se nao fizer esta condicao ele parte
                         break;
                     }
                 }

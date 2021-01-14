@@ -27,7 +27,7 @@ public class EliminarClienteUseCase {
                 System.out.println(cliente.getProjetos().size());
                 for (Projeto p:cliente.getProjetos()) {
                     eliminarProjetoUseCase.deleteProjeto(p.getId()); // chamar o metodo já feito de remover projetos e todas as suas ligacoes
-                    if(cliente.getProjetos().isEmpty()){
+                    if(cliente.getProjetos().size() == 0){
                         break;
                     }
                 }

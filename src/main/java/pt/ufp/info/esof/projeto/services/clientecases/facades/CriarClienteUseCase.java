@@ -15,7 +15,8 @@ public class CriarClienteUseCase {
     public Optional<Cliente> createCliente(Cliente cliente) {
         Optional<Cliente> optionalCliente = clienteRepository.findByEmail(cliente.getEmail());
         if(optionalCliente.isEmpty()){
-            return Optional.of(clienteRepository.save(cliente));
+            clienteRepository.save(cliente);
+            return Optional.of(cliente);
         }
         return Optional.empty();
     }

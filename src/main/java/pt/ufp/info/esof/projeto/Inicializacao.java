@@ -19,15 +19,13 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     private final ClienteRepository clienteRepository;
     private final EmpregadoRepository empregadoRepository;
     private final ProjetoRepository projetoRepository;
-    private final TarefaEfetivaRepository tarefaEfetivaRepository;
     private final TarefaPrevistaRepository tarefaPrevistaRepository;
 
     @Autowired
-    public Inicializacao(ClienteRepository clienteRepository, EmpregadoRepository empregadoRepository, ProjetoRepository projetoRepository, TarefaEfetivaRepository tarefaEfetivaRepository, TarefaPrevistaRepository tarefaPrevistaRepository) {
+    public Inicializacao(ClienteRepository clienteRepository, EmpregadoRepository empregadoRepository, ProjetoRepository projetoRepository, TarefaPrevistaRepository tarefaPrevistaRepository) {
         this.clienteRepository = clienteRepository;
         this.empregadoRepository = empregadoRepository;
         this.projetoRepository = projetoRepository;
-        this.tarefaEfetivaRepository = tarefaEfetivaRepository;
         this.tarefaPrevistaRepository = tarefaPrevistaRepository;
     }
 
@@ -73,11 +71,7 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         associarTarefaProjeto(tp4,p3);
         associarTarefaProjeto(tp5,p3);
 
-//        associarTarefaEmpregado(tp1,e1);
-//        associarTarefaEmpregado(tp2,e2);
-
     }
-
 
     Empregado criarEmpregado(String nome, String email, Cargo cargo) {
         Empregado e1 = new Empregado();
@@ -125,15 +119,4 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
         projetoRepository.save(projeto);
         projeto.setCliente(cliente); // associa projeto ao cliente
     }
-
-    void associarTarefaEmpregado(TarefaPrevista tarefaPrevista,Empregado empregado){
-        tarefaPrevista.atribuirTarefaEfetiva();
-        tarefaPrevista.getTarefaEfetiva().setEmpregado(empregado);
-        empregado.getTarefaEfetivas().add(tarefaPrevista.getTarefaEfetiva());
-//
-//        tarefaPrevistaRepository.save(tarefaPrevista);
-        empregadoRepository.save(empregado);
-        tarefaEfetivaRepository.save(tarefaPrevista.getTarefaEfetiva());
-    }
-
 }
