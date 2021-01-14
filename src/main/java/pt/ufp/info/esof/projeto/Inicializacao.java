@@ -114,7 +114,7 @@ public class Inicializacao implements ApplicationListener<ContextRefreshedEvent>
     void associarProjetoCliente(Projeto projeto,Cliente cliente){
         cliente.getProjetos().add(projeto); // associa cliente ao projeto
         clienteRepository.save(cliente);
-        projetoRepository.save(projeto);
         projeto.setCliente(cliente); // associa projeto ao cliente
+        projetoRepository.save(projeto);
     }
 }
