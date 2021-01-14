@@ -3610,3 +3610,947 @@ Inicializou
 2021-01-14 01:40:38.014  INFO 3308 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
 2021-01-14 01:40:38.031  INFO 3308 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
 2021-01-14 01:40:38.035  INFO 3308 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 01:42:39.356  INFO 12576 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 12576 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 01:42:39.361  INFO 12576 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 01:42:45.217  INFO 12576 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 01:42:45.343  INFO 12576 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.801 seconds (JVM running for 8.704)
+2021-01-14 15:18:04.066  INFO 8556 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 8556 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:18:04.070  INFO 8556 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:18:09.228  INFO 8556 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:18:09.356  INFO 8556 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 5.756 seconds (JVM running for 7.117)
+2021-01-14 15:21:27.278  INFO 23132 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 23132 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:21:27.284  INFO 23132 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:21:32.473  INFO 23132 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:21:32.588  INFO 23132 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 5.903 seconds (JVM running for 7.796)
+2021-01-14 15:22:05.033  INFO 23132 --- [http-nio-8080-exec-1] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:22:49.292  INFO 23132 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:23:29.916  INFO 3768 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 3768 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:23:29.921  INFO 3768 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:23:34.279  INFO 3768 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:23:34.414  INFO 3768 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.921 seconds (JVM running for 6.571)
+2021-01-14 15:24:27.820  INFO 3768 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:24:44.968  INFO 14772 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:24:44.970  INFO 14772 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-14 15:24:52.194  INFO 14772 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:24:52.450  INFO 14772 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 7.899 seconds (JVM running for 9.88)
+2021-01-14 15:24:52.736  INFO 14772 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:24:52.738  INFO 14772 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:24:53.538  INFO 14772 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 0.868 seconds (JVM running for 10.969)
+2021-01-14 15:24:53.653  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a patch request
+2021-01-14 15:24:53.711  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.731  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.749  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.753  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.773  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:24:53.789  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.866  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:24:53.881  INFO 14772 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:24:53.959  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:24:53.960  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-14 15:24:54.563  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 0.66 seconds (JVM running for 11.993)
+2021-01-14 15:24:54.572  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:24:54.590  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:24:54.594  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:24:54.610  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:24:54.625  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:24:54.643  INFO 14772 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:24:54.709  INFO 14772 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:24:54.710  INFO 14772 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:24:57.521  INFO 14772 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:24:57.543  INFO 14772 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 2.886 seconds (JVM running for 14.974)
+2021-01-14 15:24:57.682  INFO 14772 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:24:57.687  INFO 14772 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:00.332  INFO 14772 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:00.372  INFO 14772 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 2.745 seconds (JVM running for 17.803)
+2021-01-14 15:25:00.524  INFO 14772 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Starting TarefaServiceImplTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:00.528  INFO 14772 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:03.062  INFO 14772 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:03.090  INFO 14772 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Started TarefaServiceImplTest in 2.614 seconds (JVM running for 20.52)
+2021-01-14 15:25:03.305  INFO 14772 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:03.310  INFO 14772 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:03.877  INFO 14772 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 0.639 seconds (JVM running for 21.307)
+2021-01-14 15:25:03.888  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:03.899  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:25:03.912  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:03.915  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:03.925  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:03.938  INFO 14772 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:25:03.992  INFO 14772 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 14772 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:03.993  INFO 14772 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:04.559  INFO 14772 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 0.605 seconds (JVM running for 21.989)
+2021-01-14 15:25:04.567  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:04.571  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:04.582  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:25:04.597  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:25:04.606  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:04.619  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:04.635  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:04.640  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:04.653  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:04.672  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:04.676  INFO 14772 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:19.024  INFO 15148 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:19.027  INFO 15148 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:32.120  INFO 15148 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:32.461  INFO 15148 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 14.366 seconds (JVM running for 18.146)
+2021-01-14 15:25:32.786  INFO 15148 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:32.791  INFO 15148 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:33.840  INFO 15148 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 1.13 seconds (JVM running for 19.525)
+2021-01-14 15:25:33.995  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a patch request
+2021-01-14 15:25:34.071  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.099  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.126  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.132  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.159  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:25:34.182  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.299  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:25:34.323  INFO 15148 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:25:34.413  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:34.417  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:35.509  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 1.16 seconds (JVM running for 21.193)
+2021-01-14 15:25:35.529  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:25:35.558  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:25:35.565  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:25:35.590  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:25:35.614  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:25:35.644  INFO 15148 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:25:35.736  INFO 15148 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:35.737  INFO 15148 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:39.818  INFO 15148 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:39.849  INFO 15148 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 4.182 seconds (JVM running for 25.535)
+2021-01-14 15:25:40.016  INFO 15148 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:40.021  INFO 15148 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:43.735  INFO 15148 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:43.795  INFO 15148 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 3.846 seconds (JVM running for 29.48)
+2021-01-14 15:25:43.960  INFO 15148 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Starting TarefaServiceImplTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:43.963  INFO 15148 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:46.557  INFO 15148 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:25:46.611  INFO 15148 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Started TarefaServiceImplTest in 2.714 seconds (JVM running for 32.296)
+2021-01-14 15:25:46.795  INFO 15148 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:46.799  INFO 15148 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:47.498  INFO 15148 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 0.747 seconds (JVM running for 33.182)
+2021-01-14 15:25:47.513  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:47.532  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:25:47.553  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:47.558  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:47.571  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:25:47.588  INFO 15148 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:25:47.655  INFO 15148 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 15148 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:25:47.657  INFO 15148 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-14 15:25:48.403  INFO 15148 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 0.794 seconds (JVM running for 34.088)
+2021-01-14 15:25:48.417  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:48.423  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:48.440  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:25:48.458  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:25:48.478  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:48.503  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:25:48.529  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:48.542  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:48.556  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:48.587  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:25:48.592  INFO 15148 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:26:45.887  INFO 2692 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 2692 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:26:45.898  INFO 2692 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:26:51.940  INFO 2692 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:26:52.188  INFO 2692 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 6.877 seconds (JVM running for 8.706)
+2021-01-14 15:27:13.071  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:27:28.931  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:27:32.859  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:27:34.752  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:27:45.214  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:27:59.702  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:28:08.907  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:28:53.990  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:29:05.310  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:29:40.659  INFO 2692 --- [http-nio-8080-exec-1] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:29:54.146  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:30:08.070  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:30:13.617  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:30:21.486  INFO 2692 --- [http-nio-8080-exec-7] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:30:46.248  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:30:58.933  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:31:03.644  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:31:11.719  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:31:24.096  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:31:33.389  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:31:36.941  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:31:44.031  INFO 2692 --- [http-nio-8080-exec-1] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:31:48.179  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:32:04.426  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:32:41.921  INFO 2692 --- [http-nio-8080-exec-7] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:32:51.741  INFO 2692 --- [http-nio-8080-exec-4] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:32:57.380  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:33:11.342  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:33:11.352 ERROR 2692 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Referential integrity constraint violation: "FKIFBTSMEK1WLH473951EA983VM: PUBLIC.PROJETO FOREIGN KEY(CLIENTE_ID) REFERENCES PUBLIC.CLIENTE(ID) (4)"; SQL statement:
+insert into projeto (id, cliente_id, estado_projeto, nome) values (null, ?, ?, ?) [23506-200]
+2021-01-14 15:33:11.390 ERROR 2692 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [FKIFBTSMEK1WLH473951EA983VM]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FKIFBTSMEK1WLH473951EA983VM: PUBLIC.PROJETO FOREIGN KEY(CLIENTE_ID) REFERENCES PUBLIC.CLIENTE(ID) (4)"; SQL statement:
+insert into projeto (id, cliente_id, estado_projeto, nome) values (null, ?, ?, ?) [23506-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRowOwnTable(ConstraintReferential.java:319) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:261) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireConstraints(Table.java:1057) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireAfterRow(Table.java:1075) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:211) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.update(Insert.java:151) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:272) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3158) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3764) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:720) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:706) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy111.persist(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy111.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at jdk.internal.reflect.GeneratedMethodAccessor82.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:550) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy119.save(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.CriarProjetoUseCase.criarProjeto(CriarProjetoUseCase.java:18) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades.criarProjeto(ProjetoServiceFacades.java:44) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.criarProjeto(ProjetoController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-14 15:33:15.780  INFO 2692 --- [http-nio-8080-exec-1] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:33:15.786 ERROR 2692 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Referential integrity constraint violation: "FKIFBTSMEK1WLH473951EA983VM: PUBLIC.PROJETO FOREIGN KEY(CLIENTE_ID) REFERENCES PUBLIC.CLIENTE(ID) (4)"; SQL statement:
+insert into projeto (id, cliente_id, estado_projeto, nome) values (null, ?, ?, ?) [23506-200]
+2021-01-14 15:33:15.796 ERROR 2692 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [FKIFBTSMEK1WLH473951EA983VM]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FKIFBTSMEK1WLH473951EA983VM: PUBLIC.PROJETO FOREIGN KEY(CLIENTE_ID) REFERENCES PUBLIC.CLIENTE(ID) (4)"; SQL statement:
+insert into projeto (id, cliente_id, estado_projeto, nome) values (null, ?, ?, ?) [23506-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRowOwnTable(ConstraintReferential.java:319) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:261) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireConstraints(Table.java:1057) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireAfterRow(Table.java:1075) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:211) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.update(Insert.java:151) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:272) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3158) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3764) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:720) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:706) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy111.persist(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor186.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy111.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at jdk.internal.reflect.GeneratedMethodAccessor82.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:550) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy119.save(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy74.save(Unknown Source) ~[na:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.CriarProjetoUseCase.criarProjeto(CriarProjetoUseCase.java:18) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades.criarProjeto(ProjetoServiceFacades.java:44) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.criarProjeto(ProjetoController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-14 15:33:38.530  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:33:51.875  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:33:56.621  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:34:31.065  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:34:36.786  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:35:07.036  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:35:18.976  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:35:57.208  INFO 2692 --- [http-nio-8080-exec-4] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:36:06.449  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:36:38.212  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:38:26.488  INFO 2692 --- [http-nio-8080-exec-9] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:38:36.747  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:38:55.710  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:39:00.787  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:39:13.006  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:39:52.190  INFO 2692 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:39:56.774  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:40:06.236  INFO 2692 --- [http-nio-8080-exec-1] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:40:26.077  INFO 2692 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:40:30.556  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:40:51.305  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:41:07.497  INFO 2692 --- [http-nio-8080-exec-10] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:41:12.712  INFO 2692 --- [http-nio-8080-exec-7] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:41:48.606  INFO 2692 --- [http-nio-8080-exec-8] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:41:48.616 ERROR 2692 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Referential integrity constraint violation: "FK37RH5RNA9W5ETKANW2NXEB3XR: PUBLIC.TAREFA_PREVISTA FOREIGN KEY(PROJETO_ID) REFERENCES PUBLIC.PROJETO(ID) (1)"; SQL statement:
+delete from projeto where id=? [23503-200]
+2021-01-14 15:41:48.623 ERROR 2692 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["FK37RH5RNA9W5ETKANW2NXEB3XR: PUBLIC.TAREFA_PREVISTA FOREIGN KEY(PROJETO_ID) REFERENCES PUBLIC.PROJETO(ID) (1)"; SQL statement:
+delete from projeto where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FK37RH5RNA9W5ETKANW2NXEB3XR: PUBLIC.TAREFA_PREVISTA FOREIGN KEY(PROJETO_ID) REFERENCES PUBLIC.PROJETO(ID) (1)"; SQL statement:
+delete from projeto where id=? [23503-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:373) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:390) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:265) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireConstraints(Table.java:1057) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.table.Table.fireAfterRow(Table.java:1075) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Delete.update(Delete.java:153) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3577) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3837) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:124) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:633) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy119.delete(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy74.delete(Unknown Source) ~[na:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.EliminarProjetoUseCase.deleteProjeto(EliminarProjetoUseCase.java:47) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.services.projetocases.facades.ProjetoServiceFacades.deleteProjeto(ProjetoServiceFacades.java:59) ~[classes/:na]
+	at pt.ufp.info.esof.projeto.controllers.ProjetoController.deleteProjeto(ProjetoController.java:67) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-01-14 15:41:50.515  INFO 2692 --- [http-nio-8080-exec-2] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:44:56.758  INFO 2692 --- [http-nio-8080-exec-5] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:46:15.383  INFO 17548 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 17548 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:46:15.387  INFO 17548 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:46:19.464  INFO 17548 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:46:19.582  INFO 17548 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.583 seconds (JVM running for 5.776)
+2021-01-14 15:46:36.881  INFO 17548 --- [http-nio-8080-exec-6] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:48:21.294  INFO 22088 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:21.297  INFO 22088 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:31.726  INFO 22088 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:48:31.974  INFO 22088 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 11.412 seconds (JVM running for 13.339)
+2021-01-14 15:48:32.229  INFO 22088 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:32.231  INFO 22088 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:33.201  INFO 22088 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 1.033 seconds (JVM running for 14.565)
+2021-01-14 15:48:33.327  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a patch request
+2021-01-14 15:48:33.382  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.402  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.420  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.424  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.441  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:48:33.454  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.524  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:48:33.539  INFO 22088 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:48:33.626  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:33.627  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:34.324  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 0.762 seconds (JVM running for 15.688)
+2021-01-14 15:48:34.332  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:48:34.348  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:48:34.356  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:48:34.379  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:48:34.394  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:48:34.414  INFO 22088 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:48:34.474  INFO 22088 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:34.474  INFO 22088 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:36.997  INFO 22088 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:48:37.020  INFO 22088 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 2.591 seconds (JVM running for 18.385)
+2021-01-14 15:48:37.164  INFO 22088 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:37.169  INFO 22088 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:39.561  INFO 22088 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:48:39.594  INFO 22088 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 2.49 seconds (JVM running for 20.958)
+2021-01-14 15:48:39.715  INFO 22088 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Starting TarefaServiceImplTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:39.719  INFO 22088 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:42.032  INFO 22088 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:48:42.060  INFO 22088 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Started TarefaServiceImplTest in 2.387 seconds (JVM running for 23.425)
+2021-01-14 15:48:42.188  INFO 22088 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:42.194  INFO 22088 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:42.801  INFO 22088 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 0.655 seconds (JVM running for 24.165)
+2021-01-14 15:48:42.811  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:48:42.822  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:48:42.835  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:48:42.838  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:48:42.848  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:48:42.859  INFO 22088 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:48:42.914  INFO 22088 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 22088 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:42.914  INFO 22088 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:43.414  INFO 22088 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 0.536 seconds (JVM running for 24.778)
+2021-01-14 15:48:43.421  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:48:43.425  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:48:43.433  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:48:43.441  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:48:43.450  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:48:43.461  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:48:43.477  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:48:43.482  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:48:43.494  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:48:43.510  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:48:43.515  INFO 22088 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:48:54.150  INFO 12864 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Starting ProjetoEsofApplication on LAPTOP-2FDA8FO3 with PID 12864 (C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1\target\classes started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:48:54.154  INFO 12864 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : No active profile set, falling back to default profiles: default
+2021-01-14 15:48:58.585  INFO 12864 --- [restartedMain] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:48:58.716  INFO 12864 --- [restartedMain] p.u.i.e.projeto.ProjetoEsofApplication   : Started ProjetoEsofApplication in 4.929 seconds (JVM running for 6.211)
+2021-01-14 15:49:44.176  INFO 12864 --- [http-nio-8080-exec-5] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:49:58.702  INFO 12864 --- [http-nio-8080-exec-6] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:50:20.823  INFO 12864 --- [http-nio-8080-exec-3] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:14.477  INFO 17744 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:14.479  INFO 17744 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:20.882  INFO 17744 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:53:21.067  INFO 17744 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 7.073 seconds (JVM running for 8.687)
+2021-01-14 15:53:21.297  INFO 17744 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:21.298  INFO 17744 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:22.074  INFO 17744 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 0.836 seconds (JVM running for 9.694)
+2021-01-14 15:53:22.232  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a patch request
+2021-01-14 15:53:22.325  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.355  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.386  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.391  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.413  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:53:22.439  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.552  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:53:22.574  INFO 17744 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:53:22.687  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:22.689  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:23.427  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 0.82 seconds (JVM running for 11.046)
+2021-01-14 15:53:23.439  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:53:23.458  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:53:23.463  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:53:23.481  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:53:23.497  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:53:23.517  INFO 17744 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:53:23.586  INFO 17744 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:23.586  INFO 17744 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:25.994  INFO 17744 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:53:26.010  INFO 17744 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 2.476 seconds (JVM running for 13.63)
+2021-01-14 15:53:26.106  INFO 17744 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:26.110  INFO 17744 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:28.651  INFO 17744 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:53:28.692  INFO 17744 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 2.625 seconds (JVM running for 16.311)
+2021-01-14 15:53:28.885  INFO 17744 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Starting TarefaServiceImplTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:28.889  INFO 17744 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:31.253  INFO 17744 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:53:31.287  INFO 17744 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Started TarefaServiceImplTest in 2.473 seconds (JVM running for 18.906)
+2021-01-14 15:53:31.439  INFO 17744 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:31.442  INFO 17744 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:32.037  INFO 17744 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 0.636 seconds (JVM running for 19.657)
+2021-01-14 15:53:32.051  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:53:32.066  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:53:32.084  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:53:32.088  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:53:32.103  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:53:32.116  INFO 17744 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:53:32.174  INFO 17744 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 17744 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:53:32.176  INFO 17744 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-14 15:53:32.777  INFO 17744 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 0.645 seconds (JVM running for 20.397)
+2021-01-14 15:53:32.785  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:53:32.791  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:53:32.801  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:53:32.811  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:53:32.821  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:53:32.833  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:53:32.849  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:53:32.854  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:53:32.868  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:53:32.888  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:53:32.895  INFO 17744 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:54:08.532  INFO 20232 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Starting EmpregadoServiceImplTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:08.535  INFO 20232 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:20.139  INFO 20232 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:54:20.496  INFO 20232 --- [main] p.u.i.e.p.s.EmpregadoServiceImplTest     : Started EmpregadoServiceImplTest in 12.588 seconds (JVM running for 15.508)
+2021-01-14 15:54:20.813  INFO 20232 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Starting ProjetoControllerTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:20.816  INFO 20232 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:21.797  INFO 20232 --- [main] p.u.i.e.p.c.ProjetoControllerTest        : Started ProjetoControllerTest in 1.059 seconds (JVM running for 16.809)
+2021-01-14 15:54:21.939  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a patch request
+2021-01-14 15:54:22.013  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.044  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.068  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.074  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.095  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a delete request
+2021-01-14 15:54:22.115  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.235  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a post request
+2021-01-14 15:54:22.260  INFO 20232 --- [main] p.u.i.e.p.controllers.ProjetoController  : Received a get request
+2021-01-14 15:54:22.349  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Starting EmpregadoControllerTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:22.350  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:23.305  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoControllerTest      : Started EmpregadoControllerTest in 1.015 seconds (JVM running for 18.317)
+2021-01-14 15:54:23.329  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:54:23.380  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:54:23.391  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request
+2021-01-14 15:54:23.426  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a delete request
+2021-01-14 15:54:23.459  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a get request searchEmpregado
+2021-01-14 15:54:23.500  INFO 20232 --- [main] p.u.i.e.p.c.EmpregadoController          : Received a post request
+2021-01-14 15:54:23.657  INFO 20232 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Starting ClienteServiceImplTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:23.658  INFO 20232 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:27.104  INFO 20232 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:54:27.133  INFO 20232 --- [main] p.u.i.e.p.s.ClienteServiceImplTest       : Started ClienteServiceImplTest in 3.591 seconds (JVM running for 22.145)
+2021-01-14 15:54:27.308  INFO 20232 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Starting ProjetoServiceImplTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:27.309  INFO 20232 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:30.544  INFO 20232 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:54:30.607  INFO 20232 --- [main] p.u.i.e.p.s.ProjetoServiceImplTest       : Started ProjetoServiceImplTest in 3.376 seconds (JVM running for 25.619)
+2021-01-14 15:54:30.754  INFO 20232 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Starting TarefaServiceImplTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:30.755  INFO 20232 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:33.499  INFO 20232 --- [main] pt.ufp.info.esof.projeto.Inicializacao   : 
+
+
+Inicializou
+
+
+
+2021-01-14 15:54:33.542  INFO 20232 --- [main] p.u.i.e.p.s.TarefaServiceImplTest        : Started TarefaServiceImplTest in 2.837 seconds (JVM running for 28.554)
+2021-01-14 15:54:33.737  INFO 20232 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Starting ClienteControllerTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:33.738  INFO 20232 --- [main] p.u.i.e.p.c.ClienteControllerTest        : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:34.472  INFO 20232 --- [main] p.u.i.e.p.c.ClienteControllerTest        : Started ClienteControllerTest in 0.791 seconds (JVM running for 29.484)
+2021-01-14 15:54:34.495  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:54:34.527  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a post request
+2021-01-14 15:54:34.556  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:54:34.565  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:54:34.584  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a get request
+2021-01-14 15:54:34.609  INFO 20232 --- [main] p.u.i.e.p.controllers.ClienteController  : Received a delete request
+2021-01-14 15:54:34.729  INFO 20232 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Starting TarefaControllerTest on LAPTOP-2FDA8FO3 with PID 20232 (started by ppinh in C:\Users\ppinh\OneDrive\Documentos\GitHub\ProjetoESOF1)
+2021-01-14 15:54:34.731  INFO 20232 --- [main] p.u.i.e.p.c.TarefaControllerTest         : No active profile set, falling back to default profiles: default
+2021-01-14 15:54:35.629  INFO 20232 --- [main] p.u.i.e.p.c.TarefaControllerTest         : Started TarefaControllerTest in 0.983 seconds (JVM running for 30.641)
+2021-01-14 15:54:35.641  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:54:35.649  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:54:35.664  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a post request
+2021-01-14 15:54:35.679  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a delete request
+2021-01-14 15:54:35.696  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:54:35.712  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a get request
+2021-01-14 15:54:35.737  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:54:35.748  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:54:35.765  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:54:35.793  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request
+2021-01-14 15:54:35.798  INFO 20232 --- [main] p.u.i.e.p.controllers.TarefaController   : Received a patch request

@@ -21,6 +21,7 @@ public class AtribuiHorasTarefa {
         if(optionalTarefaEfetiva.isPresent()){
             TarefaEfetiva te = optionalTarefaEfetiva.get();
             te.duracaoEfetivaHoras(duracaoHoras); // atribui horas à tarefa
+            tarefaEfetivaRepository.save(te);
             projetoRepository.save(te.getTarefaPrevista().getProjeto());
             return optionalTarefaEfetiva;
         }
